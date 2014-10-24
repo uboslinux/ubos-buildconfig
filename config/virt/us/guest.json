@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/indiebox/virt/",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "virtualbox-guest" : {}
+    }
+}

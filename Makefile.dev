@@ -1,0 +1,164 @@
+#
+# Makefile for the dev channel
+#
+
+SHELL=/bin/bash
+
+VERBOSE=-v
+WORKAREA=.
+ADMINHASROOT=
+# ADMINHASROOT=--adminHasRoot 1
+USBDEVICE=/dev/sde
+TESTVNCSECRET=s3cr3t
+TESTSCAFFOLD=
+# TESTSCAFFOLD=v-box:vmdktemplate=$(IMAGESDIR)/ubos_dev_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa
+TESTVERBOSE=-v
+
+CONFIGDIR=config
+GNUPGHOME=keys/ubos/buildmaster@ubos.net/gpg/
+SSHDIR=keys/ubos/ubos-admin/ssh
+
+BUILDDIR=$(WORKAREA)/build
+IMAGESDIR=$(WORKAREA)/images
+REPODIR=$(WORKAREA)/repository
+TESTLOGSDIR=$(WORKAREA)
+
+ARCH=x86_64
+CHANNEL=dev
+ARCHUPSTREAMSITE=http://mirror.us.leaseweb.net/archlinux
+UPLOADDEST=
+UPLOADSSHKEY=
+PACKAGESIGNKEY=
+DBSIGNKEY=
+SIGREQUIREDINSTALL=
+# SIGREQUIREDINSTALL=--sigRequiredInstall 1
+# signing is optional
+
+ifdef PACKAGESIGNKEY
+	SIGNPACKAGESARG=--packageSignKey $(PACKAGESIGNKEY)
+endif
+ifdef DBSIGNKEY
+	SIGNDBSARG=--dbSignKey $(DBSIGNKEY)
+endif
+ifdef TESTVNCSECRET
+	TESTVNSECRETARG=:vncsecret=$(TESTVNCSECRET)
+endif
+ifdef TESTSCAFFOLD
+	TESTSCAFFOLDARG=--scaffold $(TESTSCAFFOLD)
+endif
+ifdef TESTVERBOSE
+    TESTVERBOSEARG=--testverbose '$(TESTVERBOSE)'
+endif
+ifdef TESTLOGSDIR
+	TESTLOGSARG=--testLogsDir '$(TESTLOGSDIR)'
+endif
+
+
+## Public targets
+
+TARGETS=\
+	build-and-upload-packages \
+	build-images \
+	build-packages \
+	burn-to-usb pacsane \
+	code-is-current \
+	run-webapptests \
+	run-webapptests-hl \
+	run-webapptests-workout
+
+default : 
+	@echo 'Synopsis: make (' `perl -e 'print join( " | ", @ARGV );' $(TARGETS)` ')'
+
+build-packages :
+	macrobuild UBOS::Macrobuild::BuildTasks::BuildDev \
+		--configdir "$(CONFIGDIR)" \
+		--archUpstreamSite "$(ARCHUPSTREAMSITE)" \
+		--arch "$(ARCH)" \
+		--builddir "$(BUILDDIR)" \
+		--repodir "$(REPODIR)" \
+		--channel "$(CHANNEL)" \
+		$(SIGNPACKAGESARG) \
+		$(SIGNDBSARG) \
+		$(VERBOSE)
+
+build-and-upload-packages :
+	[ ! -z "$(ARCHUPSTREAMSITE)" ]
+	macrobuild UBOS::Macrobuild::BuildTasks::BuildAndUploadDev \
+		--configdir "$(CONFIGDIR)" \
+		--archUpstreamSite "$(ARCHUPSTREAMSITE)" \
+		--arch "$(ARCH)" \
+		--builddir "$(BUILDDIR)" \
+		--repodir "$(REPODIR)" \
+		--channel "$(CHANNEL)" \
+		--uploadDest "$(UPLOADDEST)" \
+		--uploadSshKey $(UPLOADSSHKEY)" \
+		$(SIGNPACKAGESARG) \
+		$(SIGNDBSARG) \
+		$(VERBOSE)
+
+build-images :
+	macrobuild UBOS::Macrobuild::BuildTasks::CreateAllImages \
+		--arch "$(ARCH)" \
+		--repodir "$(REPODIR)" \
+		--channel "$(CHANNEL)" \
+		--imagedir "$(IMAGESDIR)" \
+		$(SIGREQUIREDINSTALL) \
+		$(ADMINHASROOT) \
+		$(VERBOSE)
+
+# Check out code from git. Rebuild, and re-install, but only if there have been updates
+# This is not a dependency so the user can decide whether they want to update the code
+code-is-current :
+	[ ! -d "$(WORKAREA)/git/github.com/indiebox" ] || mkdir -p "$(WORKAREA)/git/github.com/indiebox"
+	( cd "$(WORKAREA)/git/github.com/indiebox"; \
+		for p in ubos-admin macrobuild macrobuild-ubos perl tools; do \
+			if [ -d "$$p" ]; then \
+				( cd "$$p"; git pull | grep 'Already up-to-date' > /dev/null || rm -f *pkg* */*pkg* ); \
+			else \
+				git clone "https://github.com/indiebox/$$p"; \
+			fi; \
+		done )
+	( cd "$(WORKAREA)/git/github.com/indiebox"; \
+		for p in ubos-admin/ubos-perl-utils perl/perl-log-journald macrobuild macrobuild-ubos tools/webapptest; do \
+			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
+		done )
+
+burn-to-usb :
+	sudo dd if=$(IMAGESDIR)ubos_dev_x86_64_LATEST-1part.img of=$(USBDEVICE) bs=1M
+
+pacsane :
+	( cd "$(REPODIR)/$(CHANNEL)/$(ARCH)"; \
+		for repo in *; do \
+			pacsane $$repo/$$repo.db.tar.xz; \
+		done )
+
+delete-all-vms-on-account :
+	for vm in $(VBoxManage list vms | perl -p -e 's/^.*{(.*)}.*$/$1/'); do \
+		VBoxManage controlvm $$vm poweroff > /dev/null 2>&1 || true;
+		sleep 2; \
+		VBoxManage unregistervm $$vm --delete > /dev/null 2>&1 || true; \
+	done
+
+run-webapptests : run-webapptests-workout run-webapptests-hl
+
+run-webapptests-workout :
+	macrobuild UBOS::Macrobuild::BuildTasks::RunWebAppTests \
+		--configdir "$(CONFIGDIR)" \
+		--builddir "$(BUILDDIR)" \
+		--repository tools \
+		$(TESTSCAFFOLDARG) \
+		$(TESTVERBOSEARG) \
+		$(TESTLOGSARG) \
+		$(VERBOSE)
+
+run-webapptests-hl :
+	macrobuild UBOS::Macrobuild::BuildTasks::RunWebAppTests \
+		--configdir $WORKAREA/git/github.com/indiebox/macrobuild-ubos/config \
+		--builddir "$(BUILDDIR)" \
+		--repository hl \
+		$(TESTSCAFFOLDARG) \
+		$(TESTVERBOSEARG) \
+		$(TESTLOGSARG) \
+		$(VERBOSE)
+
+.PHONY : $(TARGETS) default

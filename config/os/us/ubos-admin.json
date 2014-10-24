@@ -1,0 +1,11 @@
+{
+    "url"    : "https://github.com/indiebox/ubos-admin/",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "ubos-admin" : {},
+        "ubos-networking" : {},
+        "ubos-perl-utils" : {}
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "url"    : "https://github.com/indiebox/jenkins",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "jenkins" : {},
+        "jenkins-plugin-git" : {},
+        "jenkins-plugin-git-client" : {},
+        "jenkins-plugin-scm-api" : {}
+    }
+}

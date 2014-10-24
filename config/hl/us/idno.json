@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/indiebox/idno",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "idno" : {}
+    },
+
+    "webapptests" : [
+        "idno/tests/IdnoTest1.pm"
+    ]
+}

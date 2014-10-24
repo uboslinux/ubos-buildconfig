@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/indiebox/owncloud",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "owncloud" : {}
+    },
+
+    "webapptests" : [
+        "owncloud/tests/OwnCloud1Test.pm"
+    ]
+}

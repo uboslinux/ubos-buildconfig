@@ -1,0 +1,16 @@
+{
+    "url"    : "https://github.com/indiebox/wordpress",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "wordpress" : {},
+        "wordpress-plugin-semantic-linkbacks" : {},
+        "wordpress-plugin-social" : {},
+        "wordpress-plugin-webmention" : {}
+    },
+
+    "webapptests" : [
+        "wordpress/tests/WordpressTest1.pm"
+    ]
+}

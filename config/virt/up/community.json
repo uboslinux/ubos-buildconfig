@@ -1,0 +1,38 @@
+{
+    "directory" : "${archUpstreamSite}/community/os/${arch}",
+
+    "packages" : {
+        "virtualbox-guest-modules" : {},
+        "virtualbox-guest-utils" : {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

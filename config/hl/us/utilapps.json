@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/indiebox/utilapps",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "redirect" : {}
+    }
+}

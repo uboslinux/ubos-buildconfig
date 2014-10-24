@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/indiebox/shaarli",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "shaarli" : {}
+    }
+}

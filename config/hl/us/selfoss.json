@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/indiebox/selfoss",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "selfoss" : {}
+    },
+
+    "webapptests" : [
+        "selfoss/tests/Selfoss1Test.pm"
+    ]
+}

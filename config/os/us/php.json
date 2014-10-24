@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/indiebox/php",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "php-oauth" : {}
+    }
+}

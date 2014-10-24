@@ -1,0 +1,11 @@
+{
+    "url" : "https://aur.archlinux.org/packages/mu/multipath-tools/multipath-tools.tar.gz",
+
+    "type" : "download",
+
+    "packages" : {
+        "multipath-tools" : {}
+    }
+}
+
+

@@ -1,0 +1,14 @@
+{
+    "url"    : "https://github.com/indiebox/toyapps",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "helloworld" : {},
+        "gladiwashere" : {}
+    },
+
+    "webapptests" : [
+        "gladiwashere/tests/GladIWasHere1Test.pm"
+    ]
+}

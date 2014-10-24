@@ -1,0 +1,14 @@
+{
+    "url"    : "https://github.com/indiebox/mediawiki",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "mediawiki" : {},
+        "mediawiki-ext-confirmaccount" : {}
+    },
+
+    "webapptests" : [
+        "mediawiki/tests/MediawikiTest1.pm"
+    ]
+}
