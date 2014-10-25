@@ -10,8 +10,7 @@ ADMINHASROOT=
 # ADMINHASROOT=--adminHasRoot 1
 USBDEVICE=/dev/sde
 TESTVNCSECRET=s3cr3t
-TESTSCAFFOLD=
-# TESTSCAFFOLD=v-box:vmdktemplate=$(IMAGESDIR)/ubos_dev_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa
+TESTSCAFFOLD=TESTSCAFFOLD_HERE
 TESTVERBOSE=-v
 
 CONFIGDIR=config
@@ -33,6 +32,9 @@ DBSIGNKEY=
 SIGREQUIREDINSTALL=
 # SIGREQUIREDINSTALL=--sigRequiredInstall 1
 # signing is optional
+
+TESTSCAFFOLD_HERE=
+TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(IMAGESDIR)/ubos_dev_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa
 
 ifdef PACKAGESIGNKEY
 	SIGNPACKAGESARG=--packageSignKey "$(PACKAGESIGNKEY)"
