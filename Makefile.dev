@@ -155,7 +155,7 @@ run-webapptests-workout :
 
 run-webapptests-hl :
 	macrobuild UBOS::Macrobuild::BuildTasks::RunWebAppTests \
-		--configdir $WORKAREA/git/github.com/indiebox/macrobuild-ubos/config \
+		--configdir "$(CONFIGDIR)" \
 		--builddir "$(BUILDDIR)" \
 		--repository hl \
 		$(TESTSCAFFOLDARG) \
