@@ -60,8 +60,9 @@ TARGETS=\
 	build-and-upload-packages \
 	build-images \
 	build-packages \
-	burn-to-usb pacsane \
+	burn-to-usb \
 	code-is-current \
+	pacsane \
 	run-webapptests \
 	run-webapptests-hl \
 	run-webapptests-workout
@@ -124,7 +125,8 @@ code-is-current :
 		done )
 
 burn-to-usb :
-	sudo dd if=$(IMAGESDIR)ubos_dev_x86_64_LATEST-1part.img of=$(USBDEVICE) bs=1M
+	[ -b "$(USBDEVICE)" ]
+	sudo dd if=$(IMAGESDIR)/$(ARCH)/images/ubos_dev_x86_64_LATEST-1part.img of=$(USBDEVICE) bs=1M
 
 pacsane :
 	( cd "$(REPODIR)/$(CHANNEL)/$(ARCH)"; \
