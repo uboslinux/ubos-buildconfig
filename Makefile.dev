@@ -109,7 +109,7 @@ build-images :
 # Check out code from git. Rebuild, and re-install, but only if there have been updates
 # This is not a dependency so the user can decide whether they want to update the code
 code-is-current :
-	[ ! -d "$(WORKAREA)/git/github.com/indiebox" ] || mkdir -p "$(WORKAREA)/git/github.com/indiebox"
+	[ -d "$(WORKAREA)/git/github.com/indiebox" ] || mkdir -p "$(WORKAREA)/git/github.com/indiebox"
 	( cd "$(WORKAREA)/git/github.com/indiebox"; \
 		for p in ubos-admin macrobuild macrobuild-ubos perl tools; do \
 			if [ -d "$$p" ]; then \
