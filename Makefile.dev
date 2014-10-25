@@ -70,7 +70,7 @@ default :
 	@echo 'Synopsis: make (' `perl -e 'print join( " | ", @ARGV );' $(TARGETS)` ')'
 
 build-packages :
-	macrobuild UBOS::Macrobuild::BuildTasks::BuildDev \
+	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildDev \
 		--configdir "$(CONFIGDIR)" \
 		--archUpstreamSite "$(ARCHUPSTREAMSITE)" \
 		--arch "$(ARCH)" \
@@ -83,7 +83,7 @@ build-packages :
 
 build-and-upload-packages :
 	[ ! -z "$(ARCHUPSTREAMSITE)" ]
-	macrobuild UBOS::Macrobuild::BuildTasks::BuildAndUploadDev \
+	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildAndUploadDev \
 		--configdir "$(CONFIGDIR)" \
 		--archUpstreamSite "$(ARCHUPSTREAMSITE)" \
 		--arch "$(ARCH)" \
