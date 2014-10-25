@@ -35,22 +35,22 @@ SIGREQUIREDINSTALL=
 # signing is optional
 
 ifdef PACKAGESIGNKEY
-	SIGNPACKAGESARG=--packageSignKey $(PACKAGESIGNKEY)
+	SIGNPACKAGESARG=--packageSignKey "$(PACKAGESIGNKEY)"
 endif
 ifdef DBSIGNKEY
-	SIGNDBSARG=--dbSignKey $(DBSIGNKEY)
+	SIGNDBSARG=--dbSignKey "$(DBSIGNKEY)"
 endif
 ifdef TESTVNCSECRET
 	TESTVNSECRETARG=:vncsecret=$(TESTVNCSECRET)
 endif
 ifdef TESTSCAFFOLD
-	TESTSCAFFOLDARG=--scaffold $(TESTSCAFFOLD)
+	TESTSCAFFOLDARG=--scaffold "$(TESTSCAFFOLD)"
 endif
 ifdef TESTVERBOSE
-    TESTVERBOSEARG=--testverbose '$(TESTVERBOSE)'
+    TESTVERBOSEARG=--testverbose "$(TESTVERBOSE)"
 endif
 ifdef TESTLOGSDIR
-	TESTLOGSARG=--testLogsDir '$(TESTLOGSDIR)'
+	TESTLOGSARG=--testLogsDir "$(TESTLOGSDIR)"
 endif
 
 
@@ -91,7 +91,7 @@ build-and-upload-packages :
 		--repodir "$(REPODIR)" \
 		--channel "$(CHANNEL)" \
 		--uploadDest "$(UPLOADDEST)" \
-		--uploadSshKey $(UPLOADSSHKEY)" \
+		--uploadSshKey "$(UPLOADSSHKEY)" \
 		$(SIGNPACKAGESARG) \
 		$(SIGNDBSARG) \
 		$(VERBOSE)
