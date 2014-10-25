@@ -120,7 +120,7 @@ code-is-current :
 			fi; \
 		done )
 	( cd "$(WORKAREA)/git/github.com/indiebox"; \
-		for p in ubos-admin/ubos-perl-utils perl/perl-log-journald macrobuild macrobuild-ubos tools/webapptest; do \
+		for p in ubos-admin/ubos-perl-utils perl/perl-log-journald macrobuild macrobuild-ubos tools/webapptest tools/pacsane; do \
 			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
 		done )
 
