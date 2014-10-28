@@ -62,6 +62,7 @@
         "libffi" : {},
         "libgcrypt" : {},
         "libgpg-error" : {},
+        "libidn" : {},
         "libksba" : {},
         "libldap" : {},
         "libpipeline" : {},
