@@ -5,22 +5,19 @@
 SHELL=/bin/bash
 
 VERBOSE=-v
+# VERBOSE=-v -v -i
 WORKAREA=.
 ADMINHASROOT=
 # ADMINHASROOT=--adminHasRoot 1
 USBDEVICE=/dev/sde
 TESTVNCSECRET=s3cr3t
-TESTSCAFFOLD=TESTSCAFFOLD_HERE
+TESTSCAFFOLD=$(TESTSCAFFOLD_HERE)$(IMPERSONATEDEPOT)
 TESTVERBOSE=-v
 
 CONFIGDIR=config
 GNUPGHOME=keys/ubos/buildmaster@ubos.net/gpg/
 SSHDIR=keys/ubos/ubos-admin/ssh
-
-BUILDDIR=$(WORKAREA)/build
-IMAGESDIR=$(WORKAREA)/images
-REPODIR=$(WORKAREA)/repository
-TESTLOGSDIR=$(WORKAREA)
+IMPERSONATEDEPOT=:impersonatedepot
 
 ARCH=x86_64
 CHANNEL=dev
@@ -33,8 +30,24 @@ SIGREQUIREDINSTALL=
 # SIGREQUIREDINSTALL=--sigRequiredInstall 1
 # signing is optional
 
-TESTSCAFFOLD_HERE=
-TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_dev_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa$(TESTVNSECRETARG)
+BUILDDIR=$(WORKAREA)/build
+TESTLOGSDIR=$(WORKAREA)
+
+TESTSCAFFOLD_HERE=here
+TESTSCAFFOLD_VBOX=v-box
+TESTSCAFFOLD_VBOX="$(TESTSCAFFOLD_VBOX):vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_dev_x86_64_LATEST-vbox.vmdk"
+TESTSCAFFOLD_VBOX="$(TESTSCAFFOLD_VBOX):ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub"
+TESTSCAFFOLD_VBOX="$(TESTSCAFFOLD_VBOX):ubos-admin-private-key-file=$(SSHDIR)/id_rsa"
+
+DEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /dev 2>/dev/null
+
+ifdef DEPOTAPPCONFIGID
+	IMAGESDIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)/
+	REPODIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)
+else
+	IMAGESDIR=$(WORKAREA)/images/$(CHANNEL)
+	REPODIR=$(WORKAREA)/repository/$(CHANNEL)
+endif
 
 ifdef PACKAGESIGNKEY
 	SIGNPACKAGESARG=--packageSignKey "$(PACKAGESIGNKEY)"
@@ -43,8 +56,14 @@ ifdef DBSIGNKEY
 	SIGNDBSARG=--dbSignKey "$(DBSIGNKEY)"
 endif
 ifdef TESTVNCSECRET
-	TESTVNSECRETARG=:vncsecret=$(TESTVNCSECRET)
+    TESTSCAFFOLD_VBOX="$(TESTSCAFFOLD_VBOX):vncsecret=$(TESTVNCSECRET)
 endif
+ifdef IMPERSONATEDEPOT
+	ifndef DEPOTAPPCONFIGID
+        $(error Cannot impersonate depot.ubos.net: host does not run the depot)
+	endif
+endif
+
 ifdef TESTSCAFFOLD
 	TESTSCAFFOLDARG=--scaffold "$(TESTSCAFFOLD)"
 endif
@@ -104,7 +123,7 @@ build-images :
 		--arch "$(ARCH)" \
 		--repodir "$(REPODIR)" \
 		--channel "$(CHANNEL)" \
-		--imagedir "$(IMAGESDIR)" \
+		--imagesdir "$(IMAGESDIR)" \
 		$(SIGREQUIREDINSTALL) \
 		$(ADMINHASROOT) \
 		$(VERBOSE)
@@ -123,7 +142,7 @@ code-is-current :
 		done )
 	( cd "$(WORKAREA)/git/github.com/indiebox"; \
 		for p in ubos-admin/ubos-perl-utils perl/perl-log-journald macrobuild macrobuild-ubos tools/webapptest tools/pacsane; do \
-			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
+			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( env -i makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
 		done )
 
 burn-to-usb :
@@ -149,7 +168,7 @@ run-webapptests-workout :
 	macrobuild UBOS::Macrobuild::BuildTasks::RunWebAppTests \
 		--configdir "$(CONFIGDIR)" \
 		--builddir "$(BUILDDIR)" \
-		--repository tools \
+		--db tools \
 		$(TESTSCAFFOLDARG) \
 		$(TESTVERBOSEARG) \
 		$(TESTLOGSARG) \
@@ -159,7 +178,7 @@ run-webapptests-hl :
 	macrobuild UBOS::Macrobuild::BuildTasks::RunWebAppTests \
 		--configdir "$(CONFIGDIR)" \
 		--builddir "$(BUILDDIR)" \
-		--repository hl \
+		--db hl \
 		$(TESTSCAFFOLDARG) \
 		$(TESTVERBOSEARG) \
 		$(TESTLOGSARG) \
