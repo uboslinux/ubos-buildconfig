@@ -11,7 +11,7 @@ ADMINHASROOT=
 # ADMINHASROOT=--adminHasRoot 1
 USBDEVICE=/dev/sde
 TESTVNCSECRET=s3cr3t
-TESTSCAFFOLD=$(TESTSCAFFOLD_HERE)$(IMPERSONATEDEPOT)
+TESTSCAFFOLD=$(TESTSCAFFOLD_HERE)
 TESTVERBOSE=-v
 
 CONFIGDIR=config
@@ -33,8 +33,8 @@ SIGREQUIREDINSTALL=
 BUILDDIR=$(WORKAREA)/build
 TESTLOGSDIR=$(WORKAREA)
 
-TESTSCAFFOLD_HERE=here
-TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_dev_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa
+TESTSCAFFOLD_HERE=here$(IMPERSONATEDEPOT)
+TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_dev_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
 
 DEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /dev 2>/dev/null
 
@@ -62,13 +62,13 @@ ifdef IMPERSONATEDEPOT
 endif
 
 ifdef TESTSCAFFOLD
-	TESTSCAFFOLDARG=--scaffold "$(TESTSCAFFOLD)"
+	TESTSCAFFOLDARG=--scaffold $(TESTSCAFFOLD)
 endif
 ifdef TESTVERBOSE
-    TESTVERBOSEARG=--testverbose "$(TESTVERBOSE)"
+    TESTVERBOSEARG=--testverbose $(TESTVERBOSE)
 endif
 ifdef TESTLOGSDIR
-	TESTLOGSARG=--testLogsDir "$(TESTLOGSDIR)"
+	TESTLOGSARG=--testLogsDir $(TESTLOGSDIR)
 endif
 
 
