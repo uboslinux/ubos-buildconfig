@@ -34,10 +34,7 @@ BUILDDIR=$(WORKAREA)/build
 TESTLOGSDIR=$(WORKAREA)
 
 TESTSCAFFOLD_HERE=here
-TESTSCAFFOLD_VBOX=v-box
-TESTSCAFFOLD_VBOX="$(TESTSCAFFOLD_VBOX):vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_dev_x86_64_LATEST-vbox.vmdk"
-TESTSCAFFOLD_VBOX="$(TESTSCAFFOLD_VBOX):ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub"
-TESTSCAFFOLD_VBOX="$(TESTSCAFFOLD_VBOX):ubos-admin-private-key-file=$(SSHDIR)/id_rsa"
+TESTSCAFFOLD_VBOX="v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_dev_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa"
 
 DEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /dev 2>/dev/null
 
@@ -56,7 +53,7 @@ ifdef DBSIGNKEY
 	SIGNDBSARG=--dbSignKey "$(DBSIGNKEY)"
 endif
 ifdef TESTVNCSECRET
-    TESTSCAFFOLD_VBOX="$(TESTSCAFFOLD_VBOX):vncsecret=$(TESTVNCSECRET)
+    TESTVNCSECRETARG=":vncsecret=$(TESTVNCSECRET)"
 endif
 ifdef IMPERSONATEDEPOT
 	ifndef DEPOTAPPCONFIGID
@@ -169,7 +166,7 @@ run-webapptests-workout :
 		--configdir "$(CONFIGDIR)" \
 		--builddir "$(BUILDDIR)" \
 		--db tools \
-		$(TESTSCAFFOLDARG) \
+		$(TESTSCAFFOLDARG)$(TESTVNCSECRETARG) \
 		$(TESTVERBOSEARG) \
 		$(TESTLOGSARG) \
 		$(VERBOSE)
@@ -179,7 +176,7 @@ run-webapptests-hl :
 		--configdir "$(CONFIGDIR)" \
 		--builddir "$(BUILDDIR)" \
 		--db hl \
-		$(TESTSCAFFOLDARG) \
+		$(TESTSCAFFOLDARG)$(TESTVNCSECRETARG) \
 		$(TESTVERBOSEARG) \
 		$(TESTLOGSARG) \
 		$(VERBOSE)
