@@ -34,12 +34,12 @@ BUILDDIR=$(WORKAREA)/build
 TESTLOGSDIR=$(WORKAREA)
 
 TESTSCAFFOLD_HERE=here
-TESTSCAFFOLD_VBOX="v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_dev_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa"
+TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_dev_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa
 
 DEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /dev 2>/dev/null
 
 ifdef DEPOTAPPCONFIGID
-	IMAGESDIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)/
+	IMAGESDIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)
 	REPODIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)
 else
 	IMAGESDIR=$(WORKAREA)/images/$(CHANNEL)
