@@ -111,7 +111,7 @@ burn-to-usb :
 	sudo dd if=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_x86_64_LATEST-1part.img of=$(USBDEVICE) bs=1M
 
 pacsane :
-	( cd "$(REPODIR)/$(CHANNEL)/$(ARCH)"; \
+	( cd "$(REPODIR)/$(ARCH)"; \
 		for repo in *; do \
 			pacsane $$repo/$$repo.db.tar.xz; \
 		done )
