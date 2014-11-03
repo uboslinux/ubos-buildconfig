@@ -19,7 +19,7 @@ SSHDIR=keys/ubos/ubos-admin/ssh
 IMPERSONATEDEPOT=:impersonatedepot
 USBDEVICE=/dev/sde
 
-ARCH=x86_64
+ARCH!=uname -m
 ARCHUPSTREAMSITE=http://mirror.us.leaseweb.net/archlinux
 UPLOADDEST=
 UPLOADSSHKEY=
@@ -84,23 +84,6 @@ build-images :
 		$(ADMINHASROOT) \
 		$(VERBOSE)
 
-burn-to-usb :
-	[ -b "$(USBDEVICE)" ]
-	sudo dd if=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_x86_64_LATEST-1part.img of=$(USBDEVICE) bs=1M
-
-pacsane :
-	( cd "$(REPODIR)/$(CHANNEL)/$(ARCH)"; \
-		for repo in *; do \
-			pacsane $$repo/$$repo.db.tar.xz; \
-		done )
-
-delete-all-vms-on-account :
-	for vm in $(VBoxManage list vms | perl -p -e 's/^.*{(.*)}.*$/$1/'); do \
-		VBoxManage controlvm $$vm poweroff > /dev/null 2>&1 || true;
-		sleep 2; \
-		VBoxManage unregistervm $$vm --delete > /dev/null 2>&1 || true; \
-	done
-
 run-webapptests : run-webapptests-workout run-webapptests-hl
 
 run-webapptests-workout :
@@ -122,5 +105,40 @@ run-webapptests-hl :
 		$(TESTVERBOSEARG) \
 		$(TESTLOGSARG) \
 		$(VERBOSE)
+
+burn-to-usb :
+	[ -b "$(USBDEVICE)" ]
+	sudo dd if=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_x86_64_LATEST-1part.img of=$(USBDEVICE) bs=1M
+
+pacsane :
+	( cd "$(REPODIR)/$(CHANNEL)/$(ARCH)"; \
+		for repo in *; do \
+			pacsane $$repo/$$repo.db.tar.xz; \
+		done )
+
+delete-all-vms-on-account :
+	for vm in $(VBoxManage list vms | perl -p -e 's/^.*{(.*)}.*$/$1/'); do \
+		VBoxManage controlvm $$vm poweroff > /dev/null 2>&1 || true;
+		sleep 2; \
+		VBoxManage unregistervm $$vm --delete > /dev/null 2>&1 || true; \
+	done
+
+# Check out code from git. Rebuild, and re-install, but only if there have been updates
+# This is not a dependency so the user can decide whether they want to update the code
+code-is-current :
+	[ -d "$(WORKAREA)/git/github.com/indiebox" ] || mkdir -p "$(WORKAREA)/git/github.com/indiebox"
+	( cd "$(WORKAREA)/git/github.com/indiebox"; \
+		for p in ubos-admin macrobuild macrobuild-ubos perl tools; do \
+			if [ -d "$$p" ]; then \
+				( cd "$$p"; git pull | grep 'Already up-to-date' > /dev/null || rm -f *pkg* */*pkg* ); \
+			else \
+				git clone "https://github.com/indiebox/$$p"; \
+			fi; \
+		done )
+	( cd "$(WORKAREA)/git/github.com/indiebox"; \
+		for p in ubos-admin/ubos-perl-utils perl/perl-log-journald macrobuild macrobuild-ubos tools/webapptest tools/pacsane; do \
+			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( env -i makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
+		done )
+
 
 .PHONY : $(TARGETS) default

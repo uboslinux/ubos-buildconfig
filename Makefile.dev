@@ -47,21 +47,3 @@ build-and-upload-packages :
 		$(SIGNPACKAGESARG) \
 		$(SIGNDBSARG) \
 		$(VERBOSE)
-
-# Check out code from git. Rebuild, and re-install, but only if there have been updates
-# This is not a dependency so the user can decide whether they want to update the code
-code-is-current :
-	[ -d "$(WORKAREA)/git/github.com/indiebox" ] || mkdir -p "$(WORKAREA)/git/github.com/indiebox"
-	( cd "$(WORKAREA)/git/github.com/indiebox"; \
-		for p in ubos-admin macrobuild macrobuild-ubos perl tools; do \
-			if [ -d "$$p" ]; then \
-				( cd "$$p"; git pull | grep 'Already up-to-date' > /dev/null || rm -f *pkg* */*pkg* ); \
-			else \
-				git clone "https://github.com/indiebox/$$p"; \
-			fi; \
-		done )
-	( cd "$(WORKAREA)/git/github.com/indiebox"; \
-		for p in ubos-admin/ubos-perl-utils perl/perl-log-journald macrobuild macrobuild-ubos tools/webapptest tools/pacsane; do \
-			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( env -i makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
-		done )
-
