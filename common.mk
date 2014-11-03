@@ -108,7 +108,7 @@ run-webapptests-hl :
 
 burn-to-usb :
 	[ -b "$(USBDEVICE)" ]
-	sudo dd if=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_x86_64_LATEST-1part.img of=$(USBDEVICE) bs=1M
+	sudo dd if=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_x86_64_LATEST.img of=$(USBDEVICE) bs=1M
 
 pacsane :
 	( cd "$(REPODIR)/$(ARCH)"; \
