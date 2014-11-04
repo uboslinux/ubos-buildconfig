@@ -1,4 +1,8 @@
 {
+    "archs" : [
+        "x86_64"
+    ],
+
     "packages" : {
         "damageproto" : {},
         "elfutils" : {},

@@ -1,4 +1,7 @@
 {
+    "archs" : [
+        "x86_64"
+    ],
     "packages" : {
         "virtualbox-guest-modules" : {},
         "virtualbox-guest-utils" : {}

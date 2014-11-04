@@ -3,6 +3,10 @@
     "type"   : "git",
     "branch" : "master",
 
+    "archs" : [
+        "x86_64"
+    ],
+
     "packages" : {
         "virtualbox-guest" : {}
     }
