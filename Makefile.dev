@@ -34,7 +34,7 @@ build-packages :
 		$(VERBOSE)
 
 build-and-upload-packages :
-	[ ! -z "$(ARCHUPSTREAMSITE)" ]
+	[ ! -z "$(ARCHUPSTREAMDIR)" ]
 	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildAndUploadDev \
 		--configdir "$(CONFIGDIR)" \
 		--archUpstreamDir '$(ARCHUPSTREAMDIR)' \
