@@ -24,7 +24,7 @@ TARGETS=\
 build-packages :
 	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildDev \
 		--configdir "$(CONFIGDIR)" \
-		--archUpstreamSite "$(ARCHUPSTREAMSITE)" \
+		--archUpstreamDir '$(ARCHUPSTREAMDIR)' \
 		--arch "$(ARCH)" \
 		--builddir "$(BUILDDIR)" \
 		--repodir "$(REPODIR)" \
@@ -37,7 +37,7 @@ build-and-upload-packages :
 	[ ! -z "$(ARCHUPSTREAMSITE)" ]
 	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildAndUploadDev \
 		--configdir "$(CONFIGDIR)" \
-		--archUpstreamSite "$(ARCHUPSTREAMSITE)" \
+		--archUpstreamDir '$(ARCHUPSTREAMDIR)' \
 		--arch "$(ARCH)" \
 		--builddir "$(BUILDDIR)" \
 		--repodir "$(REPODIR)" \

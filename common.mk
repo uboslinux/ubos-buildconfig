@@ -20,7 +20,8 @@ IMPERSONATEDEPOT=:impersonatedepot
 USBDEVICE=/dev/sde
 
 ARCH!=uname -m
-ARCHUPSTREAMSITE=http://mirror.us.leaseweb.net/archlinux
+ARCHUPSTREAMSITE_x86_64=http://mirror.us.leaseweb.net/archlinux
+ARCHUPSTREAMSITE_arm=http://ca.us.mirror.archlinuxarm.org/$(ARCH)
 UPLOADDEST=
 UPLOADSSHKEY=
 PACKAGESIGNKEY=
@@ -70,6 +71,11 @@ ifdef TESTLOGSDIR
 	TESTLOGSARG=--testLogsDir $(TESTLOGSDIR)
 endif
 
+ifeq "$(ARCH)" "x86_64"
+    ARCHUPSTREAMDIR=$(ARCHUPSTREAMSITE_x86_64)/$${db}/os/$${arch}
+else
+    ARCHUPSTREAMDIR=$(ARCHUPSTREAMSITE_arm)/$${arch}/$${db}
+endif
 
 default : 
 	@echo 'Synopsis: make (' `perl -e 'print join( " | ", @ARGV );' $(TARGETS)` ')'
@@ -109,6 +115,7 @@ run-webapptests-hl :
 burn-to-usb :
 	[ -b "$(USBDEVICE)" ]
 	sudo dd if=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_x86_64_LATEST.img of=$(USBDEVICE) bs=1M
+	sync
 
 pacsane :
 	( cd "$(REPODIR)/$(ARCH)"; \

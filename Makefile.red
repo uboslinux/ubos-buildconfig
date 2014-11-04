@@ -34,7 +34,7 @@ TARGETS=\
 promote-from-dev :
 	macrobuild UBOS::Macrobuild::BuildTasks::PromoteChannel \
 		--configdir "$(CONFIGDIR)" \
-		--archUpstreamSite "$(ARCHUPSTREAMSITE)" \
+		--archUpstreamDir "$(ARCHUPSTREAMDIR)" \
 		--arch "$(ARCH)" \
 		--fromRepodir "$(FROMREPODIR)" \
 		--fromChannel dev \

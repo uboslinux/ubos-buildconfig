@@ -1,6 +1,4 @@
 {
-    "directory" : "${archUpstreamSite}/extra/os/${arch}",
-
     "packages" : {
         "damageproto" : {},
         "elfutils" : {},
