@@ -37,7 +37,11 @@
         "gpgme" : {},
         "grep" : {},
         "groff" : {},
-        "grub" : {},
+        "grub" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "gzip" : {},
         "hwids" : {},
         "iana-etc" : {},
@@ -73,7 +77,11 @@
         "libusb" : {},
         "libutil-linux" : {},
         "licenses" : {},
-        "linux" : {},
+        "linux" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "linux-api-headers" : {},
         "linux-firmware" : {},
         "logrotate" : {},
@@ -97,7 +105,11 @@
         "pam" : {},
         "pambase" : {},
         "pciutils" : {},
-        "pcmciautils" : {},
+        "pcmciautils" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "pcre" : {},
         "perl" : {},
         "pinentry" : {},
