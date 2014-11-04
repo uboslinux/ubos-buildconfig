@@ -19,9 +19,9 @@ SSHDIR=keys/ubos/ubos-admin/ssh
 IMPERSONATEDEPOT=:impersonatedepot
 USBDEVICE=/dev/sde
 
-ARCH!=uname -m
+ARCH!=uname -m | sed -e 's/armv6l/armv6h/'
 ARCHUPSTREAMSITE_x86_64=http://mirror.us.leaseweb.net/archlinux
-ARCHUPSTREAMSITE_arm=http://ca.us.mirror.archlinuxarm.org/$(ARCH)
+ARCHUPSTREAMSITE_arm=http://ca.us.mirror.archlinuxarm.org
 UPLOADDEST=
 UPLOADSSHKEY=
 PACKAGESIGNKEY=
@@ -143,7 +143,7 @@ code-is-current :
 			fi; \
 		done )
 	( cd "$(WORKAREA)/git/github.com/indiebox"; \
-		for p in ubos-admin/ubos-perl-utils perl/perl-log-journald macrobuild macrobuild-ubos tools/webapptest tools/pacsane; do \
+		for p in ubos-admin/ubos-perl-utils ubos-admin/ubos-admin perl/perl-log-journald macrobuild macrobuild-ubos tools/webapptest tools/pacsane; do \
 			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( env -i makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
 		done )
 
