@@ -12,11 +12,13 @@ WORKAREA=.
 TESTVNCSECRET=
 TESTSCAFFOLD=$(TESTSCAFFOLD_HERE)
 TESTVERBOSE=-v
+DEVICE=pc
 
 CONFIGDIR=config
 GNUPGHOME=keys/ubos/buildmaster@ubos.net/gpg/
 SSHDIR=keys/ubos/ubos-admin/ssh
-IMPERSONATEDEPOT=:impersonatedepot
+IMPERSONATEDEPOT=
+# IMPERSONATEDEPOT=:impersonatedepot
 USBDEVICE=/dev/sde
 
 ARCH!=uname -m | sed -e 's/armv6l/armv6h/'
@@ -77,11 +79,12 @@ else
     ARCHUPSTREAMDIR=$(ARCHUPSTREAMSITE_arm)/$${arch}/$${db}
 endif
 
+
 default : 
 	@echo 'Synopsis: make (' `perl -e 'print join( " | ", @ARGV );' $(TARGETS)` ')'
 
 build-images :
-	macrobuild UBOS::Macrobuild::BuildTasks::CreateAllImages \
+	macrobuild UBOS::Macrobuild::BuildTasks::CreateAllImages_$(DEVICE) \
 		--arch "$(ARCH)" \
 		--repodir "$(REPODIR)" \
 		--channel "$(CHANNEL)" \
