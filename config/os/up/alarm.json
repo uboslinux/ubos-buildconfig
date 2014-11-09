@@ -1,6 +1,6 @@
 {
     "archs" : [
-        "armv6l"
+        "armv6h"
     ],
     "packages" : {
         "linux-raspberrypi" : {},
