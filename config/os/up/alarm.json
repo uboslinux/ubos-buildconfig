@@ -1,0 +1,38 @@
+{
+    "archs" : [
+        "armv6l"
+    ],
+    "packages" : {
+        "linux-raspberrypi" : {},
+        "raspberrypi-firmware" : {},
+        "raspberrypi-firmware-bootloader" : {},
+        "raspberrypi-firmware-bootloader-x" : {}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
