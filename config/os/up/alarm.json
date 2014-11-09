@@ -3,7 +3,6 @@
         "armv6h"
     ],
     "packages" : {
-        "linux-raspberrypi" : {},
         "raspberrypi-firmware" : {},
         "raspberrypi-firmware-bootloader" : {},
         "raspberrypi-firmware-bootloader-x" : {}

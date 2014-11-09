@@ -82,6 +82,11 @@
                 "x86_64"
             ]
         },
+        "linux-raspberrypi" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
         "linux-api-headers" : {},
         "linux-firmware" : {},
         "logrotate" : {},
