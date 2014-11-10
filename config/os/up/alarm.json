@@ -5,7 +5,9 @@
     "packages" : {
         "raspberrypi-firmware" : {},
         "raspberrypi-firmware-bootloader" : {},
-        "raspberrypi-firmware-bootloader-x" : {}
+        "raspberrypi-firmware-bootloader-x" : {},
+        "raspberrypi-firmware-examples" : {},
+        "raspberrypi-firmware-tools" : {}
     }
 }
 
