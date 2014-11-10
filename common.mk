@@ -138,7 +138,7 @@ delete-all-vms-on-account :
 code-is-current :
 	[ -d "$(WORKAREA)/git/github.com/indiebox" ] || mkdir -p "$(WORKAREA)/git/github.com/indiebox"
 	( cd "$(WORKAREA)/git/github.com/indiebox"; \
-		for p in ubos-admin macrobuild macrobuild-ubos perl tools; do \
+		for p in ubos-admin macrobuild macrobuild-ubos ubos-perl ubos-tools; do \
 			if [ -d "$$p" ]; then \
 				( cd "$$p"; git pull | grep 'Already up-to-date' > /dev/null || rm -f *pkg* */*pkg* ); \
 			else \
@@ -146,7 +146,7 @@ code-is-current :
 			fi; \
 		done )
 	( cd "$(WORKAREA)/git/github.com/indiebox"; \
-		for p in ubos-admin/ubos-perl-utils ubos-admin/ubos-keyring ubos-admin/ubos-admin perl/perl-log-journald macrobuild macrobuild-ubos tools/webapptest tools/pacsane; do \
+		for p in ubos-admin/ubos-perl-utils ubos-admin/ubos-keyring ubos-admin/ubos-admin perl/perl-log-journald macrobuild macrobuild-ubos ubos-tools/webapptest ubos-tools/pacsane; do \
 			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( env -i makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
 		done )
 
