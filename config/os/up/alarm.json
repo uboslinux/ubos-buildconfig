@@ -3,6 +3,7 @@
         "armv6h"
     ],
     "packages" : {
+        "archlinuxarm-keyring" : {},
         "raspberrypi-firmware" : {},
         "raspberrypi-firmware-bootloader" : {},
         "raspberrypi-firmware-bootloader-x" : {},
