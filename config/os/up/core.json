@@ -6,6 +6,11 @@
                 "x86_64"
             ]
         },
+        "archlinuxarm-keyring" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
         "attr" : {},
         "bash" : {},
         "btrfs-progs" : {},
