@@ -1,7 +1,11 @@
 {
     "packages" : {
         "acl" : {},
-        "archlinux-keyring" : {},
+        "archlinux-keyring" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "attr" : {},
         "bash" : {},
         "btrfs-progs" : {},
