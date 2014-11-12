@@ -100,6 +100,7 @@
         "linux-firmware" : {},
         "logrotate" : {},
         "lvm2" : {},
+        "lz4" : {},
         "lzo" : {},
         "man-db" : {},
         "man-pages" : {},
