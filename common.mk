@@ -21,7 +21,8 @@ IMPERSONATEDEPOT=
 # IMPERSONATEDEPOT=:impersonatedepot
 USBDEVICE=/dev/sde
 
-ARCH!=uname -m | sed -e 's/armv6l/armv6h/'
+ARCH!=uname -m | sed -e 's/\(armv\d\)l/\1h/'
+    #replace armv6l with armv6h, armv7l with armv7h
 ARCHUPSTREAMSITE_x86_64=http://mirror.us.leaseweb.net/archlinux
 ARCHUPSTREAMSITE_arm=http://ca.us.mirror.archlinuxarm.org
 UPLOADDEST=
