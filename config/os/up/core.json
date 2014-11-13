@@ -8,7 +8,8 @@
         },
         "archlinuxarm-keyring" : {
             "archs" : [
-                "armv6h"
+                "armv6h",
+                "armv7h"
             ]
         },
         "attr" : {},
@@ -89,6 +90,11 @@
         "linux" : {
             "archs" : [
                 "x86_64"
+            ]
+        },
+        "linux-am33x" : {
+            "archs" : [
+                "armv7h"
             ]
         },
         "linux-raspberrypi" : {

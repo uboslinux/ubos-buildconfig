@@ -1,12 +1,34 @@
 {
-    "archs" : [
-        "armv6h"
-    ],
     "packages" : {
-        "raspberrypi-firmware" : {},
-        "raspberrypi-firmware-bootloader" : {},
-        "raspberrypi-firmware-bootloader-x" : {},
-        "raspberrypi-firmware-examples" : {},
-        "raspberrypi-firmware-tools" : {}
+        "raspberrypi-firmware" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "raspberrypi-firmware-bootloader" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "raspberrypi-firmware-bootloader-x" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "raspberrypi-firmware-examples" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "raspberrypi-firmware-tools" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "uboot-beaglebone " : {
+            "archs" : [
+                "armv7h"
+            ]
+        }
     }
 }
