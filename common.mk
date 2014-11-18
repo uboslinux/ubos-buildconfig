@@ -118,7 +118,7 @@ run-webapptests-hl :
 
 burn-to-usb :
 	[ -b "$(USBDEVICE)" ]
-	mount | grep $(USBDEVICE) > /dev/null && echo ERROR: USBDEVICE $(USBDEVICE) is mounted and cannot be used to burn to; false
+	if mount | grep $(USBDEVICE) > /dev/null ; then echo ERROR: USBDEVICE $(USBDEVICE) is mounted and cannot be used to burn to; false;  fi
 	sudo dd if=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_$(ARCH)_LATEST.img of=$(USBDEVICE) bs=1M
 	sync
 
