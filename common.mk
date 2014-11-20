@@ -108,6 +108,7 @@ purge :
 		--repodir "$(REPODIR)" \
 		--arch "$(ARCH)" \
 		--channel "$(CHANNEL)" \
+		--imagesdir "$(IMAGESDIR)" \
 		$(VERBOSE)
 	
 run-webapptests : run-webapptests-workout run-webapptests-hl
