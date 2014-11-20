@@ -115,6 +115,7 @@ run-webapptests : run-webapptests-workout run-webapptests-hl
 
 run-webapptests-workout :
 	macrobuild UBOS::Macrobuild::BuildTasks::RunWebAppTests \
+		--arch "$(ARCH)" \
 		--configdir "$(CONFIGDIR)" \
 		--builddir "$(BUILDDIR)" \
 		--db tools \
@@ -125,6 +126,7 @@ run-webapptests-workout :
 
 run-webapptests-hl :
 	macrobuild UBOS::Macrobuild::BuildTasks::RunWebAppTests \
+		--arch "$(ARCH)" \
 		--configdir "$(CONFIGDIR)" \
 		--builddir "$(BUILDDIR)" \
 		--db hl \
