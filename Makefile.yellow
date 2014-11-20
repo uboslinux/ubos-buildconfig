@@ -1,11 +1,11 @@
 #
-# Makefile for the red channel
+# Makefile for the yellow channel
 #
 
 VERBOSE=-v
 # VERBOSE=-v -v -i
-CHANNEL=red
-FROMCHANNEL=dev
+CHANNEL=yellow
+FROMCHANNEL=red
 
 include common.mk
 
@@ -22,7 +22,7 @@ endif
 ## Public targets
 
 TARGETS=\
-    promote-from-dev \
+    promote-from-red \
 	build-images \
 	burn-to-usb \
 	code-is-current \
@@ -35,7 +35,7 @@ TARGETS=\
 	run-webapptests-hl \
 	run-webapptests-workout
 	
-promote-from-dev :
+promote-from-red :
 	macrobuild UBOS::Macrobuild::BuildTasks::PromoteChannel \
 		--configdir "$(CONFIGDIR)" \
 		--archUpstreamDir "$(ARCHUPSTREAMDIR)" \
