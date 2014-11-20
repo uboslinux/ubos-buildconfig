@@ -94,6 +94,22 @@ build-images :
 		$(ADMINHASROOT) \
 		$(VERBOSE)
 
+# This is a separate task, because it can take a long time
+compress-images :
+	macrobuild UBOS::Macrobuild::BuildTasks::CompressImages \
+		--arch "$(ARCH)" \
+		--repodir "$(REPODIR)" \
+		--channel "$(CHANNEL)" \
+		--imagesdir "$(IMAGESDIR)" \
+		$(VERBOSE)
+
+purge :
+	macrobuild UBOS::Macrobuild::BuildTasks::PurgeChannel \
+		--repodir "$(REPODIR)" \
+		--arch "$(ARCH)" \
+		--channel "$(CHANNEL)" \
+		$(VERBOSE)
+	
 run-webapptests : run-webapptests-workout run-webapptests-hl
 
 run-webapptests-workout :
