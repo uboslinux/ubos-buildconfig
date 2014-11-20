@@ -47,8 +47,6 @@ upload :
 	macrobuild UBOS::Macrobuild::BuildTasks::UploadChannel \
 		--arch "$(ARCH)" \
 		--repodir "$(REPODIR)" \
-		--fromChannel dev \
-		--toChannel "$(CHANNEL)" \
 		--uploadDest "$(UPLOADDEST)" \
 		--uploadSshKey "$(UPLOADSSHKEY)" \
 		$(VERBOSE)
