@@ -25,12 +25,16 @@ TARGETS=\
     promote-from-dev \
 	build-images \
 	burn-to-usb \
+	code-is-current \
+	compress-images \
+	delete-all-vms-on-account \
 	upload \
 	pacsane \
+	purge \
 	run-webapptests \
 	run-webapptests-hl \
 	run-webapptests-workout
-
+	
 promote-from-dev :
 	macrobuild UBOS::Macrobuild::BuildTasks::PromoteChannel \
 		--configdir "$(CONFIGDIR)" \
@@ -47,6 +51,8 @@ upload :
 	macrobuild UBOS::Macrobuild::BuildTasks::UploadChannel \
 		--arch "$(ARCH)" \
 		--repodir "$(REPODIR)" \
+		--channel "$(CHANNEL)" \
+		--imagesdir "$(IMAGESDIR)" \
 		--uploadDest "$(UPLOADDEST)" \
 		--uploadSshKey "$(UPLOADSSHKEY)" \
 		$(VERBOSE)
