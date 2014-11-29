@@ -1,7 +1,7 @@
 {
     "packages" : {
         "cloud-init" : {},
-        "dkms : {},
+        "dkms" : {},
         "mod_wsgi2" : {},
         "perl-cgi" : {},
         "perl-lchown" : {},
