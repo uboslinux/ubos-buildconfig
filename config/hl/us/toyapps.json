@@ -5,7 +5,8 @@
 
     "packages" : {
         "helloworld" : {},
-        "gladiwashere" : {}
+        "gladiwashere" : {},
+        "gladiwashere-java" : {}
     },
 
     "webapptests" : [
