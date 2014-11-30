@@ -18,7 +18,6 @@ else
 endif
 
 
-
 ## Public targets
 
 TARGETS=\
@@ -35,7 +34,7 @@ TARGETS=\
 	run-webapptests-hl \
 	run-webapptests-workout
 	
-promote-from-dev :
+promote-from-dev : check-sign-dbs-setup
 	macrobuild UBOS::Macrobuild::BuildTasks::PromoteChannel \
 		--configdir "$(CONFIGDIR)" \
 		--archUpstreamDir "$(ARCHUPSTREAMDIR)" \

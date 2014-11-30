@@ -24,7 +24,7 @@ TARGETS=\
 	run-webapptests-hl \
 	run-webapptests-workout
 
-build-packages :
+build-packages : check-sign-packages-setup check-sign-dbs-setup
 	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildDev \
 		--configdir "$(CONFIGDIR)" \
 		--archUpstreamDir '$(ARCHUPSTREAMDIR)' \
@@ -36,7 +36,7 @@ build-packages :
 		$(SIGNDBSARG) \
 		$(VERBOSE)
 
-build-and-upload-packages :
+build-and-upload-packages : check-sign-packages-setup check-sign-dbs-setup
 	[ ! -z "$(ARCHUPSTREAMDIR)" ]
 	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildAndUploadDev \
 		--configdir "$(CONFIGDIR)" \
@@ -50,3 +50,4 @@ build-and-upload-packages :
 		$(SIGNPACKAGESARG) \
 		$(SIGNDBSARG) \
 		$(VERBOSE)
+

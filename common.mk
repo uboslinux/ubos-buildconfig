@@ -15,7 +15,7 @@ TESTVERBOSE=-v
 DEVICE=pc
 
 CONFIGDIR=config
-GNUPGHOME=keys/ubos/buildmaster@ubos.net/gpg/
+GNUPGHOME=${HOME}/.gnupg
 SSHDIR=keys/ubos/ubos-admin/ssh
 IMPERSONATEDEPOT=
 # IMPERSONATEDEPOT=:impersonatedepot
@@ -50,10 +50,23 @@ else
 endif
 
 ifdef PACKAGESIGNKEY
-	SIGNPACKAGESARG=--packageSignKey $(PACKAGESIGNKEY)
+check-sign-packages-setup :
+	GNUPGHOME=$(GNUPGHOME) gpg --list-secret-keys $(PACKAGESIGNKEY) > /dev/null
+
+    SIGNPACKAGESARG=--packageSignKey $(PACKAGESIGNKEY)
+else
+check-sign-packages-setup :
+
 endif
+
 ifdef DBSIGNKEY
-	SIGNDBSARG=--dbSignKey $(DBSIGNKEY)
+check-sign-dbs-setup :
+	GNUPGHOME=$(GNUPGHOME) gpg --list-secret-keys $(DBSIGNKEY) > /dev/null
+
+    SIGNDBSARG=--dbSignKey $(DBSIGNKEY)
+else
+check-sign-dbs-setup :
+
 endif
 ifdef TESTVNCSECRET
     TESTVNCSECRETARG=:vncsecret=$(TESTVNCSECRET)
