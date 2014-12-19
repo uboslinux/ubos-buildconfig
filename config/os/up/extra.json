@@ -3,6 +3,7 @@
         "apache" : {},
         "apr" : {},
         "apr-util" : {},
+        "arch-install-scripts" : {},
         "avahi" : {},
         "ca-certificates-java" : {},
         "ca-certificates-mozilla" : {},
