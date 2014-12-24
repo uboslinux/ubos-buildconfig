@@ -86,7 +86,7 @@
         "libseccomp" : {},
         "libssh2" : {},
         "libsystemd" : {},
-        "libtasn" : {},
+        "libtasn1" : {},
         "libtirpc" : {},
         "libunistring" : {},
         "libusb" : {},
