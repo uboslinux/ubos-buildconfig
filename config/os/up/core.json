@@ -127,6 +127,7 @@
         "openresolv" : {},
         "openssh" : {},
         "openssl" : {},
+        "p11-kit" : {},
         "pacman" : {},
         "pacman-mirrorlist" : {},
         "pam" : {},
