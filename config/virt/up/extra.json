@@ -25,7 +25,6 @@
         "libxxf86vm" : {},
         "llvm-libs" : {},
         "mesa" : {},
-        "mesa-dri" : {},
         "mesa-libgl" : {},
         "mtdev" : {},
         "pixman" : {},
