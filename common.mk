@@ -36,6 +36,8 @@ SIGREQUIREDINSTALL=
 BUILDDIR=$(WORKAREA)/build
 TESTLOGSDIR=$(WORKAREA)
 
+TESTPLANSARG=--testplan default --testplan well-known
+
 TESTSCAFFOLD_HERE=here$(IMPERSONATEDEPOT)
 TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
 
@@ -132,6 +134,7 @@ run-webapptests-workout :
 		--configdir "$(CONFIGDIR)" \
 		--builddir "$(BUILDDIR)" \
 		--db tools \
+		$(TESTPLANSARG) \
 		$(TESTSCAFFOLDARG)$(TESTVNCSECRETARG) \
 		$(TESTVERBOSEARG) \
 		$(TESTLOGSARG) \
@@ -143,6 +146,7 @@ run-webapptests-hl :
 		--configdir "$(CONFIGDIR)" \
 		--builddir "$(BUILDDIR)" \
 		--db hl \
+		$(TESTPLANSARG) \
 		$(TESTSCAFFOLDARG)$(TESTVNCSECRETARG) \
 		$(TESTVERBOSEARG) \
 		$(TESTLOGSARG) \
