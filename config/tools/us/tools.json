@@ -5,6 +5,7 @@
 
     "packages" : {
         "webapptest" : {},
-        "pacsane" : {}
+        "pacsane" : {},
+        "ubos-repo" : {}
     }
 }
