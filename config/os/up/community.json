@@ -23,6 +23,7 @@
         "python2-simplejson" : {},
         "python2-six" : {},
         "python2-yaml" : {},
-        "rng-tools" : {}
+        "rng-tools" : {},
+        "snapper" : {}
     }
 }
