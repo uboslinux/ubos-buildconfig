@@ -29,6 +29,11 @@
             "archs" : [
                 "armv7h"
             ]
+        },
+        "wiringpi" : {
+            "archs" : [
+                "armv6h"
+            ]
         }
     }
 }
