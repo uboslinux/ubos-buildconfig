@@ -1,5 +1,5 @@
 {
-    "url"    : "https://github.com/indiebox/jenkins",
+    "url"    : "https://github.com/indiebox/ubos-jenkins",
     "type"   : "git",
     "branch" : "master",
 
