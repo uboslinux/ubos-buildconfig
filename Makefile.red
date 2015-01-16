@@ -33,7 +33,7 @@ TARGETS=\
 	run-webapptests \
 	run-webapptests-hl \
 	run-webapptests-workout
-	
+
 promote-from-dev : check-sign-dbs-setup
 	macrobuild UBOS::Macrobuild::BuildTasks::PromoteChannel \
 		--configdir "$(CONFIGDIR)" \

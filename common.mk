@@ -4,6 +4,8 @@
 
 SHELL=/bin/bash
 
+default : 
+	@echo 'Synopsis: make (' `perl -e 'print join( " | ", @ARGV );' $(TARGETS)` ')'
 
 ADMINHASROOT=
 # ADMINHASROOT=--adminHasRoot 1
@@ -95,9 +97,6 @@ else
     ARCHUPSTREAMDIR=$(ARCHUPSTREAMSITE_arm)/$${arch}/$${db}
 endif
 
-
-default : 
-	@echo 'Synopsis: make (' `perl -e 'print join( " | ", @ARGV );' $(TARGETS)` ')'
 
 build-images :
 	macrobuild UBOS::Macrobuild::BuildTasks::CreateAllImages_$(DEVICE) \
