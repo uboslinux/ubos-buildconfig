@@ -47,6 +47,7 @@
         "mariadb-clients" : {},
         "nss-mdns" : {},
         "ntp" : {},
+        "parted" : {},
         "perl-archive-zip" : {},
         "perl-config-simple" : {},
         "perl-dbi" : {},
