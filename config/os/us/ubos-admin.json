@@ -6,6 +6,7 @@
     "packages" : {
         "ubos-keyring" : {},
         "ubos-admin" : {},
+        "ubos-install" : {},
         "ubos-networking" : {},
         "ubos-perl-utils" : {}
     }
