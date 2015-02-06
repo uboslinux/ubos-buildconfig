@@ -24,6 +24,7 @@
         "lcms2" : {},
         "libaio" : {},
         "libatomic_ops" : {},
+        "libcap-ng" : {},
         "libdaemon" : {},
         "libice" : {},
         "libjpeg-turbo" : {},
