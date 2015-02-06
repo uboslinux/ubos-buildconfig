@@ -17,6 +17,7 @@
         "java-commons-daemon" : {},
         "java-environment-common" : {},
         "java-jsvc" : {},
+        "java-runtime-common" : {},
         "jemalloc" : {},
         "jre7-openjdk" : {},
         "jre7-openjdk-headless" : {},
