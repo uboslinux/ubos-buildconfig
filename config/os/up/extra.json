@@ -30,6 +30,7 @@
         "libcap-ng" : {},
         "libcups" : {},
         "libdaemon" : {},
+        "libfontenc" : {},
         "libice" : {},
         "libjpeg-turbo" : {},
         "libmariadbclient" : {},
@@ -69,9 +70,13 @@
         "python2-setuptools" : {},
         "smartmontools" : {},
         "tomcat7" : {},
+        "ttf-dejavu" : {},
         "xcb-proto" : {},
         "xdg-utils" : {},
         "xextproto" : {},
+        "xorg-fonts-encodings" : {},
+        "xorg-mkfontdir" : {},
+        "xorg-mkfontscale" : {},
         "xorg-xset" : {},
         "xproto" : {}
    }
