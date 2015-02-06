@@ -27,6 +27,7 @@
         "libaio" : {},
         "libatomic_ops" : {},
         "libcap-ng" : {},
+        "libcups" : {},
         "libdaemon" : {},
         "libice" : {},
         "libjpeg-turbo" : {},
