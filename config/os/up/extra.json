@@ -5,6 +5,7 @@
         "apr-util" : {},
         "arch-install-scripts" : {},
         "avahi" : {},
+        "dnsutils" : {},
         "eclipse-ecj" : {},
         "fontconfig" : {},
         "freetype2" : {},
