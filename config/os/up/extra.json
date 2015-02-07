@@ -67,6 +67,7 @@
         "php-intl" : {},
         "php-xcache" : {},
         "python2" : {},
+        "python2-requests" : {},
         "python2-setuptools" : {},
         "smartmontools" : {},
         "tomcat7" : {},

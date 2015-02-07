@@ -19,7 +19,6 @@
         "python2-oslo-config" : {},
         "python2-pbr" : {},
         "python2-prettytable" : {},
-        "python2-requests" : {},
         "python2-simplejson" : {},
         "python2-six" : {},
         "python2-yaml" : {},
