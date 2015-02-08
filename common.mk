@@ -7,9 +7,6 @@ SHELL=/bin/bash
 default : 
 	@echo 'Synopsis: make (' `perl -e 'print join( " | ", @ARGV );' $(TARGETS)` ')'
 
-ADMINHASROOT=
-# ADMINHASROOT=--adminHasRoot 1
-
 WORKAREA=.
 TESTVNCSECRET=
 TESTSCAFFOLD=$(TESTSCAFFOLD_HERE)
@@ -105,7 +102,6 @@ build-images :
 		--channel "$(CHANNEL)" \
 		--imagesdir "$(IMAGESDIR)" \
 		$(SIGREQUIREDINSTALL) \
-		$(ADMINHASROOT) \
 		$(VERBOSE)
 
 # This is a separate task, because it can take a long time
