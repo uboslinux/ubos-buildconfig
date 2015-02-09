@@ -38,8 +38,8 @@ TESTLOGSDIR=$(WORKAREA)
 TESTPLANSARG=--testplan default --testplan well-known
 
 TESTSCAFFOLD_HERE=here$(IMPERSONATEDEPOT)
-TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_x86_64_LATEST-vbox.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
-
+TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_vbox-pc_x86_64_LATEST.vmdk:ubos-admin-public-key-file=$(SSHDIR)/id_rsa.pub:ubos-admin-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
+ 
 DEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /$(CHANNEL) 2>/dev/null
 
 ifdef DEPOTAPPCONFIGID
