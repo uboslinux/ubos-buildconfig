@@ -40,7 +40,12 @@
                 "armv7h"
             ]
         },
-        "uboot-tools" : {},
+        "uboot-tools" : {
+            "archs" : [
+                "armv6h",
+                "armv7h"
+            ]
+        },
         "wiringpi" : {
             "archs" : [
                 "armv6h",
