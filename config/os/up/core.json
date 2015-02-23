@@ -104,7 +104,8 @@
         },
         "linux-raspberrypi" : {
             "archs" : [
-                "armv6h"
+                "armv6h",
+                "armv7h"
             ]
         },
         "linux-api-headers" : {},
