@@ -72,6 +72,7 @@
         "smartmontools" : {},
         "tomcat7" : {},
         "ttf-dejavu" : {},
+        "unzip" : {},
         "xcb-proto" : {},
         "xdg-utils" : {},
         "xextproto" : {},
@@ -79,6 +80,7 @@
         "xorg-mkfontdir" : {},
         "xorg-mkfontscale" : {},
         "xorg-xset" : {},
-        "xproto" : {}
+        "xproto" : {},
+        "zip" : {},
    }
 }
