@@ -96,13 +96,15 @@ endif
 
 
 build-images :
-	macrobuild UBOS::Macrobuild::BuildTasks::CreateAllImages_$(DEVICE) \
-		--arch "$(ARCH)" \
-		--repodir "$(REPODIR)" \
-		--channel "$(CHANNEL)" \
-		--imagesdir "$(IMAGESDIR)" \
-		$(SIGREQUIREDINSTALL) \
-		$(VERBOSE)
+	for d in `echo $(DEVICE) | sed -e 's/,/ /'`; do \
+		macrobuild UBOS::Macrobuild::BuildTasks::CreateAllImages_$${d} \
+			--arch "$(ARCH)" \
+			--repodir "$(REPODIR)" \
+			--channel "$(CHANNEL)" \
+			--imagesdir "$(IMAGESDIR)" \
+			$(SIGREQUIREDINSTALL) \
+			$(VERBOSE); \
+	done
 
 # This is a separate task, because it can take a long time
 compress-images :
