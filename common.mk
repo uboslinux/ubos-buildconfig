@@ -152,7 +152,7 @@ run-webapptests-hl :
 burn-to-usb :
 	[ -b "$(USBDEVICE)" ]
 	if mount | grep $(USBDEVICE) > /dev/null ; then echo ERROR: USBDEVICE $(USBDEVICE) is mounted and cannot be used to burn to; false;  fi
-	sudo dd if=`ls -1 $(IMAGESDIR)/$(ARCH)/images/ubos_*_LATEST.img` of=$(USBDEVICE) bs=1M
+	sudo dd if=`ls -1 $(IMAGESDIR)/$(ARCH)/images/ubos_*_$(DEVICE)_LATEST.img` of=$(USBDEVICE) bs=1M
 	sync
 
 pacsane :
