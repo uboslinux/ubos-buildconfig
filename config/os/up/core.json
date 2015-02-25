@@ -102,6 +102,11 @@
                 "armv7h"
             ]
         },
+        "linux-am33x-headers" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "linux-raspberrypi" : {
             "archs" : [
                 "armv6h",
