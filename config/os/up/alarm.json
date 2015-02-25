@@ -1,5 +1,15 @@
 {
     "packages" : {
+        "linux-am33x" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "linux-am33x-headers" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "raspberrypi-firmware" : {
             "archs" : [
                 "armv6h",
