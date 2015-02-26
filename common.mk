@@ -96,7 +96,7 @@ endif
 
 
 build-images :
-	for d in `echo $(DEVICE) | sed -e 's/,/ /'`; do \
+	for d in `echo $(DEVICE) | sed -e 's/,/ /g'`; do \
 		macrobuild UBOS::Macrobuild::BuildTasks::CreateAllImages_$${d} \
 			--arch "$(ARCH)" \
 			--repodir "$(REPODIR)" \
