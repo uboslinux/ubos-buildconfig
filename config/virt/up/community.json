@@ -3,6 +3,7 @@
         "x86_64"
     ],
     "packages" : {
+        "libunwind" : {},
         "virtualbox-guest-modules" : {},
         "virtualbox-guest-utils" : {}
     }

@@ -13,6 +13,7 @@
         "libevdev" : {},
         "libpciaccess" : {},
         "libtxc_dxtn" : {},
+        "libxcomposite" : {},
         "libxdamage" : {},
         "libxfixes" : {},
         "libxfont" : {},
