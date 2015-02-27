@@ -4,6 +4,7 @@
     ],
 
     "packages" : {
+        "compositeproto" : {},
         "damageproto" : {},
         "elfutils" : {},
         "fixesproto" : {},
