@@ -154,7 +154,7 @@ burn-to-usb :
 	if mount | grep $(USBDEVICE) > /dev/null ; then echo ERROR: USBDEVICE $(USBDEVICE) is mounted and cannot be used to burn to; false;  fi
 	sudo dd if=`ls -1 $(IMAGESDIR)/$(ARCH)/images/ubos_*_$(DEVICE)*_LATEST.img` of=$(USBDEVICE) bs=1M
 	sync
-pc_x86_64
+
 pacsane :
 	( cd "$(REPODIR)/$(ARCH)"; \
 		for repo in *; do \
