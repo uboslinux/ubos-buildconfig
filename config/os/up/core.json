@@ -107,6 +107,7 @@
                 "armv7h"
             ]
         },
+        "linux-api-headers" : {},
         "linux-armv7" : {
             "archs" : [
                 "armv7h"
@@ -117,14 +118,29 @@
                 "armv7h"
             ]
         },
+        "linux-firmware" : {},
         "linux-raspberrypi" : {
             "archs" : [
                 "armv6h",
                 "armv7h"
             ]
         },
-        "linux-api-headers" : {},
-        "linux-firmware" : {},
+        "linux-raspberrypi-headers" : {
+            "archs" : [
+                "armv6h",
+                "armv7h"
+            ]
+        },
+        "linux-sun7i" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "linux-sun7i-headers" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "logrotate" : {},
         "lvm2" : {},
         "lz4" : {},
