@@ -48,7 +48,6 @@
         "gnupg" : {},
         "gnutls" : {},
         "gpgme" : {},
-        "grep" : {},
         "groff" : {},
         "grub" : {
             "archs" : [
