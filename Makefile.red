@@ -51,7 +51,6 @@ upload :
 		--arch "$(ARCH)" \
 		--repodir "$(REPODIR)" \
 		--channel "$(CHANNEL)" \
-		--imagesdir "$(IMAGESDIR)" \
 		--uploadDest "$(UPLOADDEST)" \
 		--uploadSshKey "$(UPLOADSSHKEY)" \
 		$(VERBOSE)

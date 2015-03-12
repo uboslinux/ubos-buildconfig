@@ -28,9 +28,8 @@ UPLOADDEST=
 UPLOADSSHKEY=
 PACKAGESIGNKEY=
 DBSIGNKEY=
-SIGREQUIREDINSTALL=
-# SIGREQUIREDINSTALL=--sigRequiredInstall 1
-# signing is optional
+SIGREQUIREDINSTALL=--sigRequiredInstall 1
+# signing during install 
 
 BUILDDIR=$(WORKAREA)/build
 TESTLOGSDIR=$(WORKAREA)
@@ -38,15 +37,13 @@ TESTLOGSDIR=$(WORKAREA)
 TESTPLANSARG=--testplan default --testplan well-known
 
 TESTSCAFFOLD_HERE=here$(IMPERSONATEDEPOT)
-TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(IMAGESDIR)/$(ARCH)/images/ubos_$(CHANNEL)_vbox-pc_x86_64_LATEST.vmdk:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
+TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(REPODIR)/$(ARCH)/images/ubos_$(CHANNEL)_vbox-pc_x86_64_LATEST.vmdk:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
  
 DEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /$(CHANNEL) 2>/dev/null
 
 ifdef DEPOTAPPCONFIGID
-	IMAGESDIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)
 	REPODIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)
 else
-	IMAGESDIR=$(WORKAREA)/images/$(CHANNEL)
 	REPODIR=$(WORKAREA)/repository/$(CHANNEL)
 endif
 
@@ -69,6 +66,20 @@ else
 check-sign-dbs-setup :
 
 endif
+
+ifdef IMAGESIGNKEY
+check-sign-dbs-setup :
+	GNUPGHOME=$(GNUPGHOME) gpg --list-secret-keys $(IMAGESIGNKEY) > /dev/null
+
+    SIGNIMAGESSARG=--imageSignKey $(IMAGESIGNKEY)
+else
+check-sign-dbs-setup :
+
+endif
+
+
+
+
 ifdef TESTVNCSECRET
     TESTVNCSECRETARG=:vncsecret=$(TESTVNCSECRET)
 endif
@@ -101,7 +112,7 @@ build-images :
 			--arch "$(ARCH)" \
 			--repodir "$(REPODIR)" \
 			--channel "$(CHANNEL)" \
-			--imagesdir "$(IMAGESDIR)" \
+			$(SIGNIMAGESARG) \
 			$(SIGREQUIREDINSTALL) \
 			$(VERBOSE); \
 	done
@@ -112,7 +123,6 @@ compress-images :
 		--arch "$(ARCH)" \
 		--repodir "$(REPODIR)" \
 		--channel "$(CHANNEL)" \
-		--imagesdir "$(IMAGESDIR)" \
 		$(VERBOSE)
 
 purge :
@@ -120,7 +130,6 @@ purge :
 		--repodir "$(REPODIR)" \
 		--arch "$(ARCH)" \
 		--channel "$(CHANNEL)" \
-		--imagesdir "$(IMAGESDIR)" \
 		$(VERBOSE)
 	
 run-webapptests : run-webapptests-workout run-webapptests-hl
@@ -152,7 +161,7 @@ run-webapptests-hl :
 burn-to-usb :
 	[ -b "$(USBDEVICE)" ]
 	if mount | grep $(USBDEVICE) > /dev/null ; then echo ERROR: USBDEVICE $(USBDEVICE) is mounted and cannot be used to burn to; false;  fi
-	sudo dd if=`ls -1 $(IMAGESDIR)/$(ARCH)/images/ubos_*_$(DEVICE)*_LATEST.img` of=$(USBDEVICE) bs=1M
+	sudo dd if=`ls -1 $(REPODIR)/$(ARCH)/images/ubos_*_$(DEVICE)*_LATEST.img` of=$(USBDEVICE) bs=1M
 	sync
 
 pacsane :
