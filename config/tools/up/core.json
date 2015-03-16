@@ -1,5 +1,11 @@
 {
     "packages" : {
-        "make : {}
+        "autoconf" : {},
+        "automake" : {},
+        "bison" : {},
+        "flex" : {},
+        "libtools" : {},
+        "make" : {},
+        "pkg-config" : {}
     }
 }
