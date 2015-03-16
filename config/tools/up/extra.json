@@ -1,5 +1,6 @@
 {
     "packages" : {
-        "jdk7-openjdk" : {}
+        "jdk7-openjdk" : {},
+        "strace" : {}
     }
 }

@@ -1,8 +1,10 @@
 {
     "packages" : {
+        "arp-scan" : {},
         "cloud-init" : {},
         "dkms" : {},
         "mod_wsgi2" : {},
+        "ntop" : {},
         "perl-cgi" : {},
         "perl-lchown" : {},
         "perl-json" : {},
