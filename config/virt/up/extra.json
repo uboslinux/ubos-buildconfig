@@ -23,8 +23,6 @@
         "libxshmfence" : {},
         "libxxf86vm" : {},
         "llvm-libs" : {},
-        "mesa" : {},
-        "mesa-libgl" : {},
         "mtdev" : {},
         "pixman" : {},
         "randrproto" : {},
