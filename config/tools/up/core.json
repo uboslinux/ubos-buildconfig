@@ -5,7 +5,7 @@
         "bison" : {},
         "flex" : {},
         "gcc" : {},
-        "libtools" : {},
+        "libtool" : {},
         "make" : {},
         "pkg-config" : {}
     }
