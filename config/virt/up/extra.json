@@ -24,7 +24,6 @@
         "libxxf86vm" : {},
         "llvm-libs" : {},
         "mtdev" : {},
-        "pixman" : {},
         "randrproto" : {},
         "wayland" : {},
         "xf86-input-evdev" : {},
