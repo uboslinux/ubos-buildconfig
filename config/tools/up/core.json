@@ -4,6 +4,7 @@
         "automake" : {},
         "bison" : {},
         "flex" : {},
+        "gcc" : {},
         "libtools" : {},
         "make" : {},
         "pkg-config" : {}
