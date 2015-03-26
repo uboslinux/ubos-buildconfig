@@ -1,5 +1,5 @@
 {
-    "url"    : "https://github.com/indiebox/ubos-owncloud",
+    "url"    : "https://github.com/uboslinux/ubos-owncloud",
     "type"   : "git",
     "branch" : "master",
 

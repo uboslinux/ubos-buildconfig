@@ -1,5 +1,5 @@
 {
-    "url"    : "https://github.com/indiebox/macrobuild-ubos",
+    "url"    : "https://github.com/uboslinux/macrobuild-ubos",
     "type"   : "git",
     "branch" : "master",
     

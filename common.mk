@@ -180,16 +180,16 @@ delete-all-vms-on-account :
 # Check out code from git. Rebuild, and re-install, but only if there have been updates
 # This is not a dependency so the user can decide whether they want to update the code
 code-is-current :
-	[ -d "$(WORKAREA)/git/github.com/indiebox" ] || mkdir -p "$(WORKAREA)/git/github.com/indiebox"
-	( cd "$(WORKAREA)/git/github.com/indiebox"; \
+	[ -d "$(WORKAREA)/git/github.com/uboslinux" ] || mkdir -p "$(WORKAREA)/git/github.com/uboslinux"
+	( cd "$(WORKAREA)/git/github.com/uboslinux"; \
 		for p in ubos-admin macrobuild macrobuild-ubos ubos-perl ubos-tools; do \
 			if [ -d "$$p" ]; then \
 				( cd "$$p"; git pull | grep 'Already up-to-date' > /dev/null || rm -f *pkg* */*pkg* ); \
 			else \
-				git clone "https://github.com/indiebox/$$p"; \
+				git clone "https://github.com/uboslinux/$$p"; \
 			fi; \
 		done )
-	( cd "$(WORKAREA)/git/github.com/indiebox"; \
+	( cd "$(WORKAREA)/git/github.com/uboslinux"; \
 		for p in ubos-admin/ubos-perl-utils ubos-admin/ubos-keyring ubos-admin/ubos-admin ubos-admin/ubos-install ubos-perl/perl-log-journald macrobuild macrobuild-ubos ubos-tools/webapptest ubos-tools/pacsane; do \
 			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( env -i makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
 		done )
