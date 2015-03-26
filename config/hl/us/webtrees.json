@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-webtrees",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "webtrees" : {}
+    },
+
+    "webapptests" : [
+        "webtrees/tests/WebTreesTest1.pm"
+    ]
+}
