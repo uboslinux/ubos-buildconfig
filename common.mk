@@ -34,7 +34,7 @@ SIGREQUIREDINSTALL=--sigRequiredInstall 1
 BUILDDIR=$(WORKAREA)/build
 TESTLOGSDIR=$(WORKAREA)
 
-TESTPLANSARG=--testplan default --testplan well-known
+TESTPLANSARG=--testplan default --testplan well-known --testplan redeploy 
 
 TESTSCAFFOLD_HERE=here$(IMPERSONATEDEPOT)
 TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(REPODIR)/$(ARCH)/images/ubos_$(CHANNEL)_vbox-pc_x86_64_LATEST.vmdk:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
