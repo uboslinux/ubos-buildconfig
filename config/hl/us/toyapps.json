@@ -6,10 +6,13 @@
     "packages" : {
         "helloworld" : {},
         "gladiwashere" : {},
-        "gladiwashere-java" : {}
+        "gladiwashere-java" : {},
+        "gladiwashere-postgresql" : {}
     },
 
     "webapptests" : [
-        "gladiwashere/tests/GladIWasHere1Test.pm"
+        "gladiwashere/tests/GladIWasHere1Test.pm",
+        "gladiwashere-java/tests/GladIWasHereJava1Test.pm",
+        "gladiwashere-postgresql/tests/GladIWasHerePostgresql1Test.pm"
     ]
 }
