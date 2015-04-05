@@ -1,5 +1,6 @@
 {
     "packages" : {
+        "git" : {},
         "jdk7-openjdk" : {},
         "strace" : {}
     }

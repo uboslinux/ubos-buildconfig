@@ -80,6 +80,7 @@
         "perl-dbi" : {},
         "perl-digest-sha1" : {},
         "perl-encode-locale" : {},
+        "perl-error" : {},
         "perl-file-listing" : {},
         "perl-http-date" : {},
         "perl-html-parser" : {},
