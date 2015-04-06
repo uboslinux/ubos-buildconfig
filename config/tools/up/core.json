@@ -3,9 +3,9 @@
         "autoconf" : {},
         "automake" : {},
         "bison" : {},
+        "fakeroot" : {},
         "flex" : {},
         "gcc" : {},
-        "libtool" : {},
         "make" : {},
         "pkg-config" : {}
     }

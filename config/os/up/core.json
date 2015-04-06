@@ -92,6 +92,7 @@
         "libsystemd" : {},
         "libtasn1" : {},
         "libtirpc" : {},
+        "libtool" : {},
         "libunistring" : {},
         "libusb" : {},
         "libutil-linux" : {},
@@ -205,6 +206,7 @@
         "util-linux" : {},
         "vi" : {},
         "which" : {},
+        "wpa_supplicant" : {},
         "xfsprogs" : {},
         "xz" : {},
         "zlib" : {}
