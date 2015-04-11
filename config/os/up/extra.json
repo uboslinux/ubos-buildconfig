@@ -99,6 +99,7 @@
         "php-apache" : {},
         "php-gd" : {},
         "php-intl" : {},
+        "php-pgsql" : {},
         "php-xcache" : {},
         "pixman" : {},
         "postgresql" : {},
