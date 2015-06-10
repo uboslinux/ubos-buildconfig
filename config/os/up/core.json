@@ -70,6 +70,7 @@
         "krb5" : {},
         "ldns" : {},
         "less" : {},
+        "libaio" : {},
         "libarchive" : {},
         "libassuan" : {},
         "libcap" : {},

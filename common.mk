@@ -28,7 +28,7 @@ UPLOADDEST=
 UPLOADSSHKEY=
 PACKAGESIGNKEY=
 DBSIGNKEY=
-SIGREQUIREDINSTALL=--sigRequiredInstall 1
+SIGREQUIREDINSTALL=--checkSignatures required
 # signing during install 
 
 BUILDDIR=$(WORKAREA)/build
@@ -51,7 +51,7 @@ ifdef PACKAGESIGNKEY
 check-sign-packages-setup :
 	GNUPGHOME=$(GNUPGHOME) gpg --list-secret-keys $(PACKAGESIGNKEY) > /dev/null
 
-    SIGNPACKAGESARG=--packageSignKey $(PACKAGESIGNKEY)
+	SIGNPACKAGESARG=--packageSignKey $(PACKAGESIGNKEY)
 else
 check-sign-packages-setup :
 
@@ -61,19 +61,19 @@ ifdef DBSIGNKEY
 check-sign-dbs-setup :
 	GNUPGHOME=$(GNUPGHOME) gpg --list-secret-keys $(DBSIGNKEY) > /dev/null
 
-    SIGNDBSARG=--dbSignKey $(DBSIGNKEY)
+	SIGNDBSARG=--dbSignKey $(DBSIGNKEY)
 else
 check-sign-dbs-setup :
 
 endif
 
 ifdef IMAGESIGNKEY
-check-sign-dbs-setup :
+check-sign-images-setup :
 	GNUPGHOME=$(GNUPGHOME) gpg --list-secret-keys $(IMAGESIGNKEY) > /dev/null
 
-    SIGNIMAGESSARG=--imageSignKey $(IMAGESIGNKEY)
+	SIGNIMAGESSARG=--imageSignKey $(IMAGESIGNKEY)
 else
-check-sign-dbs-setup :
+check-sign-images-setup :
 
 endif
 
