@@ -31,6 +31,8 @@
         "jemalloc" : {},
         "jre7-openjdk" : {},
         "jre7-openjdk-headless" : {},
+        "jre8-openjdk" : {},
+        "jre8-openjdk-headless" : {},
         "kbproto" : {},
         "lcms" : {},
         "lcms2" : {},
