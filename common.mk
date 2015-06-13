@@ -42,61 +42,61 @@ TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(REPODIR)/$(ARCH)/images/ubos_$(CHANNEL)_v
 DEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /$(CHANNEL) 2>/dev/null
 
 ifdef DEPOTAPPCONFIGID
-	REPODIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)
+    REPODIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)
 else
-	REPODIR=$(WORKAREA)/repository/$(CHANNEL)
+    REPODIR=$(WORKAREA)/repository/$(CHANNEL)
 endif
 
 ifdef PACKAGESIGNKEY
+    SIGNPACKAGESARG=--packageSignKey $(PACKAGESIGNKEY)
+
 check-sign-packages-setup :
 	GNUPGHOME=$(GNUPGHOME) gpg --list-secret-keys $(PACKAGESIGNKEY) > /dev/null
 
-	SIGNPACKAGESARG=--packageSignKey $(PACKAGESIGNKEY)
 else
 check-sign-packages-setup :
 
 endif
 
 ifdef DBSIGNKEY
+    SIGNDBSARG=--dbSignKey $(DBSIGNKEY)
+
 check-sign-dbs-setup :
 	GNUPGHOME=$(GNUPGHOME) gpg --list-secret-keys $(DBSIGNKEY) > /dev/null
 
-	SIGNDBSARG=--dbSignKey $(DBSIGNKEY)
 else
 check-sign-dbs-setup :
 
 endif
 
 ifdef IMAGESIGNKEY
+    SIGNIMAGESSARG=--imageSignKey $(IMAGESIGNKEY)
+
 check-sign-images-setup :
 	GNUPGHOME=$(GNUPGHOME) gpg --list-secret-keys $(IMAGESIGNKEY) > /dev/null
 
-	SIGNIMAGESSARG=--imageSignKey $(IMAGESIGNKEY)
 else
 check-sign-images-setup :
 
 endif
 
-
-
-
 ifdef TESTVNCSECRET
     TESTVNCSECRETARG=:vncsecret=$(TESTVNCSECRET)
 endif
 ifdef IMPERSONATEDEPOT
-	ifndef DEPOTAPPCONFIGID
+    ifndef DEPOTAPPCONFIGID
         $(error Cannot impersonate depot.ubos.net: host does not run the depot in channel $(CHANNEL))
-	endif
+    endif
 endif
 
 ifdef TESTSCAFFOLD
-	TESTSCAFFOLDARG=--scaffold $(TESTSCAFFOLD)
+    TESTSCAFFOLDARG=--scaffold $(TESTSCAFFOLD)
 endif
 ifdef TESTVERBOSE
     TESTVERBOSEARG=--testverbose "$(TESTVERBOSE)"
 endif
 ifdef TESTLOGSDIR
-	TESTLOGSARG=--testLogsDir $(TESTLOGSDIR)
+    TESTLOGSARG=--testLogsDir $(TESTLOGSDIR)
 endif
 
 ifeq "$(ARCH)" "x86_64"
