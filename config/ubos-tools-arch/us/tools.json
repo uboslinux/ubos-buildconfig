@@ -1,0 +1,10 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-tools",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "ubos-tools-arch" : {},
+        "webapptest" : {}
+    }
+}
