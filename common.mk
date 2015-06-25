@@ -6,8 +6,9 @@ SHELL=/bin/bash
 
 default : 
 	@echo 'Synopsis: make (' `perl -e 'print join( " | ", @ARGV );' $(TARGETS)` ')'
+	@echo 'Workarea is' $(WORKAREA)
 
-WORKAREA=.
+WORKAREA?=.
 TESTVNCSECRET=
 TESTSCAFFOLD=$(TESTSCAFFOLD_HERE)
 TESTVERBOSE=-v
@@ -17,7 +18,8 @@ CONFIGDIR=config
 GNUPGHOME=${HOME}/.gnupg
 SSHDIR=keys/ubos/ubos-admin/ssh
 IMPERSONATEDEPOT=
-# IMPERSONATEDEPOT=:impersonatedepot
+# IMPERSONATEDEPOT=:impersonatedepot=192.168.56.1
+# (address of the host on the VirtualBox hostonly network)
 USBDEVICE=/dev/sde
 
 ARCH!=uname -m | sed -e 's/\(armv[67]\)l/\1h/'
@@ -28,7 +30,7 @@ UPLOADDEST=
 UPLOADSSHKEY=
 PACKAGESIGNKEY=
 DBSIGNKEY=
-SIGREQUIREDINSTALL=--checkSignatures required
+SIGREQUIREDINSTALL=--checkSignatures optional
 # signing during install 
 
 BUILDDIR=$(WORKAREA)/build
@@ -180,6 +182,7 @@ delete-all-vms-on-account :
 # Check out code from git. Rebuild, and re-install, but only if there have been updates
 # This is not a dependency so the user can decide whether they want to update the code
 code-is-current :
+	echo sudo pacman -S arch-install-scripts base-devel dosfstools git jdk8-openjdk maven multipath-tools perl-http-date perl-www-curl php python2-setuptools rsync
 	[ -d "$(WORKAREA)/git/github.com/uboslinux" ] || mkdir -p "$(WORKAREA)/git/github.com/uboslinux"
 	( cd "$(WORKAREA)/git/github.com/uboslinux"; \
 		for p in ubos-admin macrobuild macrobuild-ubos ubos-perl ubos-tools; do \

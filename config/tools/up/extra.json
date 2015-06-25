@@ -3,6 +3,7 @@
         "git" : {},
         "jdk7-openjdk" : {},
         "jdk8-openjdk" : {},
+        "libunwind" : {},
         "strace" : {}
     }
 }

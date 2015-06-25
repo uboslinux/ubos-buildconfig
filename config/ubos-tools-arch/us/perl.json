@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-perl",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "perl-log-journald" : {}
+    }
+}

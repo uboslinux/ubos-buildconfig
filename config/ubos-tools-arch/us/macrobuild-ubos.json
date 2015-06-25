@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/uboslinux/macrobuild-ubos",
+    "type"   : "git",
+    "branch" : "master",
+    
+    "packages" : {
+        "." : {}
+    }
+}

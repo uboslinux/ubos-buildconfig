@@ -4,6 +4,8 @@
     "branch" : "master",
 
     "packages" : {
+        "ubos-install" : {},
+        "ubos-keyring" : {},
         "ubos-perl-utils" : {}
     }
 }
