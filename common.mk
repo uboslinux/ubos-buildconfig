@@ -13,6 +13,45 @@ TESTVNCSECRET=
 TESTSCAFFOLD=$(TESTSCAFFOLD_HERE)
 TESTVERBOSE=-v
 DEVICE=pc
+REQUIRED_PACKAGES=\
+	arch-install-scripts \
+	awk \
+	binutils \
+	dosfstools \
+	file \
+	findutils \
+	gcc \
+	gettext \
+	git \
+	grep \
+	groff \
+	gzip \
+	jdk8-openjdk \
+	libltdl \
+	macrobuild \
+	macrobuild-ubos \
+	make \
+	maven \
+	multipath-tools \
+	pacman \
+	pacsane \
+	perl-http-date \
+	perl-log-journald \
+	perl-www-curl \
+	php \
+	pkg-config \
+	python2-setuptools \
+	python2-virtualenv \
+	rsync \
+	sudo \
+	texinfo \
+	ubos-install \
+	ubos-keyring \
+	ubos-perl-utils \
+	util-linux \
+	virtualbox \
+	webapptest \
+	which
 
 CONFIGDIR=config
 GNUPGHOME=${HOME}/.gnupg
@@ -182,20 +221,8 @@ delete-all-vms-on-account :
 # Check out code from git. Rebuild, and re-install, but only if there have been updates
 # This is not a dependency so the user can decide whether they want to update the code
 code-is-current :
-	echo sudo pacman -S arch-install-scripts base-devel dosfstools git jdk8-openjdk maven multipath-tools perl-http-date perl-www-curl php python2-setuptools rsync
-	[ -d "$(WORKAREA)/git/github.com/uboslinux" ] || mkdir -p "$(WORKAREA)/git/github.com/uboslinux"
-	( cd "$(WORKAREA)/git/github.com/uboslinux"; \
-		for p in ubos-admin macrobuild macrobuild-ubos ubos-perl ubos-tools; do \
-			if [ -d "$$p" ]; then \
-				( cd "$$p"; git pull | grep 'Already up-to-date' > /dev/null || rm -f *pkg* */*pkg* ); \
-			else \
-				git clone "https://github.com/uboslinux/$$p"; \
-			fi; \
-		done )
-	( cd "$(WORKAREA)/git/github.com/uboslinux"; \
-		for p in ubos-admin/ubos-perl-utils ubos-admin/ubos-keyring ubos-admin/ubos-admin ubos-admin/ubos-install ubos-perl/perl-log-journald macrobuild macrobuild-ubos ubos-tools/webapptest ubos-tools/pacsane; do \
-			( cd "$$p"; ls -d *pkg* > /dev/null 2>&1 || ( env -i makepkg -c -f && sudo pacman -U --noconfirm *pkg* )) \
-		done )
+	sudo pacman -S $(REQUIRED_PACKAGES)
 
 
 .PHONY : $(TARGETS) default
+
