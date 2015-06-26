@@ -14,7 +14,6 @@
         "libevdev" : {},
         "libpciaccess" : {},
         "libtxc_dxtn" : {},
-        "libunwind" : {},
         "libxcomposite" : {},
         "libxdamage" : {},
         "libxfixes" : {},
