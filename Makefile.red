@@ -7,6 +7,7 @@ VERBOSE=-v
 CHANNEL=red
 FROMCHANNEL=dev
 
+-include local.mk
 include common.mk
 
 FROMDEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /$(FROMCHANNEL) 2>/dev/null
@@ -46,11 +47,3 @@ promote-from-dev : check-sign-dbs-setup
 		$(SIGNDBSARG) \
 		$(VERBOSE)
 
-upload :
-	macrobuild UBOS::Macrobuild::BuildTasks::UploadChannel \
-		--arch "$(ARCH)" \
-		--repodir "$(REPODIR)" \
-		--channel "$(CHANNEL)" \
-		--uploadDest "$(UPLOADDEST)" \
-		--uploadSshKey "$(UPLOADSSHKEY)" \
-		$(VERBOSE)

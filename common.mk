@@ -9,10 +9,10 @@ default :
 	@echo 'Workarea is' $(WORKAREA)
 
 WORKAREA?=.
-TESTVNCSECRET=
-TESTSCAFFOLD=$(TESTSCAFFOLD_HERE)
-TESTVERBOSE=-v
-DEVICE=pc
+TESTVNCSECRET?=
+TESTSCAFFOLD?=$(TESTSCAFFOLD_HERE)
+TESTVERBOSE?=-v
+DEVICE?=pc
 REQUIRED_PACKAGES=\
 	arch-install-scripts \
 	awk \
@@ -65,11 +65,11 @@ ARCH!=uname -m | sed -e 's/\(armv[67]\)l/\1h/'
     #replace armv6l with armv6h, armv7l with armv7h
 ARCHUPSTREAMSITE_x86_64=http://mirror.us.leaseweb.net/archlinux
 ARCHUPSTREAMSITE_arm=http://ca.us.mirror.archlinuxarm.org
-UPLOADDEST=
-UPLOADSSHKEY=
-PACKAGESIGNKEY=
-DBSIGNKEY=
-SIGREQUIREDINSTALL=--checkSignatures optional
+UPLOADDEST?=
+UPLOADSSHKEY?=
+PACKAGESIGNKEY?=
+DBSIGNKEY?=
+SIGREQUIREDINSTALL?=--checkSignatures optional
 # signing during install 
 
 BUILDDIR=$(WORKAREA)/build
@@ -165,6 +165,25 @@ compress-images :
 		--repodir "$(REPODIR)" \
 		--channel "$(CHANNEL)" \
 		$(VERBOSE)
+
+ifdef UPLOADDEST
+ifdef UPLOADSSHKEY
+upload :
+	macrobuild UBOS::Macrobuild::BuildTasks::UploadChannel \
+		--arch "$(ARCH)" \
+		--repodir "$(REPODIR)" \
+		--channel "$(CHANNEL)" \
+		--uploadDest "$(UPLOADDEST)" \
+		--uploadSshKey "$(UPLOADSSHKEY)" \
+		$(VERBOSE)
+else
+upload :
+	$(error Cannot upload without an UPLOADSSHKEY. Make sure it matches what the depot expects)
+endif
+else
+upload :
+	$(error Cannot upload without an UPLOADDEST)
+endif
 
 purge :
 	macrobuild UBOS::Macrobuild::BuildTasks::PurgeChannel \

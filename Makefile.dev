@@ -6,12 +6,12 @@ VERBOSE=-v
 # VERBOSE=-v -v -i
 CHANNEL=dev
 
+-include local.mk
 include common.mk
 
 ## Public targets
 
 TARGETS=\
-	build-and-upload-packages \
 	build-images \
 	build-packages \
 	burn-to-usb \
@@ -20,6 +20,7 @@ TARGETS=\
 	delete-all-vms-on-account \
 	pacsane \
 	purge \
+	upload \
 	run-webapptests \
 	run-webapptests-hl \
 	run-webapptests-workout
@@ -35,19 +36,3 @@ build-packages : check-sign-packages-setup check-sign-dbs-setup
 		$(SIGNPACKAGESARG) \
 		$(SIGNDBSARG) \
 		$(VERBOSE)
-
-build-and-upload-packages : check-sign-packages-setup check-sign-dbs-setup
-	[ ! -z "$(ARCHUPSTREAMDIR)" ]
-	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildAndUploadDev \
-		--configdir "$(CONFIGDIR)" \
-		--archUpstreamDir '$(ARCHUPSTREAMDIR)' \
-		--arch "$(ARCH)" \
-		--builddir "$(BUILDDIR)" \
-		--repodir "$(REPODIR)" \
-		--channel "$(CHANNEL)" \
-		--uploadDest "$(UPLOADDEST)" \
-		--uploadSshKey "$(UPLOADSSHKEY)" \
-		$(SIGNPACKAGESARG) \
-		$(SIGNDBSARG) \
-		$(VERBOSE)
-
