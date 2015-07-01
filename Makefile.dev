@@ -25,6 +25,20 @@ TARGETS=\
 	run-webapptests-hl \
 	run-webapptests-workout
 
+ifdef LOCAL_SOURCES_DIR
+build-packages : check-sign-packages-setup check-sign-dbs-setup
+	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildDev \
+		--configdir "$(CONFIGDIR)" \
+		--archUpstreamDir '$(ARCHUPSTREAMDIR)' \
+		--arch "$(ARCH)" \
+		--builddir "$(BUILDDIR)" \
+		--repodir "$(REPODIR)" \
+		--channel "$(CHANNEL)" \
+		--localSourcesDir "$(LOCAL_SOURCES_DIR)" \
+		$(SIGNPACKAGESARG) \
+		$(SIGNDBSARG) \
+		$(VERBOSE)
+else
 build-packages : check-sign-packages-setup check-sign-dbs-setup
 	GNUPGHOME=$(GNUPGHOME) macrobuild UBOS::Macrobuild::BuildTasks::BuildDev \
 		--configdir "$(CONFIGDIR)" \
@@ -36,3 +50,4 @@ build-packages : check-sign-packages-setup check-sign-dbs-setup
 		$(SIGNPACKAGESARG) \
 		$(SIGNDBSARG) \
 		$(VERBOSE)
+endif

@@ -75,11 +75,15 @@ SIGREQUIREDINSTALL?=--checkSignatures optional
 BUILDDIR=$(WORKAREA)/build
 TESTLOGSDIR=$(WORKAREA)
 
+ifdef TESTVNCSECRET
+    TESTVNCSECRETARG=:vncsecret=$(TESTVNCSECRET)
+endif
+
 TESTPLANSARG=--testplan default --testplan well-known --testplan redeploy 
 
 TESTSCAFFOLD_HERE=here$(IMPERSONATEDEPOT)
-TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(REPODIR)/$(ARCH)/images/ubos_$(CHANNEL)_vbox-pc_x86_64_LATEST.vmdk:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
- 
+TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(REPODIR)/$(ARCH)/images/ubos_$(CHANNEL)_vbox-pc_x86_64_LATEST.vmdk:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)$(TESTVNCSECRETARG)
+
 DEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /$(CHANNEL) 2>/dev/null
 
 ifdef DEPOTAPPCONFIGID
@@ -121,15 +125,6 @@ check-sign-images-setup :
 
 endif
 
-ifdef TESTVNCSECRET
-    TESTVNCSECRETARG=:vncsecret=$(TESTVNCSECRET)
-endif
-ifdef IMPERSONATEDEPOT
-    ifndef DEPOTAPPCONFIGID
-        $(error Cannot impersonate depot.ubos.net: host does not run the depot in channel $(CHANNEL))
-    endif
-endif
-
 ifdef TESTSCAFFOLD
     TESTSCAFFOLDARG=--scaffold $(TESTSCAFFOLD)
 endif
@@ -146,6 +141,11 @@ else
     ARCHUPSTREAMDIR=$(ARCHUPSTREAMSITE_arm)/$${arch}/$${db}
 endif
 
+ifdef IMPERSONATEDEPOT
+    ifndef DEPOTAPPCONFIGID
+        $(error Cannot impersonate depot.ubos.net: host does not run the depot in channel $(CHANNEL))
+    endif
+endif
 
 build-images :
 	for d in `echo $(DEVICE) | sed -e 's/,/ /g'`; do \
@@ -201,7 +201,7 @@ run-webapptests-workout :
 		--builddir "$(BUILDDIR)" \
 		--db tools \
 		$(TESTPLANSARG) \
-		$(TESTSCAFFOLDARG)$(TESTVNCSECRETARG) \
+		$(TESTSCAFFOLDARG) \
 		$(TESTVERBOSEARG) \
 		$(TESTLOGSARG) \
 		$(VERBOSE)
@@ -213,7 +213,7 @@ run-webapptests-hl :
 		--builddir "$(BUILDDIR)" \
 		--db hl \
 		$(TESTPLANSARG) \
-		$(TESTSCAFFOLDARG)$(TESTVNCSECRETARG) \
+		$(TESTSCAFFOLDARG) \
 		$(TESTVERBOSEARG) \
 		$(TESTLOGSARG) \
 		$(VERBOSE)
@@ -227,7 +227,9 @@ burn-to-usb :
 pacsane :
 	( cd "$(REPODIR)/$(ARCH)"; \
 		for repo in *; do \
-			pacsane $$repo/$$repo.db.tar.xz; \
+			if [ -r "$$repo/$$repo.db.tar.xz" ]; then \
+				pacsane $$repo/$$repo.db.tar.xz; \
+			fi \
 		done )
 
 delete-all-vms-on-account :
