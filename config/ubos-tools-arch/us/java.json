@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-java",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "diet4j" : {}
+    }
+}
