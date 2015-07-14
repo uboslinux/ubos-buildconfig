@@ -10,6 +10,7 @@
         "perl-cgi" : {},
         "perl-lchown" : {},
         "perl-json" : {},
+        "powerdns" : {},
         "powerdns-recursor" : {},
         "python-d2to1" : {},
         "python2-boto" : {},
