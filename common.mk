@@ -10,7 +10,7 @@ default :
 
 WORKAREA?=.
 TESTVNCSECRET?=
-TESTSCAFFOLD?=$(TESTSCAFFOLD_HERE)
+TESTSCAFFOLD?=$(TESTSCAFFOLD_CONTAINER)
 TESTVERBOSE?=-v
 DEVICE?=pc
 REQUIRED_PACKAGES=\
@@ -56,7 +56,7 @@ REQUIRED_PACKAGES=\
 CONFIGDIR=config
 GNUPGHOME=${HOME}/.gnupg
 SSHDIR=keys/ubos/ubos-admin/ssh
-IMPERSONATEDEPOT=
+#IMPERSONATEDEPOT?=
 # IMPERSONATEDEPOT=:impersonatedepot=192.168.56.1
 # (address of the host on the VirtualBox hostonly network)
 USBDEVICE=/dev/sde
@@ -74,6 +74,7 @@ SIGREQUIREDINSTALL?=--checkSignatures optional
 
 BUILDDIR=$(WORKAREA)/build
 TESTLOGSDIR=$(WORKAREA)
+REPODIR=$(WORKAREA)/repository/$(CHANNEL)
 
 ifdef TESTVNCSECRET
     TESTVNCSECRETARG=:vncsecret=$(TESTVNCSECRET)
@@ -82,15 +83,9 @@ endif
 TESTPLANSARG=--testplan default --testplan well-known --testplan redeploy 
 
 TESTSCAFFOLD_HERE=here$(IMPERSONATEDEPOT)
-TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(REPODIR)/$(ARCH)/images/ubos_$(CHANNEL)_vbox-pc_x86_64_LATEST.vmdk:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)$(TESTVNCSECRETARG)
+TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(REPODIR)/$(ARCH)/uncompressed-images/ubos_$(CHANNEL)_vbox-pc_x86_64_LATEST.vmdk:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)$(TESTVNCSECRETARG)
+TESTSCAFFOLD_CONTAINER=container:directory=$(REPODIR)/$(ARCH)/uncompressed-images/ubos_$(CHANNEL)_container-pc_x86_64_LATEST:name=webapptest:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
 
-DEPOTAPPCONFIGID!=sudo ubos-admin showappconfig --brief --host depot.ubos.net --context /$(CHANNEL) 2>/dev/null
-
-ifdef DEPOTAPPCONFIGID
-    REPODIR=/var/lib/ubos-repo/$(DEPOTAPPCONFIGID)
-else
-    REPODIR=$(WORKAREA)/repository/$(CHANNEL)
-endif
 
 ifdef PACKAGESIGNKEY
     SIGNPACKAGESARG=--packageSignKey $(PACKAGESIGNKEY)
@@ -139,12 +134,6 @@ ifeq "$(ARCH)" "x86_64"
     ARCHUPSTREAMDIR=$(ARCHUPSTREAMSITE_x86_64)/$${db}/os/$${arch}
 else
     ARCHUPSTREAMDIR=$(ARCHUPSTREAMSITE_arm)/$${arch}/$${db}
-endif
-
-ifdef IMPERSONATEDEPOT
-    ifndef DEPOTAPPCONFIGID
-        $(error Cannot impersonate depot.ubos.net: host does not run the depot in channel $(CHANNEL))
-    endif
 endif
 
 build-images :
@@ -221,7 +210,7 @@ run-webapptests-hl :
 burn-to-usb :
 	[ -b "$(USBDEVICE)" ]
 	if mount | grep $(USBDEVICE) > /dev/null ; then echo ERROR: USBDEVICE $(USBDEVICE) is mounted and cannot be used to burn to; false;  fi
-	sudo dd if=`ls -1 $(REPODIR)/$(ARCH)/images/ubos_*_$(DEVICE)*_LATEST.img` of=$(USBDEVICE) bs=1M
+	sudo dd if=`ls -1 $(REPODIR)/$(ARCH)/uncompressed-images/ubos_*_$(DEVICE)*_LATEST.img` of=$(USBDEVICE) bs=1M
 	sync
 
 pacsane :
@@ -246,4 +235,3 @@ code-is-current :
 
 
 .PHONY : $(TARGETS) default
-
