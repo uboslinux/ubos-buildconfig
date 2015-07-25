@@ -28,6 +28,7 @@ TARGETS=\
 	code-is-current \
 	compress-images \
 	delete-all-vms-on-account \
+	have-shepherd-ssh-keys \
 	upload \
 	pacsane \
 	purge \

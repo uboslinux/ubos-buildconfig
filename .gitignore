@@ -3,3 +3,4 @@ local.*
 repository/
 build/
 git/
+shepherd-keys/

@@ -55,7 +55,7 @@ REQUIRED_PACKAGES=\
 
 CONFIGDIR=config
 GNUPGHOME=${HOME}/.gnupg
-SSHDIR=keys/ubos/ubos-admin/ssh
+SHEPHERDSSHKEYDIR=${CURDIR}/shepherd-keys/ssh
 #IMPERSONATEDEPOT?=
 # IMPERSONATEDEPOT=:impersonatedepot=192.168.56.1
 # (address of the host on the VirtualBox hostonly network)
@@ -83,8 +83,8 @@ endif
 TESTPLANSARG=--testplan default --testplan well-known --testplan redeploy 
 
 TESTSCAFFOLD_HERE=here$(IMPERSONATEDEPOT)
-TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(REPODIR)/$(ARCH)/uncompressed-images/ubos_$(CHANNEL)_vbox-pc_x86_64_LATEST.vmdk:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)$(TESTVNCSECRETARG)
-TESTSCAFFOLD_CONTAINER=container:directory=$(REPODIR)/$(ARCH)/uncompressed-images/ubos_$(CHANNEL)_container-pc_x86_64_LATEST:name=webapptest:shepherd-public-key-file=$(SSHDIR)/id_rsa.pub:shepherd-private-key-file=$(SSHDIR)/id_rsa$(IMPERSONATEDEPOT)
+TESTSCAFFOLD_VBOX=v-box:vmdktemplate=$(REPODIR)/$(ARCH)/uncompressed-images/ubos_$(CHANNEL)_vbox-pc_LATEST.vmdk:shepherd-public-key-file=$(SHEPHERDSSHKEYDIR)/id_rsa.pub:shepherd-private-key-file=$(SHEPHERDSSHKEYDIR)/id_rsa$(IMPERSONATEDEPOT)$(TESTVNCSECRETARG)
+TESTSCAFFOLD_CONTAINER=container:directory=$(REPODIR)/$(ARCH)/uncompressed-images/ubos_$(CHANNEL)_container-pc_LATEST:shepherd-public-key-file=$(SHEPHERDSSHKEYDIR)/id_rsa.pub:shepherd-private-key-file=$(SHEPHERDSSHKEYDIR)/id_rsa$(IMPERSONATEDEPOT)
 
 
 ifdef PACKAGESIGNKEY
@@ -183,7 +183,7 @@ purge :
 	
 run-webapptests : run-webapptests-workout run-webapptests-hl
 
-run-webapptests-workout :
+run-webapptests-workout : have-shepherd-ssh-keys
 	macrobuild UBOS::Macrobuild::BuildTasks::RunWebAppTests \
 		--arch "$(ARCH)" \
 		--configdir "$(CONFIGDIR)" \
@@ -195,7 +195,7 @@ run-webapptests-workout :
 		$(TESTLOGSARG) \
 		$(VERBOSE)
 
-run-webapptests-hl :
+run-webapptests-hl : have-shepherd-ssh-keys
 	macrobuild UBOS::Macrobuild::BuildTasks::RunWebAppTests \
 		--arch "$(ARCH)" \
 		--configdir "$(CONFIGDIR)" \
@@ -232,6 +232,19 @@ delete-all-vms-on-account :
 # This is not a dependency so the user can decide whether they want to update the code
 code-is-current :
 	sudo pacman -S $(REQUIRED_PACKAGES)
+
+ifdef SHEPHERDSSHKEYDIR
+have-shepherd-ssh-keys :
+	if [ ! -d "$(SHEPHERDSSHKEYDIR)" ]; then mkdir -p $(SHEPHERDSSHKEYDIR); fi
+	if [ ! -e "$(SHEPHERDSSHKEYDIR)/id_rsa" ]; then \
+		echo Generating SSH keys in $(SHEPHERDSSHKEYDIR) to ssh into containers/vms under test as shepherd; \
+		ssh-keygen -f "$(SHEPHERDSSHKEYDIR)/id_rsa" -P '' > /dev/null; \
+	fi
+
+else
+have-shepherd-ssh-keys :
+
+endif
 
 
 .PHONY : $(TARGETS) default
