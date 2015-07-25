@@ -111,6 +111,7 @@
         "python2-setuptools" : {},
         "rrdtool" : {},
         "renderproto" : {},
+        "rsync" : {},
         "ruby" : {},
         "screen" : {},
         "smartmontools" : {},
