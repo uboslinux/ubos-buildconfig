@@ -1,5 +1,5 @@
 {
-    "url" : "https://aur.archlinux.org/packages/mu/multipath-tools/multipath-tools.tar.gz",
+    "url" : "https://aur.archlinux.org/cgit/aur.git/snapshot/multipath-tools.tar.gz",
 
     "type" : "download",
 
