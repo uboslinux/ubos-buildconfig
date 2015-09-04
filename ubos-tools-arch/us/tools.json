@@ -4,6 +4,7 @@
     "branch" : "master",
 
     "packages" : {
+        "ubos-misc-tools" : {},
         "ubos-tools-arch" : {},
         "webapptest" : {}
     }

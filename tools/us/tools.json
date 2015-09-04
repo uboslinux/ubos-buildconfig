@@ -6,6 +6,7 @@
     "packages" : {
         "webapptest" : {},
         "pacsane" : {},
+        "ubos-misc-tools" : {},
         "ubos-repo" : {}
     }
 }
