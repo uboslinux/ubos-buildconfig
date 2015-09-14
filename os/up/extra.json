@@ -107,6 +107,7 @@
         "postgresql-libs" : {},
         "python2" : {},
         "python2-lxml" : {},
+        "python2-packaging" : {},
         "python2-requests" : {},
         "python2-setuptools" : {},
         "rrdtool" : {},
