@@ -4,6 +4,7 @@
         "jdk7-openjdk" : {},
         "jdk8-openjdk" : {},
         "libunwind" : {},
+        "perl-module-build" : {},
         "strace" : {}
     }
 }
