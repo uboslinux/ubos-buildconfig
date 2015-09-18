@@ -197,7 +197,11 @@
         "sqlite" : {},
         "sudo" : {},
         "sysfsutils" : {},
-        "systemd" : {},
+        "systemd" : {
+            "dev" : {
+                "version" : "224"
+            }
+        },
         "systemd-sysvcompat" : {},
         "tar" : {},
         "texinfo" : {},

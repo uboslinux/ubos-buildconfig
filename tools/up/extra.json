@@ -1,7 +1,6 @@
 {
     "packages" : {
         "git" : {},
-        "jdk7-openjdk" : {},
         "jdk8-openjdk" : {},
         "libunwind" : {},
         "perl-inc-latest" : {},
