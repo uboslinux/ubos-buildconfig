@@ -1,20 +1,5 @@
 {
     "packages" : {
-        "virtualbox" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
-        "virtualbox-host-modules" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
-        "virtualbox-host-dkms" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
         "maven" : {},
         "ragel" : {}
     }
