@@ -3,9 +3,30 @@
         "git" : {},
         "jdk8-openjdk" : {},
         "libunwind" : {},
+        "libxcursor" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "libxinerama" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "perl-inc-latest" : {},
         "perl-module-build" : {},
-        "strace" : {}
+        "shared-mime-info" : {},
+        "sdl" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "strace" : {},
+        "xineramaproto" : {
+            "archs" : [
+                "x86_64"
+            ]
+        }
     }
 }
    

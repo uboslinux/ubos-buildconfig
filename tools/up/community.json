@@ -1,5 +1,10 @@
 {
     "packages" : {
+        "virtualbox" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "virtualbox-host-modules" : {
             "archs" : [
                 "x86_64"
