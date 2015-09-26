@@ -6,7 +6,6 @@
     "packages" : {
         "compositeproto" : {},
         "damageproto" : {},
-        "elfutils" : {},
         "fixesproto" : {},
         "fontsproto" : {},
         "libdrm" : {},

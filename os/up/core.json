@@ -34,6 +34,7 @@
         "dnssec-anchors" : {},
         "dosfstools" : {},
         "e2fsprogs" : {},
+        "elfutils" : {},
         "expat" : {},
         "file" : {},
         "filesystem" : {},
