@@ -77,6 +77,7 @@
         "libcap" : {},
         "libdbus" : {},
         "libedit" : {},
+        "libelf" : {},
         "libevent" : {},
         "libffi" : {},
         "libgcrypt" : {},
