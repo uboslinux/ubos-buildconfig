@@ -4,8 +4,12 @@
     "branch" : "master",
 
     "packages" : {
+        "ec2-api-tools" : {},
+        "pacsane" : {},
         "ubos-misc-tools" : {},
+        "ubos-repo" : {},
         "ubos-tools-arch" : {},
         "webapptest" : {}
+
     }
 }
