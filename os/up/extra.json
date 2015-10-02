@@ -103,6 +103,8 @@
         "pixman" : {},
         "postgresql" : {},
         "postgresql-libs" : {},
+        "python" : {
+            "fixme" : "this is only there to make cloud-init work, by way of python2-jsonpointer depending on python-d2to1, bug filed https://bugs.archlinux.org/task/46540" },
         "python2" : {},
         "python2-lxml" : {},
         "python2-packaging" : {},
