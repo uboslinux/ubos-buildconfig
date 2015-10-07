@@ -2,7 +2,6 @@
     "packages" : {
         "arp-scan" : {},
         "at" : {},
-        "cloud-init" : {},
         "dkms" : {},
         "mod_wsgi2" : {},
         "nodejs" : {},
