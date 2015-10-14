@@ -6,6 +6,7 @@
         "mod_wsgi2" : {},
         "nodejs" : {},
         "ntop" : {},
+        "openbsd-netcat" : {},
         "perl-cgi" : {},
         "perl-lchown" : {},
         "perl-json" : {},

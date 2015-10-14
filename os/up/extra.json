@@ -35,6 +35,7 @@
         "lcms" : {},
         "lcms2" : {},
         "libatomic_ops" : {},
+        "libbsd" : {},
         "libcap-ng" : {},
         "libcups" : {},
         "libdaemon" : {},
