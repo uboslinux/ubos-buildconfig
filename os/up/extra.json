@@ -9,6 +9,7 @@
         "boost" : {},
         "boost-libs" : {},
         "cairo" : {},
+        "dnsmasq" : {},
         "eclipse-ecj" : {},
         "fontconfig" : {},
         "freetype2" : {},

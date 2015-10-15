@@ -9,6 +9,8 @@
         "ubos-base" : {},
         "ubos-install" : {},
         "ubos-networking" : {},
+        "ubos-networking-cloud" : {},
+        "ubos-networking-gateway" : {},
         "ubos-perl-utils" : {}
     }
 }
