@@ -5,6 +5,11 @@
 
     "packages" : {
         "amazonses" : {},
-        "cloud-init" : {}
+        "cloud-init" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "dnsmasq" : {}
     }
 }
