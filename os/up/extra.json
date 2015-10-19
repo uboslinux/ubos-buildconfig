@@ -96,6 +96,7 @@
         "perl-log-log4perl" : {},
         "perl-lwp-mediatypes" : {},
         "perl-net-http" : {},
+        "perl-net-ip" : {},
         "perl-uri" : {},
         "perl-www-robotrules" : {},
         "php" : {},
