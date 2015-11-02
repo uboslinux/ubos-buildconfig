@@ -13,9 +13,6 @@
         "perl-www-curl" : {},
         "powerdns" : {},
         "powerdns-recursor" : {},
-        "python-d2to1" : {
-            "fixme" : "this is only there to make cloud-init work, by way of python2-jsonpointer depending on python-d2to1, bug filed https://bugs.archlinux.org/task/46540"
-        },
         "python2-boto" : {},
         "python2-cheetah" : {},
         "python2-configobj" : {},
