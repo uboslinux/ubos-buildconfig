@@ -2,6 +2,8 @@
     "archs" : [
         "x86_64"
     ],
+    "upstreamDir" : "${archUpstreamDir}",
+
     "packages" : {
         "virtualbox-guest-modules" : {},
         "virtualbox-guest-utils" : {}

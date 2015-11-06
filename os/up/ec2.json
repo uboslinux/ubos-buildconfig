@@ -1,0 +1,12 @@
+{
+    "archs" : [
+        "x86_64"
+    ],
+    "upstreamDir" : "${archEc2UpstreamDir}",
+
+    "packages" : {
+        "ec2-keyring" : {},
+        "linux-ec2" : {},
+        "linux-ec2-headers" : {}
+    }
+}

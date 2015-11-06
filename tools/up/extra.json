@@ -1,4 +1,6 @@
 {
+    "upstreamDir" : "${archUpstreamDir}",
+
     "packages" : {
         "git" : {},
         "jdk8-openjdk" : {},

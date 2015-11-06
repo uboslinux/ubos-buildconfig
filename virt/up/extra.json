@@ -2,6 +2,7 @@
     "archs" : [
         "x86_64"
     ],
+    "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
         "compositeproto" : {},

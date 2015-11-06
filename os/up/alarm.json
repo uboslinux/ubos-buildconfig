@@ -1,4 +1,6 @@
 {
+    "upstreamDir" : "${archUpstreamDir}",
+
     "packages" : {
         "raspberrypi-firmware" : {
             "archs" : [
