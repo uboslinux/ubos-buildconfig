@@ -109,6 +109,7 @@
         "postgresql" : {},
         "postgresql-libs" : {},
         "python2" : {},
+        "python2-chardet" : {},
         "python2-lxml" : {},
         "python2-packaging" : {},
         "python2-pip" : {},
