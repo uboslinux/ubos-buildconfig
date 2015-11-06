@@ -4,6 +4,7 @@
     "branch" : "master",
 
     "packages" : {
+        "aws-cli" : {},
         "ec2-ami-tools" : {},
         "ec2-api-tools" : {},
         "pacsane" : {},
