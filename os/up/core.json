@@ -141,16 +141,6 @@
                 "armv7h"
             ]
         },
-        "linux-sun7i" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "linux-sun7i-headers" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
         "logrotate" : {},
         "lvm2" : {},
         "lz4" : {},
