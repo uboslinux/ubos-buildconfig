@@ -110,6 +110,7 @@
         "pixman" : {},
         "postgresql" : {},
         "postgresql-libs" : {},
+        "python" : {},
         "python2" : {},
         "python2-chardet" : {},
         "python2-lxml" : {},
