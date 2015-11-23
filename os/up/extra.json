@@ -99,6 +99,7 @@
         "perl-lwp-mediatypes" : {},
         "perl-net-http" : {},
         "perl-net-ip" : {},
+        "perl-socket6" : {},
         "perl-uri" : {},
         "perl-www-robotrules" : {},
         "php" : {},
