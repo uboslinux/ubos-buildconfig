@@ -5,8 +5,10 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
+        "virtualbox" : {},
         "virtualbox-guest-modules" : {},
-        "virtualbox-guest-utils" : {}
+        "virtualbox-guest-utils" : {},
+        "virtualbox-host-modules" : {}
     }
 }
 
