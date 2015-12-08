@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/jernst/rasptimer",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "." : {}
+    }
+}
