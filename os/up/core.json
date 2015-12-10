@@ -17,6 +17,7 @@
         "attr" : {},
         "bash" : {},
         "binutils" : {},
+        "bridge-utils" : {},
         "btrfs-progs" : {},
         "bzip2" : {},
         "ca-certificates" : {},

@@ -2,6 +2,7 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
+        "docker" : {},
         "maven" : {},
         "ragel" : {}
     }
