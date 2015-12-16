@@ -5,6 +5,8 @@
 
     "packages" : {
         "aws-cli" : {},
+        "botocore" : {},
+        "jmespath" : {},
         "pacsane" : {},
         "ubos-misc-tools" : {},
         "ubos-repo" : {},
