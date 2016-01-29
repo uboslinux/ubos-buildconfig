@@ -5,5 +5,9 @@
 
     "packages" : {
         "shaarli" : {}
-    }
+    },
+
+    "webapptests" : [
+        "shaarli/tests/Shaarli1Test.pm"
+    ]
 }
