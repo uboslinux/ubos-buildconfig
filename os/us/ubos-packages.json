@@ -11,6 +11,7 @@
             ]
         },
         "dnsmasq" : {},
-        "netatalk" : {}
+        "netatalk" : {},
+        "zerotier-one" : {}
     }
 }
