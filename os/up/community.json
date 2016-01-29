@@ -31,6 +31,7 @@
         "python2-pillow" : {},
         "python2-prettytable" : {},
         "python2-psycopg2" : {},
+        "python2-pyparsing" : {},
         "python2-simplejson" : {},
         "python2-six" : {},
         "python2-yaml" : {},
