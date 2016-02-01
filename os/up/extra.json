@@ -104,6 +104,7 @@
         "perl-www-robotrules" : {},
         "php" : {},
         "php-apache" : {},
+        "php-apcu" : {},
         "php-gd" : {},
         "php-intl" : {},
         "php-pgsql" : {},
