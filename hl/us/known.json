@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-known",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "known" : {}
+    },
+
+    "webapptests" : [
+        "known/tests/KnownTest1.pm"
+    ]
+}
