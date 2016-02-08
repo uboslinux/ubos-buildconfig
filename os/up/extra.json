@@ -33,6 +33,7 @@
         "jemalloc" : {},
         "jre8-openjdk" : {},
         "jre8-openjdk-headless" : {},
+        "json-c" : {},
         "kbproto" : {},
         "lcms" : {},
         "lcms2" : {},
