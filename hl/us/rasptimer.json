@@ -3,6 +3,11 @@
     "type"   : "git",
     "branch" : "master",
 
+    "archs" : [
+        "armv6h",
+        "armv7h"
+    ],
+
     "packages" : {
         "." : {}
     }
