@@ -11,6 +11,7 @@
         "boost" : {},
         "boost-libs" : {},
         "cairo" : {},
+        "dkms" : {},
         "eclipse-ecj" : {},
         "fontconfig" : {},
         "freetype2" : {},

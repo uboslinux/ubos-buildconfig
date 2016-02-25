@@ -4,7 +4,6 @@
     "packages" : {
         "arp-scan" : {},
         "at" : {},
-        "dkms" : {},
         "iotop" : {},
         "mod_wsgi2" : {},
         "nodejs" : {},
