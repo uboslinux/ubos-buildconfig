@@ -35,6 +35,7 @@
         "python2-six" : {},
         "python2-yaml" : {},
         "rng-tools" : {},
-        "snapper" : {}
+        "snapper" : {},
+        "wireshark-cli" : {}
     }
 }
