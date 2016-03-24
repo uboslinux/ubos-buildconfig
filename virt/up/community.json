@@ -6,7 +6,7 @@
 
     "packages" : {
         "virtualbox" : {},
-        "virtualbox-ext-vns" : {},
+        "virtualbox-ext-vnc" : {},
         "virtualbox-guest-dkms" : {},
         "virtualbox-guest-utils" : {},
         "virtualbox-host-dkms" : {}
