@@ -6,9 +6,10 @@
 
     "packages" : {
         "virtualbox" : {},
-        "virtualbox-guest-modules" : {},
+        "virtualbox-ext-vns" : {},
+        "virtualbox-guest-dkms" : {},
         "virtualbox-guest-utils" : {},
-        "virtualbox-host-modules" : {}
+        "virtualbox-host-dkms" : {}
     }
 }
 
