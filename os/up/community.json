@@ -9,6 +9,7 @@
         "nodejs" : {},
         "ntop" : {},
         "openbsd-netcat" : {},
+        "passenger" : {},
         "perl-cgi" : {},
         "perl-lchown" : {},
         "perl-json" : {},
@@ -35,6 +36,7 @@
         "python2-six" : {},
         "python2-yaml" : {},
         "rng-tools" : {},
+        "ruby-rack" : {},
         "snapper" : {},
         "wireshark-cli" : {}
     }
