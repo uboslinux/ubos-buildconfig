@@ -9,6 +9,7 @@
         "jmespath" : {},
         "pacsane" : {},
         "ubos-misc-tools" : {},
+        "ubos-push" : {},
         "ubos-repo" : {},
         "ubos-tools" : {},
         "webapptest" : {}
