@@ -120,6 +120,7 @@
         "python" : {},
         "python-dbus-common" : {},
         "python-pyasn1" : {},
+        "python-setuptools" : {},
         "python2" : {},
         "python2-chardet" : {},
         "python2-dbus" : {},
