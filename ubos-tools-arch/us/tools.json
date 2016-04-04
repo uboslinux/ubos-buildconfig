@@ -8,6 +8,7 @@
         "botocore" : {},
         "jmespath" : {},
         "pacsane" : {},
+        "s3transfer" : {},
         "ubos-misc-tools" : {},
         "ubos-push" : {},
         "ubos-repo" : {},
