@@ -4,7 +4,6 @@
     "branch" : "master",
 
     "packages" : {
-        "perl-log-journald" : {},
-        "perl-net-amazon-s3" : {}
+        "perl-log-journald" : {}
     }
 }
