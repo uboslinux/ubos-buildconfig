@@ -82,6 +82,7 @@
         "nftables" : {},
         "nss-mdns" : {},
         "ntp" : {},
+        "ocl-icd" : {},
         "pango" : {},
         "parted" : {},
         "perl-archive-zip" : {},
