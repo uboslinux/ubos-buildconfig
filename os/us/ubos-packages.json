@@ -5,6 +5,7 @@
 
     "packages" : {
         "amazonses" : {},
+        "amazons3" : {},
         "cloud-init" : {
             "archs" : [
                 "x86_64"
