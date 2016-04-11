@@ -2,7 +2,9 @@
     "url"    : "https://github.com/uboslinux/macrobuild-ubos",
     "type"   : "git",
     "branch" : "master",
-    
+
+    "overlap-bucket" : "ubos-tools-arch",
+
     "packages" : {
         "." : {}
     }

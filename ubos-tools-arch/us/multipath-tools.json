@@ -3,6 +3,8 @@
 
     "type" : "download",
 
+    "overlap-bucket" : "ubos-tools-arch",
+
     "packages" : {
         "multipath-tools" : {}
     }

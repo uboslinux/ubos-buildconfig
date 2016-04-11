@@ -3,6 +3,8 @@
     "type"   : "git",
     "branch" : "master",
     
+    "overlap-bucket" : "ubos-tools-arch",
+
     "packages" : {
         "." : {}
     }
