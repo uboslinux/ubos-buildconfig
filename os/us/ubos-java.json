@@ -5,6 +5,7 @@
 
     "packages" : {
         "diet4j" : {},
+        "log4j-systemd-journal-appender" : {},
         "mysql-connector-java" : {}
     }
 }
