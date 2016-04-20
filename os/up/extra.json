@@ -120,6 +120,7 @@
         "postgresql-libs" : {},
         "python" : {},
         "python-dbus-common" : {},
+        "python-lxml" : {},
         "python-packaging" : {},
         "python-pyasn1" : {},
         "python-setuptools" : {},
