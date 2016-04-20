@@ -21,6 +21,7 @@
         "python-docutils" : {},
         "python-pillow" : {},
         "python-psycopg2" : {},
+        "python-pyparsing" : {},
         "python-rsa" : {},
         "python-six" : {},
         "python2-boto" : {},
