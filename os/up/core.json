@@ -33,6 +33,7 @@
         "dbus" : {},
         "device-mapper" : {},
         "dhcpcd" : {},
+        "dialog" : {},
         "diffutils" : {},
         "ding-libs" : {},
         "dnssec-anchors" : {},
