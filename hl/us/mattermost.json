@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-mattermost",
+    "type"   : "git",
+    "branch" : "master",
+
+    "archs" : [
+        "x86_64",
+    ],
+
+    "packages" : {
+        "mattermost" : {}
+    }
+}
