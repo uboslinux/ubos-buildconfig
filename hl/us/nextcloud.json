@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-nextcloud",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "nextcloud9" : {}
+    },
+
+    "webapptests" : [
+        "owncloud/tests/NextCloudTest1.pm"
+    ]
+}
