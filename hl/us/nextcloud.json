@@ -8,6 +8,6 @@
     },
 
     "webapptests" : [
-        "owncloud/tests/NextCloudTest1.pm"
+        "nextcloud9/tests/NextCloudTest1.pm"
     ]
 }
