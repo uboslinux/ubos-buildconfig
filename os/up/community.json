@@ -63,6 +63,7 @@
         "python2-zope-event" : {},
         "rng-tools" : {},
         "ruby-rack" : {},
+        "runc" : {},
         "snapper" : {},
         "wireshark-cli" : {}
     }
