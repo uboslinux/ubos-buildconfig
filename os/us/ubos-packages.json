@@ -12,6 +12,7 @@
             ]
         },
         "dnsmasq" : {},
+        "mod_xsendfile" : {},
         "netatalk" : {},
         "zerotier-one" : {}
     }
