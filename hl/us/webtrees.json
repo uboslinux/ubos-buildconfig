@@ -7,7 +7,7 @@
         "webtrees" : {}
     },
 
-    "webapptests" : [
-        "webtrees/tests/WebTreesTest1.pm"
-    ]
+    "webapptests" : {
+        "webtrees/tests/WebTreesTest1.pm" : {}
+    }
 }

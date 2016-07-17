@@ -7,7 +7,7 @@
         "selfoss" : {}
     },
 
-    "webapptests" : [
-        "selfoss/tests/Selfoss1Test.pm"
-    ]
+    "webapptests" : {
+        "selfoss/tests/Selfoss1Test.pm" : {}
+    }
 }

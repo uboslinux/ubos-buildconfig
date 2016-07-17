@@ -10,7 +10,7 @@ for some maturation.
         "mediagoblin" : {}
     },
 
-    "webapptests" : [
-        "mediagoblin/tests/MediagoblinTest1.pm"
-    ]
+    "webapptests" : {
+        "mediagoblin/tests/MediagoblinTest1.pm" : {}
+    }
 }

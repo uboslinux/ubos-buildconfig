@@ -7,7 +7,7 @@
         "shaarli" : {}
     },
 
-    "webapptests" : [
-        "shaarli/tests/Shaarli1Test.pm"
-    ]
+    "webapptests" : {
+        "shaarli/tests/Shaarli1Test.pm" : {}
+    }
 }

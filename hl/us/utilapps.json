@@ -7,9 +7,9 @@
         "redirect" : {}
     },
 
-    "webapptests" : [
-        "redirect/tests/RedirectTest1.pm",
-        "redirect/tests/RedirectTest2.pm",
-        "redirect/tests/RedirectTest3.pm"
-    ]
+    "webapptests" : {
+        "redirect/tests/RedirectTest1.pm" : {},
+        "redirect/tests/RedirectTest2.pm" : {},
+        "redirect/tests/RedirectTest3.pm" : {}
+    }
 }

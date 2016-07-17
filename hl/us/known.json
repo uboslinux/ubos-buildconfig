@@ -7,7 +7,7 @@
         "known" : {}
     },
 
-    "webapptests" : [
-        "known/tests/KnownTest1.pm"
-    ]
+    "webapptests" : {
+        "known/tests/KnownTest1.pm" : {}
+    }
 }

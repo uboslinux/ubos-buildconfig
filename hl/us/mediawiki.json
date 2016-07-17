@@ -8,7 +8,7 @@
         "mediawiki-ext-confirmaccount" : {}
     },
 
-    "webapptests" : [
-        "mediawiki/tests/MediawikiTest1.pm"
-    ]
+    "webapptests" : {
+        "mediawiki/tests/MediawikiTest1.pm" : {}
+    }
 }

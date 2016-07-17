@@ -7,7 +7,7 @@
         "nextcloud9" : {}
     },
 
-    "webapptests" : [
-        "nextcloud9/tests/NextCloudTest1.pm"
-    ]
+    "webapptests" : {
+        "nextcloud9/tests/NextCloudTest1.pm" : {}
+    }
 }

@@ -10,7 +10,7 @@
         "wordpress-plugin-webmention" : {}
     },
 
-    "webapptests" : [
-        "wordpress/tests/WordpressTest1.pm"
-    ]
+    "webapptests" : {
+        "wordpress/tests/WordpressTest1.pm" : {}
+    }
 }

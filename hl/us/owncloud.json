@@ -7,7 +7,7 @@
         "owncloud" : {}
     },
 
-    "webapptests" : [
-        "owncloud/tests/OwnCloud1Test.pm"
-    ]
+    "webapptests" : {
+        "owncloud/tests/OwnCloud1Test.pm" : {}
+    }
 }
