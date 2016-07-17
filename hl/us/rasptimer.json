@@ -10,5 +10,9 @@
 
     "packages" : {
         "." : {}
+    },
+
+    "webapptests" : {
+        "rasptimer/tests/RasptimerTest1.pm" : {}
     }
 }
