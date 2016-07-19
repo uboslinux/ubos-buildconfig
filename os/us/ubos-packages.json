@@ -14,6 +14,7 @@
         "dnsmasq" : {},
         "mod_xsendfile" : {},
         "netatalk" : {},
+        "ubos-live" : {},
         "zerotier-one" : {}
     }
 }

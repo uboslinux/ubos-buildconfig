@@ -6,6 +6,7 @@
     "packages" : {
         "helloworld" : {},
         "gladiwashere" : {},
+        "gladiwashere-footer" : {},
         "gladiwashere-java" : {},
         "gladiwashere-postgresql" : {}
     },
