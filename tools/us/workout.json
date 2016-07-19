@@ -25,5 +25,5 @@
         "workout-symlink1/tests/WorkoutSymlink1Test1.pm" : {},
         "workout-tree1/tests/WorkoutTree1Test1.pm" : {},
         "workout-tree2/tests/WorkoutTree2Test1.pm" : {}
-    ]
+    }
 }
