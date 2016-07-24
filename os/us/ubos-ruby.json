@@ -4,6 +4,7 @@
     "branch" : "master",
 
     "packages" : {
-        "ruby-bundler" : {}
+        "ruby-bundler" : {},
+        "ruby-mysql" : {}
     }
 }
