@@ -9,6 +9,7 @@
         "certbot-apache" : {},
         "containerd" : {},
         "iotop" : {},
+        "libuv" : {},
         "mod_wsgi2" : {},
         "nodejs" : {},
         "ntop" : {},
