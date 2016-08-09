@@ -8,6 +8,7 @@
         "certbot" : {},
         "certbot-apache" : {},
         "containerd" : {},
+        "http-parser" : {},
         "iotop" : {},
         "libuv" : {},
         "mod_wsgi2" : {},
