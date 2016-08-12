@@ -13,6 +13,6 @@
     },
 
     "webapptests" : {
-        "rasptimer/tests/RasptimerTest1.pm" : {}
+        "tests/RasptimerTest1.pm" : {}
     }
 }
