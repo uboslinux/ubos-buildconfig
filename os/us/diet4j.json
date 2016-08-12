@@ -1,0 +1,12 @@
+{
+    "url"    : "https://github.com/diet4j",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "diet4j" : {}
+    }
+}
+
+
+
