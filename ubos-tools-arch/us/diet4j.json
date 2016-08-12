@@ -1,11 +1,11 @@
 {
-    "url"    : "https://github.com/uboslinux/ubos-java",
+    "url"    : "https://github.com/diet4j/diet4j",
     "type"   : "git",
     "branch" : "master",
 
     "overlap-bucket" : "ubos-tools-arch",
 
     "packages" : {
-        "diet4j" : {}
+        "." : {}
     }
 }
