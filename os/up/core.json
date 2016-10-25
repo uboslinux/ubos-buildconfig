@@ -102,6 +102,7 @@
         "librpcsecgss" : {},
         "libsasl" : {},
         "libseccomp" : {},
+        "libsecret" : {},
         "libssh2" : {},
         "libsystemd" : {},
         "libtasn1" : {},
