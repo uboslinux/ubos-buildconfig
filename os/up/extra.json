@@ -51,8 +51,6 @@
         "libjpeg-turbo" : {},
         "liblqr" : {},
         "libmariadbclient" : {},
-        "libmnl" : {},
-        "libnftnl" : {},
         "libomxil-bellagio" : {},
         "libpng" : {},
         "libsm" : {},
