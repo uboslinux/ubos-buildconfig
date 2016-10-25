@@ -4,10 +4,12 @@
     "branch" : "master",
 
     "packages" : {
+        "nextcloud9" : {},
         "nextcloud9" : {}
     },
 
     "webapptests" : {
-        "nextcloud9/tests/NextcloudTest1.pm" : {}
+        "nextcloud9/tests/NextcloudTest1.pm" : {},
+        "nextcloud10/tests/NextcloudTest1.pm" : {}
     }
 }

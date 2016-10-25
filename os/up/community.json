@@ -8,6 +8,7 @@
         "certbot" : {},
         "certbot-apache" : {},
         "containerd" : {},
+        "ddclient" : {},
         "http-parser" : {},
         "iotop" : {},
         "libuv" : {},

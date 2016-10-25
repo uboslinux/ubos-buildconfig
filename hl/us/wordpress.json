@@ -5,9 +5,13 @@
 
     "packages" : {
         "wordpress" : {},
+        "wordpress-plugin-google-analytics-for-wordpress" : {},
         "wordpress-plugin-semantic-linkbacks" : {},
         "wordpress-plugin-social" : {},
-        "wordpress-plugin-webmention" : {}
+        "wordpress-plugin-webmention" : {},
+        "wordpress-theme-p2" : {},
+        "wordpress-theme-pinboard" : {},
+        "wordpress-theme-responsive" : {}
     },
 
     "webapptests" : {
