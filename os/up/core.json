@@ -139,6 +139,11 @@
             ]
         },
         "linux-firmware" : {},
+        "linux-headers" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "linux-raspberrypi" : {
             "archs" : [
                 "armv6h",

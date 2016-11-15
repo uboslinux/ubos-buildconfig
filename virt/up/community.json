@@ -8,8 +8,10 @@
         "virtualbox" : {},
         "virtualbox-ext-vnc" : {},
         "virtualbox-guest-dkms" : {},
+        "virtualbox-guest-modules-arch" : {},
         "virtualbox-guest-utils" : {},
         "virtualbox-host-dkms" : {}
+        "virtualbox-host-modules-arch" : {}
     }
 }
 
