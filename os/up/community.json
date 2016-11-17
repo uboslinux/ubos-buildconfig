@@ -2,6 +2,7 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
+        "arm" : {},
         "arp-scan" : {},
         "at" : {},
         "augeas" : {},
