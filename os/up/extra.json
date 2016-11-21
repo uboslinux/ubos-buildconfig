@@ -10,6 +10,7 @@
         "bind-tools" : {},
         "boost" : {},
         "boost-libs" : {},
+        "c-ares" : {},
         "cairo" : {},
         "cifs-utils" : {},
         "dkms" : {},
