@@ -1,6 +1,3 @@
-The current installation instructions from mediagoblin.org are
-too brittle to automate sufficiently well for UBOS. We will wait
-for some maturation.
 {
     "url"    : "https://github.com/uboslinux/ubos-mediagoblin",
     "type"   : "git",
