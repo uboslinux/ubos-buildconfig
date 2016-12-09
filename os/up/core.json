@@ -100,6 +100,7 @@
         "libnl" : {},
         "libpcap" : {},
         "libpipeline" : {},
+        "libpsl" : {},
         "librpcsecgss" : {},
         "libsasl" : {},
         "libseccomp" : {},
