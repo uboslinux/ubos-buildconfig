@@ -12,7 +12,6 @@
         "ddclient" : {},
         "http-parser" : {},
         "iotop" : {},
-        "libuv" : {},
         "mod_wsgi2" : {},
         "nodejs" : {},
         "npm" : {},
