@@ -1,0 +1,10 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-packages",
+    "type"   : "git",
+    "branch" : "master",
+
+    "packages" : {
+        "ubos-live" : {},
+        "zerotier-one" : {}
+    }
+}
