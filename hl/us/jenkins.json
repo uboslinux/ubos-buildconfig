@@ -1,0 +1,17 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-jenkins",
+    "type"   : "git",
+    "branch" : "master",
+
+    "archs" : [
+        "x86_64",
+        "armv7l"
+    ],
+
+    "remove-packages" : {
+        "jenkins" : {},
+        "jenkins-plugin-git" : {},
+        "jenkins-plugin-git-client" : {},
+        "jenkins-plugin-scm-api" : {}
+    }
+}
