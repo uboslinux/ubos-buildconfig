@@ -5,11 +5,13 @@
 
     "packages" : {
         "nextcloud9" : {},
-        "nextcloud10" : {}
+        "nextcloud10" : {},
+        "nextcloud11" : {}
     },
 
     "webapptests" : {
         "nextcloud9/tests/NextcloudTest1.pm" : {},
-        "nextcloud10/tests/NextcloudTest1.pm" : {}
+        "nextcloud10/tests/NextcloudTest1.pm" : {},
+        "nextcloud11/tests/NextcloudTest1.pm" : {}
     }
 }
