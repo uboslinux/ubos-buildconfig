@@ -8,25 +8,13 @@
                 "armv7h"
             ]
         },
-        "raspberrypi-firmware-bootloader" : {
+        "raspberrypi-bootloader" : {
             "archs" : [
                 "armv6h",
                 "armv7h"
             ]
         },
-        "raspberrypi-firmware-bootloader-x" : {
-            "archs" : [
-                "armv6h",
-                "armv7h"
-            ]
-        },
-        "raspberrypi-firmware-examples" : {
-            "archs" : [
-                "armv6h",
-                "armv7h"
-            ]
-        },
-        "raspberrypi-firmware-tools" : {
+        "raspberrypi-bootloader-x" : {
             "archs" : [
                 "armv6h",
                 "armv7h"
@@ -54,5 +42,11 @@
                 "armv7h"
             ]
         }
+    },
+    "remove-packages" : {
+        "raspberrypi-firmware-bootloader" : {},
+        "raspberrypi-firmware-bootloader-x" : {},
+        "raspberrypi-firmware-examples" : {},
+        "raspberrypi-firmware-tools" : {}
     }
 }
