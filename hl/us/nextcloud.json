@@ -4,9 +4,15 @@
     "branch" : "master",
 
     "packages" : {
-        "nextcloud9" : {},
         "nextcloud10" : {},
-        "nextcloud11" : {}
+        "nextcloud11" : {},
+        "nextcloud-calendar" : {},
+        "nextcloud-contacts" : {},
+        "nextcloud-mail" : {},
+        "nextcloud-news" : {},
+        "nextcloud-notes" : {},
+        "nextcloud-spreed" : {},
+        "nextcloud-tasks" : {}
     },
 
     "webapptests" : {
