@@ -1,7 +1,7 @@
 {
     "url"    : "https://github.com/uboslinux/ubos-mediagoblin",
     "type"   : "git",
-    "branch" : "master",
+    "branch" : "${branch}",
 
     "remove-packages" : {
         "mediagoblin" : {}

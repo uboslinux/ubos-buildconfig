@@ -1,7 +1,7 @@
 {
     "url"    : "https://github.com/uboslinux/ubos-webtrees",
     "type"   : "git",
-    "branch" : "master",
+    "branch" : "${branch}",
 
     "packages" : {
         "webtrees" : {}

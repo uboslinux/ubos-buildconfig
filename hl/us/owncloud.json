@@ -1,7 +1,7 @@
 {
     "url"    : "https://github.com/uboslinux/ubos-owncloud",
     "type"   : "git",
-    "branch" : "master",
+    "branch" : "${branch}",
 
     "packages" : {
         "owncloud" : {}

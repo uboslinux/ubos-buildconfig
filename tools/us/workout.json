@@ -1,7 +1,7 @@
 {
     "url"    : "https://github.com/uboslinux/ubos-workout",
     "type"   : "git",
-    "branch" : "master",
+    "branch" : "${branch}",
 
     "packages" : {
         "workout-dir1" : {},

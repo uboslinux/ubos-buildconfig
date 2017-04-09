@@ -1,7 +1,7 @@
 {
     "url"    : "https://github.com/uboslinux/ubos-perl",
     "type"   : "git",
-    "branch" : "master",
+    "branch" : "${branch}",
 
     "overlap-bucket" : "ubos-tools-arch",
 
