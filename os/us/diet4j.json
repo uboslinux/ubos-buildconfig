@@ -1,7 +1,7 @@
 {
     "url"    : "https://github.com/diet4j/diet4j",
     "type"   : "git",
-    "branch" : "${branch}",
+    "branch" : "master",
 
     "packages" : {
         "." : {}
