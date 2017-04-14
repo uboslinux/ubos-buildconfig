@@ -175,6 +175,7 @@
         "vim" : {},
         "vim-runtime" : {},
         "xcb-proto" : {},
+        "xcb-util-renderutil" : {},
         "xdg-utils" : {},
         "xextproto" : {},
         "xorg-fonts-encodings" : {},
