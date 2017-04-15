@@ -4,7 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "nextcloud10" : {},
         "nextcloud11" : {},
         "nextcloud-calendar" : {},
         "nextcloud-contacts" : {},
@@ -13,10 +12,5 @@
         "nextcloud-notes" : {},
         "nextcloud-spreed" : {},
         "nextcloud-tasks" : {}
-    },
-
-    "webapptests" : {
-        "nextcloud9/tests/NextcloudTest1.pm" : {},
-        "nextcloud10/tests/NextcloudTest1.pm" : {}
     }
 }
