@@ -13,10 +13,6 @@
         "wordpress-theme-responsive" : {}
     },
 
-    "remove-packages" : {
-        "wordpress-plugin-social" : {},
-    },
-
     "webapptests" : {
         "wordpress/tests/WordpressTest1.pm" : {}
     }
