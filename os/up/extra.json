@@ -47,6 +47,7 @@
         "libcups" : {},
         "libdaemon" : {},
         "libfontenc" : {},
+        "libglvnd" : {},
         "libice" : {},
         "libjpeg-turbo" : {},
         "liblqr" : {},
