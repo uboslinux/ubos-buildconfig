@@ -52,6 +52,7 @@
         "libjpeg-turbo" : {},
         "liblqr" : {},
         "libmariadbclient" : {},
+        "libnghttp2" : {},
         "libomxil-bellagio" : {},
         "libpng" : {},
         "libsm" : {},
