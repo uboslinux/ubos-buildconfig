@@ -25,6 +25,11 @@
                 "armv7h"
             ]
         },
+        "uboot-espressobin" : {
+            "archs" : [
+                "aarch64"
+            ]
+        },
         "uboot-pcduino3" : {
             "archs" : [
                 "armv7h"

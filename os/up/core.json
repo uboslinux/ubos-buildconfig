@@ -97,6 +97,7 @@
         "libmnl" : {},
         "libmpc" : {},
         "libnftnl" : {},
+        "libnghttp2" : {},
         "libnl" : {},
         "libpcap" : {},
         "libpipeline" : {},
@@ -138,6 +139,16 @@
         "linux-armv7-headers" : {
             "archs" : [
                 "armv7h"
+            ]
+        },
+        "linux-espressobin" : {
+            "archs" : [
+                "aarch64"
+            ]
+        },
+        "linux-espressobin-headers" : {
+            "archs" : [
+                "aarch64"
             ]
         },
         "linux-firmware" : {},
