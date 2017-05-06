@@ -38,7 +38,8 @@
         "uboot-tools" : {
             "archs" : [
                 "armv6h",
-                "armv7h"
+                "armv7h",
+                "aarch64"
             ]
         },
         "wiringpi" : {
