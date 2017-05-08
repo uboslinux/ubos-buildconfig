@@ -12,6 +12,11 @@
             ]
         },
         "dnsmasq" : {},
+        "espressobin-uboot-config" : {
+            "archs" : [
+                "aarch64"
+            ]
+        },
         "mod_xsendfile" : {},
         "netatalk" : {}
     }
