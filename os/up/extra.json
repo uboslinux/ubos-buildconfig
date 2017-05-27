@@ -78,6 +78,7 @@
         "libxslt" : {},
         "libxt" : {},
         "libyaml" : {},
+        "lm_sensors" : {},
         "libzip" : {},
         "lsof" : {},
         "lua" : {},
