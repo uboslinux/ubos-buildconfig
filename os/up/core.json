@@ -194,7 +194,6 @@
         "openresolv" : {},
         "openssh" : {},
         "openssl" : {},
-        "openssl-1.0" : {},
         "openvpn" : {},
         "p11-kit" : {},
         "pacman" : {},
