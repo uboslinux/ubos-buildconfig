@@ -12,6 +12,7 @@
         "ddclient" : {},
         "http-parser" : {},
         "iotop" : {},
+        "mod_wsgi" : {},
         "mod_wsgi2" : {},
         "nodejs" : {},
         "npm" : {},
