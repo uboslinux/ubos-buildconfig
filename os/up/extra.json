@@ -57,6 +57,7 @@
         "liblqr" : {},
         "libmariadbclient" : {},
         "libnetfilter_conntrack" : {},
+        "libnfnetlink" : {},
         "libomxil-bellagio" : {},
         "libpng" : {},
         "libsm" : {},
