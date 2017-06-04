@@ -154,6 +154,7 @@
         "python2-idna" : {},
         "python2-ipaddress" : {},
         "python2-lxml" : {},
+        "python2-markupsafe" : {},
         "python2-packaging" : {},
         "python2-pip" : {},
         "python2-ply" : {},
