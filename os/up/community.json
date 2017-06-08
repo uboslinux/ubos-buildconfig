@@ -11,6 +11,7 @@
         "containerd" : {},
         "ddclient" : {},
         "http-parser" : {},
+        "i2c-tools" : {},
         "iotop" : {},
         "mod_wsgi" : {},
         "mod_wsgi2" : {},

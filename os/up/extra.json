@@ -82,6 +82,7 @@
         "libyaml" : {},
         "lm_sensors" : {},
         "libzip" : {},
+        "lm_sensors" : {},
         "lsof" : {},
         "lua" : {},
         "lua52" : {},
