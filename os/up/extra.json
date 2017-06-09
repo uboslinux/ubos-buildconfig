@@ -158,6 +158,7 @@
         "python-zope-interface" : {},
         "python2" : {},
         "python2-appdirs" : {},
+        "python2-asn1crypto" : {},
         "python2-cffi" : {},
         "python2-chardet" : {},
         "python2-cryptography" : {},
