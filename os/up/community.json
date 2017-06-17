@@ -13,6 +13,7 @@
         "http-parser" : {},
         "i2c-tools" : {},
         "iotop" : {},
+        "libsodium" : {},
         "mod_wsgi" : {},
         "mod_wsgi2" : {},
         "nodejs" : {},
