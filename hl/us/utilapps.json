@@ -4,6 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "docroot" : {},
         "redirect" : {}
     },
 
