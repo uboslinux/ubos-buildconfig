@@ -60,6 +60,7 @@
         "python2-enum34" : {},
         "python2-funcsigs" : {},
         "python2-functools32" : {},
+        "python2-future" : {},
         "python2-jinja" : {},
         "python2-jsonpatch" : {},
         "python2-jsonpointer" : {},
