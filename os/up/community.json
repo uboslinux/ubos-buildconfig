@@ -10,6 +10,7 @@
         "certbot-apache" : {},
         "containerd" : {},
         "ddclient" : {},
+        "gpac" : {},
         "http-parser" : {},
         "i2c-tools" : {},
         "iotop" : {},
