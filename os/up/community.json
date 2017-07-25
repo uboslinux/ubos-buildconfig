@@ -12,6 +12,7 @@
         "ddclient" : {},
         "gpac" : {},
         "http-parser" : {},
+        "hostapd" : {},
         "i2c-tools" : {},
         "iotop" : {},
         "libsodium" : {},
