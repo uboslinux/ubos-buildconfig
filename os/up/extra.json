@@ -135,7 +135,6 @@
         "ocl-icd" : {},
         "opencore-amr" : {},
         "openjpeg2" : {},
-        "openssl-1.0" : {},
         "opus" : {},
         "pango" : {},
         "parted" : {},
@@ -263,5 +262,8 @@
         "zip" : {},
         "zita-alsa-pcmi" : {},
         "zita-resampler" : {}
+    },
+    "remove-packages" : {
+        "openssl-1.0" : {}
    }
 }
