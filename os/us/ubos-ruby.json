@@ -4,7 +4,29 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "ruby-actioncable" : {},
+        "ruby-actionpack" : {},
+        "ruby-actionview" : {},
+        "ruby-activejob" : {},
+        "ruby-activemodel" : {},
+        "ruby-activesupport" : {},
         "ruby-bundler" : {},
-        "ruby-mysql" : {}
+        "ruby-concurrent-ruby" : {},
+        "ruby-erubi" : {},
+        "ruby-erubis" : {},
+        "ruby-globalid" : {},
+        "ruby-i18n" : {},
+        "ruby-minitest" : {},
+        "ruby-mysql" : {},
+        "ruby-rack-test-0.6" : {},
+        "ruby-rails" : {},
+        "ruby-rails-mine" : {},
+        "ruby-railties" : {},
+        "ruby-sprockets" : {},
+        "ruby-sprockets-rails" : {},
+        "ruby-thread_safe" : {},
+        "ruby-tzinfo" : {},
+        "ruby-websocket-driver" : {},
+        "ruby-websocket-extensions" : {}
     }
 }
