@@ -90,7 +90,7 @@
         "python2-zope-component" : {},
         "python2-zope-event" : {},
         "rng-tools" : {},
-        "ruby-rack" : {},
+        "ruby-bundler" : {},
         "runc" : {},
         "semver" : {},
         "snapper" : {},
