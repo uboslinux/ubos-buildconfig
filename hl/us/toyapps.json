@@ -7,8 +7,8 @@
         "gladiwashere-java-mysql" : {},
         "gladiwashere-php-mysql" : {},
         "gladiwashere-php-mysql-footer" : {},
-        "gladiwashere-php-postgresql" : {}
-        "gladiwashere-python-mysql" : {}
+        "gladiwashere-php-postgresql" : {},
+        "gladiwashere-python-mysql" : {},
         "helloworld" : {},
         "ruby-rails-blog" : {}
     },
