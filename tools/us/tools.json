@@ -6,6 +6,7 @@
     "packages" : {
         "aws-cli" : {},
         "botocore" : {},
+        "git-360" : {},
         "jmespath" : {},
         "pacsane" : {},
         "s3transfer" : {},
@@ -15,5 +16,8 @@
         "ubos-scaffold" : {},
         "ubos-tools" : {},
         "webapptest" : {}
+    },
+    "remove-packages" : {
+        "ubos-misc-tools" : {},
     }
 }
