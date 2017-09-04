@@ -11,8 +11,8 @@
         "ubos-networking" : {},
         "ubos-networking-client" : {},
         "ubos-networking-cloud" : {},
+        "ubos-networking-container" : {},
         "ubos-networking-gateway" : {},
-        "ubos-networking-nspawn-container" : {},
         "ubos-networking-standalone" : {},
         "ubos-perl-utils" : {}
     }

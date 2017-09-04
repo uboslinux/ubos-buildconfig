@@ -14,6 +14,7 @@
         "ubos-misc-tools" : {},
         "ubos-push" : {},
         "ubos-repo" : {},
+        "ubos-scaffold" : {},
         "ubos-tools-arch" : {},
         "webapptest" : {}
     }
