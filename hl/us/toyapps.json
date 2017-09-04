@@ -4,17 +4,20 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "gladiwashere-java-mysql" : {},
+        "gladiwashere-php-mysql" : {},
+        "gladiwashere-php-mysql-footer" : {},
+        "gladiwashere-php-postgresql" : {}
+        "gladiwashere-python-mysql" : {}
         "helloworld" : {},
-        "gladiwashere" : {},
-        "gladiwashere-footer" : {},
-        "gladiwashere-java" : {},
-        "gladiwashere-postgresql" : {}
+        "ruby-rails-blog" : {}
     },
 
     "webapptests" : {
-        "gladiwashere/tests/GladIWasHere1Test.pm" : {},
-        "gladiwashere-postgresql/tests/GladIWasHerePostgresql1Test.pm" : {},
-        "gladiwashere-java/tests/GladIWasHereJava1Test.pm" : {
+        "gladiwashere-php-mysql/tests/GladIWasHerePhpMysql1Test.pm" : {},
+        "gladiwashere-php-postgresql/tests/GladIWasHerePhpPostgresql1Test.pm" : {},
+        "gladiwashere-python-mysql/tests/GladIWasHerePythonMysql1Test.pm" : {},
+        "gladiwashere-java-mysql/tests/GladIWasHereJavaMysql1Test.pm" : {
             "archs" : [
                 "x86_64"
             ]
