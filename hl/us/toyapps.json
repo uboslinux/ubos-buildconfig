@@ -12,6 +12,12 @@
         "helloworld" : {},
         "ruby-rails-blog" : {}
     },
+    "remove-packages" : {
+        "gladiwashere" : {},
+        "gladiwashere-footer" : {},
+        "gladiwashere-java" : {},
+        "gladiwashere-postgresql" : {}
+    },
 
     "webapptests" : {
         "gladiwashere-php-mysql/tests/GladIWasHerePhpMysql1Test.pm" : {},
