@@ -262,8 +262,5 @@
         "zip" : {},
         "zita-alsa-pcmi" : {},
         "zita-resampler" : {}
-    },
-    "remove-packages" : {
-        "openssl-1.0" : {}
-   }
+    }
 }
