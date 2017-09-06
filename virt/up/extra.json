@@ -18,7 +18,6 @@
         "libxkbcommon-x11" : {},
         "libxkbcommon" : {},
         "libxcomposite" : {},
-        "libxcursor" : {},
         "libxdamage" : {},
         "libxfont" : {},
         "libxinerama" : {},
