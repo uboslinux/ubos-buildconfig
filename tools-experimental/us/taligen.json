@@ -1,9 +1,9 @@
 {
-    "url"    : "https://github.com/taligen",
+    "url"    : "https://github.com/taligen/taligen",
     "type"   : "git",
     "branch" : "${branch}",
 
     "packages" : {
-        "taligen" : {}
+        "." : {}
     }
 }
