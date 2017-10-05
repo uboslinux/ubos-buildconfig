@@ -154,7 +154,10 @@
         "linux-espressobin-headers" : {
             "archs" : [
                 "aarch64"
-            ]
+            ],
+            "dev" : {
+                "version" : "4.4.71-1",
+            }
         },
         "linux-firmware" : {},
         "linux-headers" : {
