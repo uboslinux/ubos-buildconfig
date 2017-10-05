@@ -145,7 +145,11 @@
         "linux-espressobin" : {
             "archs" : [
                 "aarch64"
-            ]
+            ],
+            "dev" : {
+                "version" : "4.4.71-1",
+                "comment" : "The current kernel is much better, but systemd-networkd cannot bring up the ports on the first try. So we keep this back."
+            }
         },
         "linux-espressobin-headers" : {
             "archs" : [
