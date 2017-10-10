@@ -1,0 +1,19 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-toyapps",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "remove-packages" : {
+        "gladiwashere" : {},
+        "gladiwashere-footer" : {},
+        "gladiwashere-java" : {},
+        "gladiwashere-java-mysql" : {},
+        "gladiwashere-php-mysql" : {},
+        "gladiwashere-php-mysql-footer" : {},
+        "gladiwashere-php-postgresql" : {},
+        "gladiwashere-postgresql" : {}
+        "gladiwashere-python-mysql" : {},
+        "helloworld" : {},
+        "ruby-rails-blog" : {}
+    }
+}
