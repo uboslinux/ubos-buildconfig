@@ -41,7 +41,11 @@
         "idnkit" : {},
         "imagemagick" : {},
         "inputproto" : {},
-        "intel-ucode" : {},
+        "intel-ucode" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "jack" : {},
         "java-commons-daemon" : {},
         "java-environment-common" : {},
