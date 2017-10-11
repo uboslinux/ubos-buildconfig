@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-ruby",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "ubos-rails-support" : {}
+    }
+}
