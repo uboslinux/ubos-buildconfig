@@ -10,7 +10,10 @@
         "gladiwashere-php-postgresql" : {},
         "gladiwashere-python-mysql" : {},
         "helloworld" : {},
-        "ruby-rails-blog" : {}
+        "ruby-rails-blog" : {},
+        "wollmilchsau" : {},
+        "wollmilchsau-one" : {},
+        "wollmilchsau-two" : {}
     },
     "remove-packages" : {
         "gladiwashere" : {},
