@@ -20,5 +20,9 @@
         "ubos-networking-gateway" : {},
         "ubos-networking-standalone" : {},
         "ubos-perl-utils" : {}
+    },
+
+    "remove-packages" : {
+        "ubos-networking-nspawn-container" : {}
     }
 }
