@@ -5,7 +5,8 @@
 
     "archs" : [
         "x86_64",
-        "armv7l"
+        "armv7l",
+        "aarch64"
     ],
 
     "packages" : {

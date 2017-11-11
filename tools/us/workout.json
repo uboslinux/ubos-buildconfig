@@ -3,7 +3,7 @@
     "type"   : "git",
     "branch" : "${branch}",
 
-    "packages" : {
+    "remove-packages" : {
         "workout-dir1" : {},
         "workout-file1" : {},
         "workout-file2" : {},
@@ -13,17 +13,5 @@
         "workout-symlink1" : {},
         "workout-tree1" : {},
         "workout-tree2" : {}
-    },
-
-    "webapptests" : {
-        "workout-dir1/tests/WorkoutDir1Test1.pm" : {},
-        "workout-file1/tests/WorkoutFile1Test1.pm" : {},
-        "workout-file2/tests/WorkoutFile2Test1.pm" : {},
-        "workout-mysql1/tests/WorkoutMysql1Test1.pm" : {},
-        "workout-mysql2/tests/WorkoutMysql2Test2.pm" : {},
-        "workout-perlscript1/tests/WorkoutPerlscript1Test1.pm" : {},
-        "workout-symlink1/tests/WorkoutSymlink1Test1.pm" : {},
-        "workout-tree1/tests/WorkoutTree1Test1.pm" : {},
-        "workout-tree2/tests/WorkoutTree2Test1.pm" : {}
     }
 }

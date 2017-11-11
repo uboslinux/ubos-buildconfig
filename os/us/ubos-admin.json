@@ -12,8 +12,17 @@
         "ubos-networking-client" : {},
         "ubos-networking-cloud" : {},
         "ubos-networking-container" : {},
+        "ubos-networking-espressobin" : {
+            "archs" : [
+                "aarch64"
+            ]
+        },
         "ubos-networking-gateway" : {},
         "ubos-networking-standalone" : {},
         "ubos-perl-utils" : {}
+    },
+
+    "remove-packages" : {
+        "ubos-networking-nspawn-container" : {}
     }
 }

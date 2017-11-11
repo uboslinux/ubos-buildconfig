@@ -1,0 +1,11 @@
+{
+    "url"    : "https://github.com/taligen/taligen",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "overlap-bucket" : "ubos-tools-arch",
+
+    "packages" : {
+        "." : {}
+    }
+}

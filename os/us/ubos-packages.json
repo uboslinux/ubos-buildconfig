@@ -17,7 +17,9 @@
                 "aarch64"
             ]
         },
+        "f3" : {},
         "mod_xsendfile" : {},
-        "netatalk" : {}
+        "netatalk" : {},
+        "ubos-rsync-server" : {}
     }
 }

@@ -4,7 +4,9 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "ubos-live" : {},
         "zerotier-one" : {}
+    },
+    "remove-packages" : {
+        "ubos-live" : {}
     }
 }

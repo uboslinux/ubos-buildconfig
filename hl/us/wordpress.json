@@ -5,12 +5,26 @@
 
     "packages" : {
         "wordpress" : {},
+        "wordpress-plugin-bridgy-publish" : {},
         "wordpress-plugin-google-analytics-for-wordpress" : {},
+        "wordpress-plugin-indieauth" : {},
+        "wordpress-plugin-indieweb" : {},
+        "wordpress-plugin-indieweb-post-kinds" : {},
+        "wordpress-plugin-micropub" : {},
+        "wordpress-plugin-photo-dropper" : {},
         "wordpress-plugin-semantic-linkbacks" : {},
+        "wordpress-plugin-social-networks-auto-poster-facebook-twitter-g" : {},
+        "wordpress-plugin-syndication-links" : {},
         "wordpress-plugin-webmention" : {},
+        "wordpress-plugin-wp-uf2" : {},
+        "wordpress-theme-independent-publisher" : {},
         "wordpress-theme-p2" : {},
         "wordpress-theme-pinboard" : {},
-        "wordpress-theme-responsive" : {}
+        "wordpress-theme-responsive" : {},
+        "wordpress-theme-sempress" : {},
+        "wordpress-theme-twentyfourteen" : {},
+        "wordpress-theme-twentythirteen" : {},
+        "wordpress-theme-twentytwelve" : {}
     },
 
     "webapptests" : {

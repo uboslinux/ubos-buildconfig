@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/taligen/taliwodo",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "." : {}
+    }
+}
