@@ -49,6 +49,8 @@
         "jemalloc" : {},
         "jre8-openjdk" : {},
         "jre8-openjdk-headless" : {},
+        "jre9-openjdk" : {},
+        "jre9-openjdk-headless" : {},
         "json-c" : {},
         "kbproto" : {},
         "lame" : {},
