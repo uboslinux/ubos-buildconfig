@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-java",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "jboss-logging-java" : {},
+        "jboss-xnio-java" : {},
+        "slf4j" : {},
+        "undertow" : {},
+        "wildfly-common-java" : {}
+    }
+}
