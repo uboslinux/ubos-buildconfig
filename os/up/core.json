@@ -93,6 +93,7 @@
         "libgpg-error" : {},
         "libgssglue" : {},
         "libidn" : {},
+        "libidn2" : {},
         "libksba" : {},
         "libldap" : {},
         "libmnl" : {},
