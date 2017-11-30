@@ -42,6 +42,7 @@
         "dosfstools" : {},
         "e2fsprogs" : {},
         "efibootmgr" : {},
+        "efivar" : {},
         "elfutils" : {},
         "expat" : {},
         "file" : {},
