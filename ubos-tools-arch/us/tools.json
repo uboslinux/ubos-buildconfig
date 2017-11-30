@@ -13,12 +13,12 @@
         "pacsane" : {},
         "s3transfer" : {},
         "ubos-push" : {},
-        "ubos-repo" : {},
         "ubos-scaffold" : {},
         "ubos-tools-arch" : {},
         "webapptest" : {}
     },
     "packages-remove" : {
         "ubos-misc-tools" : {},
+        "ubos-repo" : {},
     }
 }

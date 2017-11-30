@@ -41,6 +41,7 @@
         "dnssec-anchors" : {},
         "dosfstools" : {},
         "e2fsprogs" : {},
+        "efibootmgr" : {},
         "elfutils" : {},
         "expat" : {},
         "file" : {},
