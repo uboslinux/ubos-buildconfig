@@ -1,0 +1,10 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-phpbb",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "phpbb" : {},
+        "phpbb-extension-shareon" : {}
+    }
+}
