@@ -4,7 +4,10 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "known" : {}
+        "known" : {},
+        "known-plugin-linkedin" : {},
+        "known-plugin-mastodon" : {},
+        "known-plugin-wordpress" : {}
     },
 
     "webapptests" : {
