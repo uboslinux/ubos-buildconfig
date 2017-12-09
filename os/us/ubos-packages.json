@@ -12,6 +12,11 @@
             ]
         },
         "dnsmasq" : {},
+        "espressobin-state" : {
+            "archs" : [
+                "aarch64"
+            ]
+        },
         "espressobin-uboot-config" : {
             "archs" : [
                 "aarch64"
