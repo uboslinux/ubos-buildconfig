@@ -2,7 +2,9 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
+        "cmake" : {},
         "git" : {},
+        "go-pie" : {},
         "jdk8-openjdk" : {},
         "jdk9-openjdk" : {},
         "libunwind" : {},

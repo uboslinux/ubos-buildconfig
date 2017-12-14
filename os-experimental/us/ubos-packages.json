@@ -4,6 +4,9 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "bitcoin" : {},
+        "geth" : {},
+        "monero" : {},
         "zerotier-one" : {}
     },
     "remove-packages" : {

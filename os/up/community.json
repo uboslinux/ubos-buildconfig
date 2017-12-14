@@ -11,13 +11,16 @@
         "ckermit" : {},
         "containerd" : {},
         "ddclient" : {},
+        "fstrm" : {},
         "gpac" : {},
         "http-parser" : {},
         "hostapd" : {},
         "i2c-tools" : {},
         "iotop" : {},
+        "libpgm" : {},
         "libsodium" : {},
         "minicom" : {},
+        "miniupnpc" : {},
         "mod_passenger" : {},
         "mod_wsgi" : {},
         "mod_wsgi2" : {},
@@ -91,12 +94,15 @@
         "python2-yaml" : {},
         "python2-zope-component" : {},
         "python2-zope-event" : {},
+        "rhash" : {},
         "rng-tools" : {},
         "ruby-bundler" : {},
         "runc" : {},
         "semver" : {},
         "snapper" : {},
         "tor" : {},
-        "wireshark-cli" : {}
+        "unbound" : {},
+        "wireshark-cli" : {},
+        "zeromq" : {}
     }
 }
