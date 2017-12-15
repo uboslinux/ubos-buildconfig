@@ -89,6 +89,7 @@
         "libpciaccess" : {},
         "libpng" : {},
         "libpulse" : {},
+        "libraqm" : {},
         "libraw1394" : {},
         "libsamplerate" : {},
         "libsm" : {},
