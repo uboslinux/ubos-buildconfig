@@ -68,6 +68,7 @@
         },
         "gssproxy" : {},
         "gzip" : {},
+        "hdparm" : {},
         "hwids" : {},
         "iana-etc" : {},
         "icu" : {},
