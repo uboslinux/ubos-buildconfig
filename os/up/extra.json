@@ -249,6 +249,7 @@
         "tcpdump" : {},
         "tdb" : {},
         "tevent" : {},
+        "tftp" : {},
         "tinycdb" : {},
         "tomcat8" : {},
         "tomcat-native" : {},
