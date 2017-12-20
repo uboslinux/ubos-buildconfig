@@ -44,7 +44,8 @@
         "efibootmgr" : {},
         "efivar" : {
             "archs" : [
-                "x86_64"
+                "x86_64",
+                "aarch64"
             ]
         },
         "elfutils" : {},
