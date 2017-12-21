@@ -27,7 +27,6 @@
         "libxxf86vm" : {},
         "llvm-libs" : {},
         "mtdev" : {},
-        "qt5-base" : {},
         "qt5-x11extras" : {},
         "randrproto" : {},
         "sdl" : {},
@@ -51,6 +50,9 @@
         "xorg-setxkbmap" : {},
         "xorg-xkbcomp" : {},
         "xorg-xrandr" : {}
+    },
+    "remove-packages" : {
+        "qt5-base" : {}
     }
 }
 
