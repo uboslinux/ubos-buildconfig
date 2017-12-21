@@ -19,7 +19,7 @@
         "libxkbcommon" : {},
         "libxcomposite" : {},
         "libxdamage" : {},
-        "libxfont" : {},
+        "libxfont2" : {},
         "libxinerama" : {},
         "libxkbfile" : {},
         "libxrandr" : {},
@@ -52,6 +52,7 @@
         "xorg-xrandr" : {}
     },
     "remove-packages" : {
+        "libxfont" : {},
         "qt5-base" : {}
     }
 }
