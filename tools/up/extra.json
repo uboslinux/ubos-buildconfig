@@ -11,6 +11,7 @@
         "libunwind" : {},
         "perl-inc-latest" : {},
         "perl-module-build" : {},
+        "qt5-tools" : {},
         "shared-mime-info" : {},
         "strace" : {}
     }
