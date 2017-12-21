@@ -24,7 +24,6 @@
         "libxrandr" : {},
         "libxshmfence" : {},
         "libxxf86vm" : {},
-        "protobuf-c" : {},
         "qt5-x11extras" : {},
         "randrproto" : {},
         "sdl" : {},
