@@ -4,7 +4,7 @@
     ],
     "upstreamDir" : "${archUpstreamDir}",
 
-    "remove-packages" : {
+    "packages" : {
         "compositeproto" : {},
         "damageproto" : {},
         "fontsproto" : {},
@@ -12,23 +12,18 @@
         "libevdev" : {},
         "libgudev" : {},
         "libinput" : {},
-        "libproxy" : {},
         "libtxc_dxtn" : {},
         "libwacom" : {},
         "libxkbcommon-x11" : {},
         "libxkbcommon" : {},
         "libxcomposite" : {},
         "libxdamage" : {},
-        "libxfont" : {},
         "libxfont2" : {},
         "libxinerama" : {},
         "libxkbfile" : {},
         "libxrandr" : {},
         "libxshmfence" : {},
         "libxxf86vm" : {},
-        "llvm-libs" : {},
-        "mtdev" : {},
-        "qt5-base" : {}
         "qt5-x11extras" : {},
         "randrproto" : {},
         "sdl" : {},
