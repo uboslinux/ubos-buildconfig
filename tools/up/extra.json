@@ -7,6 +7,7 @@
         "go-pie" : {},
         "jdk8-openjdk" : {},
         "jdk9-openjdk" : {},
+        "jsoncpp" : {},
         "libunwind" : {},
         "perl-inc-latest" : {},
         "perl-module-build" : {},
