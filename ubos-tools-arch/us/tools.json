@@ -10,7 +10,6 @@
         "botocore" : {},
         "git-360" : {},
         "jmespath" : {},
-        "pacsane" : {},
         "s3transfer" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
@@ -18,7 +17,8 @@
         "webapptest" : {}
     },
     "packages-remove" : {
+        "pacsane" : {},
         "ubos-misc-tools" : {},
-        "ubos-repo" : {},
+        "ubos-repo" : {}
     }
 }
