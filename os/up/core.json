@@ -251,6 +251,7 @@
         "wpa_supplicant" : {},
         "xfsprogs" : {},
         "xz" : {},
-        "zlib" : {}
+        "zlib" : {},
+        "zstd" : {}
     }
 }
