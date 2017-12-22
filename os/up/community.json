@@ -13,7 +13,7 @@
         "ddclient" : {},
         "fstrm" : {},
         "gpac" : {},
-        "hiredris" : {},
+        "hiredis" : {},
         "http-parser" : {},
         "hostapd" : {},
         "i2c-tools" : {},
