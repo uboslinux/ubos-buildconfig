@@ -4,6 +4,7 @@
     "packages" : {
         "docker" : {},
         "maven" : {},
-        "ragel" : {}
+        "ragel" : {},
+        "yarn" : {}
     }
 }
