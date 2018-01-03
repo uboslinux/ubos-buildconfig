@@ -12,6 +12,12 @@
             ]
         },
         "dnsmasq" : {},
+        "f3" : {},
+        "mod_xsendfile" : {},
+        "netatalk" : {},
+        "ubos-rsync-server" : {}
+    },
+    "remove-packages" : {
         "espressobin-state" : {
             "archs" : [
                 "aarch64"
@@ -22,9 +28,5 @@
                 "aarch64"
             ]
         },
-        "f3" : {},
-        "mod_xsendfile" : {},
-        "netatalk" : {},
-        "ubos-rsync-server" : {}
     }
 }
