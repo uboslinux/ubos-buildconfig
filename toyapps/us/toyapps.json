@@ -15,12 +15,6 @@
         "wollmilchsau-one" : {},
         "wollmilchsau-two" : {}
     },
-    "remove-packages" : {
-        "gladiwashere" : {},
-        "gladiwashere-footer" : {},
-        "gladiwashere-java" : {},
-        "gladiwashere-postgresql" : {}
-    },
 
     "webapptests" : {
         "gladiwashere-php-mysql/tests/GladIWasHerePhpMysql1Test.pm" : {},

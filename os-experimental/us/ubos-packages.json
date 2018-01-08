@@ -8,8 +8,5 @@
         "geth" : {},
         "monero" : {},
         "zerotier-one" : {}
-    },
-    "remove-packages" : {
-        "ubos-live" : {}
     }
 }

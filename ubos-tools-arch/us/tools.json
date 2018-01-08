@@ -15,10 +15,5 @@
         "ubos-scaffold" : {},
         "ubos-tools-arch" : {},
         "webapptest" : {}
-    },
-    "packages-remove" : {
-        "pacsane" : {},
-        "ubos-misc-tools" : {},
-        "ubos-repo" : {}
     }
 }

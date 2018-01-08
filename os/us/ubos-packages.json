@@ -16,17 +16,5 @@
         "mod_xsendfile" : {},
         "netatalk" : {},
         "ubos-rsync-server" : {}
-    },
-    "remove-packages" : {
-        "espressobin-state" : {
-            "archs" : [
-                "aarch64"
-            ]
-        },
-        "espressobin-uboot-config" : {
-            "archs" : [
-                "aarch64"
-            ]
-        },
     }
 }
