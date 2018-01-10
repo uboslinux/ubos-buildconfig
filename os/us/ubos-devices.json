@@ -4,7 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "espressobin-state" : {
+        "espressobin-ubos-state" : {
             "archs" : [
                 "aarch64"
             ]
@@ -18,6 +18,18 @@
             "archs" : [
                 "x86_64"
             ]
+        },
+        "intel-nuc-ubos-state" : {
+            "archs" : [
+                "x86_64"
+            ]
         }
+    },
+    "remove-packages" : {
+        "espressobin-state" : {
+            "archs" : [
+                "aarch64"
+            ]
+        },
     }
 }
