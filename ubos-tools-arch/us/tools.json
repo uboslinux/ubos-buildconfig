@@ -11,6 +11,7 @@
         "git-360" : {},
         "jmespath" : {},
         "s3transfer" : {},
+        "ubos-check-packages" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
         "ubos-tools-arch" : {},

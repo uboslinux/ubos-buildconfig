@@ -10,6 +10,7 @@
         "jmespath" : {},
         "pacsane" : {},
         "s3transfer" : {},
+        "ubos-check-packages" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
         "ubos-tools" : {},
