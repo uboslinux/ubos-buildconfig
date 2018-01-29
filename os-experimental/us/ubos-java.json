@@ -6,9 +6,13 @@
     "packages" : {
         "jboss-logging-java" : {},
         "jboss-xnio-java" : {},
-        "slf4j" : {},
-        "undertow" : {},
+        "slf4j-java" : {},
+        "undertow-java" : {},
         "wildfly-client-java" : {},
         "wildfly-common-java" : {}
+    },
+    "remove-packages" : {
+        "slf4j" : {},
+        "undertow" : {}
     }
 }
