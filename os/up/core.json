@@ -15,6 +15,7 @@
                 "aarch64"
             ]
         },
+        "argon2" : {},
         "attr" : {},
         "bash" : {},
         "binutils" : {},
