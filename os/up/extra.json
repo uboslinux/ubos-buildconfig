@@ -96,6 +96,7 @@
         "libomxil-bellagio" : {},
         "libpciaccess" : {},
         "libpng" : {},
+        "libpqxx" : {},
         "libproxy" : {},
         "libpulse" : {},
         "libraqm" : {},
