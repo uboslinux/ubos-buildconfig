@@ -5,6 +5,7 @@
 
     "packages" : {
         "jboss-logging-java" : {},
+        "jboss-threads-java" : {},
         "jboss-xnio-java" : {},
         "slf4j-java" : {},
         "undertow-java" : {},
