@@ -4,7 +4,15 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "jboss-logging-java" : {},
+        "jboss-threads-java" : {},
+        "jboss-xnio-java" : {},
         "log4j-systemd-journal-appender" : {},
-        "mysql-connector-java" : {}
+        "mysql-connector-java" : {},
+        "slf4j-java" : {},
+        "undertow-java" : {},
+        "wildfly-client-java" : {},
+        "wildfly-common-java" : {}
+
     }
 }
