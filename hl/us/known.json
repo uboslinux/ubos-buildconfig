@@ -11,6 +11,12 @@
     },
 
     "webapptests" : {
-        "known/tests/KnownTest1.pm" : {}
+        "known/tests/KnownTest1.pm" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        }
     }
 }
