@@ -30,11 +30,6 @@
                 "armv7h"
             ]
         },
-        "luajit-git" : {
-            "archs" : [
-                "aarch64"
-            ]
-        },
         "minicom" : {},
         "miniupnpc" : {},
         "mod_passenger" : {},

@@ -2,6 +2,11 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
+        "luajit-git" : {
+            "archs" : [
+                "aarch64"
+            ]
+        },
         "raspberrypi-firmware" : {
             "archs" : [
                 "armv6h",
