@@ -23,7 +23,18 @@
         "libev" : {},
         "libpgm" : {},
         "libsodium" : {},
-        "luajit" : {},
+        "luajit" : {
+            "archs" : [
+                "x86_64",
+                "armv6h",
+                "armv7h"
+            ]
+        },
+        "luajit-git" : {
+            "archs" : [
+                "aarch64"
+            ]
+        },
         "minicom" : {},
         "miniupnpc" : {},
         "mod_passenger" : {},
