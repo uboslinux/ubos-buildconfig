@@ -3,6 +3,8 @@
 
     "packages" : {
         "cmake" : {},
+        "docbook-xml" : {},
+        "docbook-xsl" : {},
         "git" : {},
         "go-pie" : {},
         "jdk8-openjdk" : {},
