@@ -15,6 +15,7 @@
         "f3" : {},
         "mod_xsendfile" : {},
         "netatalk" : {},
+        "snapper" : {},
         "ubos-rsync-server" : {}
     }
 }
