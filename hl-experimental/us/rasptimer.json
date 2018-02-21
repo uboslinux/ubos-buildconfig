@@ -8,7 +8,11 @@
         "armv7h"
     ],
 
-    "remove-packages" : {
+    "packages" : {
         "." : {}
+    },
+
+    "webapptests" : {
+        "tests/RasptimerTest1.pm" : {}
     }
 }
