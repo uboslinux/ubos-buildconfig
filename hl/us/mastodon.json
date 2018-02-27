@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-mastodon",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "mastodon"
+    }
+}
