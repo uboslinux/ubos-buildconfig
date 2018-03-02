@@ -8,6 +8,12 @@
     },
 
     "webapptests" : {
-        "decko/tests/DeckoTest.pm" : {}
+        "decko/tests/DeckoTest.pm" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        }
     }
 }

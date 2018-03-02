@@ -6,7 +6,6 @@
     "packages" : {
         "known" : {},
         "known-plugin-linkedin" : {},
-        "known-plugin-mastodon" : {},
         "known-plugin-wordpress" : {}
     },
 
