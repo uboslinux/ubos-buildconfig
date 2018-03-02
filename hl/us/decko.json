@@ -4,7 +4,8 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "decko" : {}
+        "decko" : {},
+        "decko-newrelic" : {}
     },
 
     "webapptests" : {
