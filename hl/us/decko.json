@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/decko-commons/decko-ubos",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "decko" : {}
+    },
+
+    "webapptests" : {
+        "decko/tests/DeckoTest.pm" : {}
+    }
+}
