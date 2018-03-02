@@ -4,6 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "mastodon"
+        "mastodon" : {}
     }
 }
