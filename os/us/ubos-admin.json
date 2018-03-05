@@ -8,7 +8,6 @@
         "ubos-admin" : {},
         "ubos-base" : {},
         "ubos-install" : {},
-        "ubos-networking" : {},
         "ubos-networking-client" : {},
         "ubos-networking-cloud" : {},
         "ubos-networking-container" : {},
@@ -20,5 +19,8 @@
         "ubos-networking-gateway" : {},
         "ubos-networking-standalone" : {},
         "ubos-perl-utils" : {}
+    },
+    "remove-packages" : {
+        "ubos-networking" : {}
     }
 }
