@@ -17,6 +17,6 @@
         "webapptest" : {}
     },
     "remove-packages" : {
-        "ubos-repo"
+        "ubos-repo" : {}
     }
 }
