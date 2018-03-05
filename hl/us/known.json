@@ -9,6 +9,10 @@
         "known-plugin-wordpress" : {}
     },
 
+    "remove-packages" : {
+        "known-plugin-mastodon" : {}
+    },
+
     "webapptests" : {
         "known/tests/KnownTest1.pm" : {
             "archs" : [
