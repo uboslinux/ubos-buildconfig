@@ -5,6 +5,7 @@
 
     "packages" : {
         "workout-dir1" : {},
+        "workout-exec1" : {},
         "workout-file1" : {},
         "workout-file2" : {},
         "workout-mysql1" : {},
@@ -17,6 +18,7 @@
 
     "webapptests" : {
         "workout-dir1/tests/WorkoutDir1Test1.pm" : {},
+        "workout-exec1/tests/WorkoutExec1Test1.pm" : {},
         "workout-file1/tests/WorkoutFile1Test1.pm" : {},
         "workout-file2/tests/WorkoutFile2Test1.pm" : {},
         "workout-mysql1/tests/WorkoutMysql1Test1.pm" : {},
