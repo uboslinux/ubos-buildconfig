@@ -6,6 +6,7 @@
     "packages" : {
         "amazonses" : {},
         "amazons3" : {},
+        "avahi" : {},
         "cloud-init" : {
             "archs" : [
                 "x86_64"
@@ -13,9 +14,12 @@
         },
         "dnsmasq" : {},
         "f3" : {},
+        "mariadb" : {},
         "mod_xsendfile" : {},
         "netatalk" : {},
+        "postgresql" : {},
         "snapper" : {},
+        "tor" : {},
         "ubos-rsync-server" : {}
     }
 }
