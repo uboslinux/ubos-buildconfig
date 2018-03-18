@@ -5,6 +5,7 @@
         "cmake" : {},
         "docbook-xml" : {},
         "docbook-xsl" : {},
+        "doxygen" : {},
         "git" : {},
         "go-pie" : {},
         "jdk8-openjdk" : {},
