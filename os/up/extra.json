@@ -264,6 +264,7 @@
         "speex" : {},
         "speexdsp" : {},
         "talloc" : {},
+        "tcl" : {},
         "tcpdump" : {},
         "tdb" : {},
         "tevent" : {},
