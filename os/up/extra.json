@@ -309,6 +309,7 @@
         "rrdtool" : {},
         "rsync" : {},
         "ruby" : {},
+        "rubygems" : {},
         "schroedinger" : {},
         "screen" : {},
         "sdl" : {},
