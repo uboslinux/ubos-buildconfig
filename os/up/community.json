@@ -39,7 +39,7 @@
         "npm" : {},
         "ntop" : {},
         "openbsd-netcat" : {},
-        "pacsift" : {},
+        "pacutils" : {},
         "passenger" : {},
         "perl-cgi" : {},
         "perl-lchown" : {},
