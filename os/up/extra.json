@@ -302,6 +302,7 @@
         "python2-six" : {},
         "python2-urllib3" : {},
         "python2-zope-interface" : {},
+        "qrencode" : {},
         "qt4" : {},
         "qt5-base" : {},
         "qt5-x11extras" : {},

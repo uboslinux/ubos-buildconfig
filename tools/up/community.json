@@ -3,6 +3,7 @@
 
     "packages" : {
         "docker" : {},
+        "gtest" : {},
         "maven" : {},
         "ragel" : {},
         "yarn" : {}
