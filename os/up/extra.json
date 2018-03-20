@@ -4,7 +4,6 @@
     "packages" : {
         "adwaita-icon-theme" : {},
         "alsa-lib" : {},
-        "apache" : {},
         "apr" : {},
         "apr-util" : {},
         "arch-install-scripts" : {},

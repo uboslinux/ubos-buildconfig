@@ -6,6 +6,7 @@
     "packages" : {
         "amazonses" : {},
         "amazons3" : {},
+        "apache" : {},
         "avahi" : {},
         "cloud-init" : {
             "archs" : [
