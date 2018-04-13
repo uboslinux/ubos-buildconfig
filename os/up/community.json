@@ -7,6 +7,7 @@
         "at" : {},
         "augeas" : {},
         "botan" : {},
+        "brotli" : {},
         "certbot" : {},
         "certbot-apache" : {},
         "ckermit" : {},
