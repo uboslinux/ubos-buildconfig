@@ -36,7 +36,7 @@
         "mod_passenger" : {},
         "mod_wsgi" : {},
         "mod_wsgi2" : {},
-        "node-gyp" : {}
+        "node-gyp" : {},
         "nodejs" : {},
         "npm" : {},
         "ntop" : {},
