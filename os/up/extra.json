@@ -108,6 +108,7 @@
         "libglvnd" : {},
         "libgudev" : {},
         "libgusb" : {},
+        "libibus" : {},
         "libical" : {},
         "libice" : {},
         "libiec61883" : {},
