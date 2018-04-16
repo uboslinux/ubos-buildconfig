@@ -3,17 +3,15 @@
     "type"   : "git",
     "branch" : "${branch}",
 
-    "packages" : {
+    "remove-packages" : {
         "jboss-logging-java" : {},
         "jboss-threads-java" : {},
         "jboss-xnio-java" : {},
+        "slf4j" : {},
         "slf4j-java" : {},
+        "undertow" : {}
         "undertow-java" : {},
         "wildfly-client-java" : {},
         "wildfly-common-java" : {}
-    },
-    "remove-packages" : {
-        "slf4j" : {},
-        "undertow" : {}
     }
 }
