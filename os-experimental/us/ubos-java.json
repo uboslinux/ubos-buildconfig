@@ -9,7 +9,7 @@
         "jboss-xnio-java" : {},
         "slf4j" : {},
         "slf4j-java" : {},
-        "undertow" : {}
+        "undertow" : {},
         "undertow-java" : {},
         "wildfly-client-java" : {},
         "wildfly-common-java" : {}
