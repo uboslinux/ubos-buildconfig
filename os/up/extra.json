@@ -10,6 +10,7 @@
         "at-spi2-atk" : {},
         "at-spi2-core" : {},
         "atk" : {},
+        "avahi" : {},
         "bind-tools" : {},
         "bluez" : {},
         "bluez-firmware" : {},

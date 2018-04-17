@@ -7,7 +7,6 @@
         "amazonses" : {},
         "amazons3" : {},
         "apache" : {},
-        "avahi" : {},
         "cloud-init" : {
             "archs" : [
                 "x86_64"
