@@ -4,9 +4,45 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "bitcoin" : {},
-        "geth" : {},
-        "monero" : {},
+        "bitcoin" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
+        "geth" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
+        "monero" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
         "zerotier-one" : {}
+    },
+
+    "remove-packages" : {
+        "bitcoin" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "geth" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "monero" : {
+            "archs" : [
+                "armv6h"
+            ]
+        }
     }
 }

@@ -82,6 +82,7 @@
         "jre9-openjdk" : {},
         "jre9-openjdk-headless" : {},
         "js" : {},
+        "js52" : {},
         "json-glib" : {},
         "lame" : {},
         "lcms" : {},
