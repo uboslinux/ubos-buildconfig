@@ -6,15 +6,5 @@
     "packages" : {
         "decko" : {},
         "decko-newrelic" : {}
-    },
-
-    "webapptests" : {
-        "decko/tests/DeckoTest.pm" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ]
-        }
     }
 }
