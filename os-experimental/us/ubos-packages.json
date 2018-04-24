@@ -26,23 +26,5 @@
             ]
         },
         "zerotier-one" : {}
-    },
-
-    "remove-packages" : {
-        "bitcoin" : {
-            "archs" : [
-                "armv6h"
-            ]
-        },
-        "geth" : {
-            "archs" : [
-                "armv6h"
-            ]
-        },
-        "monero" : {
-            "archs" : [
-                "armv6h"
-            ]
-        }
     }
 }
