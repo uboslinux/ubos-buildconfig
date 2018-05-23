@@ -3,6 +3,7 @@
 
     "packages" : {
         "docker" : {},
+        "gradle" : {},
         "gtest" : {},
         "maven" : {},
         "ragel" : {},
