@@ -239,6 +239,7 @@
         "perl-socket6" : {},
         "perl-timedate" : {},
         "perl-try-tiny" : {},
+        "perl-xml-libxml" : {},
         "perl-xml-parser" : {},
         "perl-uri" : {},
         "perl-www-robotrules" : {},
