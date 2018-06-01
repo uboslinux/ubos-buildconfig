@@ -6,6 +6,7 @@
     "packages" : {
         "php-igbinary" : {},
         "php-oauth" : {},
-        "php-redis" : {}
+        "php-redis" : {},
+        "php-systemd" : {}
     }
 }
