@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-php",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "phpunit" : {}
+    }
+}
