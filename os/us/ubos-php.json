@@ -4,6 +4,8 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "php-oauth" : {}
+        "php-igbinary" : {},
+        "php-oauth" : {},
+        "php-redis" : {}
     }
 }
