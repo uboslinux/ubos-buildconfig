@@ -12,7 +12,7 @@
         "proxycord" : {},
         "s3transfer" : {},
         "ubos-check-packages" : {},
-        "ubos-product-install" : {},
+        "ubos-appliance-install" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
         "ubos-tools" : {},
