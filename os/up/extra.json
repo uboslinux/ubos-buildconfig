@@ -237,6 +237,7 @@
         "perl-net-ip" : {},
         "perl-net-ssleay" : {},
         "perl-socket6" : {},
+        "perl-term-readkey" : {},
         "perl-timedate" : {},
         "perl-try-tiny" : {},
         "perl-xml-libxml" : {},
