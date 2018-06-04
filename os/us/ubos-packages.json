@@ -17,6 +17,7 @@
         "mariadb" : {},
         "mod_xsendfile" : {},
         "netatalk" : {},
+        "pagekite" : {},
         "postgresql" : {},
         "snapper" : {},
         "tomcat8" : {},
