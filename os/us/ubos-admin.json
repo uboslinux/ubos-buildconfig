@@ -10,7 +10,7 @@
         "ubos-install" : {},
         "ubos-live" : {},
         "ubos-live-certificates" : {},
-        "ubos-live-publish-backup" : {}
+        "ubos-live-publish-backup" : {},
         "ubos-networking-client" : {},
         "ubos-networking-cloud" : {},
         "ubos-networking-container" : {},
