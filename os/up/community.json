@@ -118,6 +118,7 @@
         "python2-zope-component" : {},
         "python2-zope-event" : {},
         "redis" : {},
+        "restic" : {},
         "rhash" : {},
         "rng-tools" : {},
         "ruby-bundler" : {},
