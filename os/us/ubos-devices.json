@@ -23,6 +23,18 @@
             "archs" : [
                 "x86_64"
             ]
+        },
+        "python=raspberrypi-gpio" : {
+            "archs" : [
+                "armv6h",
+                "armv6h"
+            ]
+        },
+        "rpi-desktop-ubos-state" : {
+            "archs" : [
+                "armv6h",
+                "armv6h"
+            ]
         }
     },
     "remove-packages" : {
