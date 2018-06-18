@@ -6,5 +6,6 @@
     "packages" : {
         "log4j-systemd-journal-appender" : {},
         "mysql-connector-java" : {},
+        "protobuf-java" : {}
     }
 }
