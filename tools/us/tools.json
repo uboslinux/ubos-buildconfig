@@ -9,6 +9,7 @@
         "git-360" : {},
         "jmespath" : {},
         "pacsane" : {},
+        "package-updated-since" : {},
         "proxycord" : {},
         "s3transfer" : {},
         "ubos-check-packages" : {},
