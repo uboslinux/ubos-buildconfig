@@ -10,6 +10,7 @@
         "botocore" : {},
         "git-360" : {},
         "jmespath" : {},
+        "package-updated-since" : {},
         "proxycord" : {},
         "s3transfer" : {},
         "ubos-check-packages" : {},
