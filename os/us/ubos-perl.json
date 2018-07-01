@@ -4,6 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "perl-log-journald" : {}
+        "perl-log-journald" : {},
+        "perl-linux-userxattr" : {}
     }
 }
