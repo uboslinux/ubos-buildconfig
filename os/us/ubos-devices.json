@@ -24,16 +24,16 @@
                 "x86_64"
             ]
         },
-        "python=raspberrypi-gpio" : {
+        "python-raspberrypi-gpio" : {
             "archs" : [
                 "armv6h",
-                "armv6h"
+                "armv7h"
             ]
         },
         "rpi-desktop-ubos-state" : {
             "archs" : [
                 "armv6h",
-                "armv6h"
+                "armv7h"
             ]
         }
     },
