@@ -24,7 +24,7 @@
                 "x86_64"
             ]
         },
-        "python-raspberrypi-gpio" : {
+        "python-raspberry-gpio" : {
             "archs" : [
                 "armv6h",
                 "armv7h"
