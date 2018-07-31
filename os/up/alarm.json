@@ -2,7 +2,13 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
-        "fake-hwclock" : {},
+        "fake-hwclock" : {
+            "archs" : [
+                "armv6h",
+                "armv7h",
+                "aarch64"
+            ]
+        },
         "firmware-raspberrypi" : {
             "archs" : [
                 "armv6h",
