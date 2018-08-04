@@ -9,7 +9,7 @@
         "git" : {},
         "go-pie" : {},
         "jdk8-openjdk" : {},
-        "jdk9-openjdk" : {},
+        "jdk10-openjdk" : {},
         "jsoncpp" : {},
         "libunwind" : {},
         "perl-inc-latest" : {},
