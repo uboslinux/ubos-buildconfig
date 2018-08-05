@@ -4,7 +4,12 @@
     "packages" : {
         "adwaita-icon-theme" : {},
         "alsa-lib" : {},
-        "aom" : {},
+        "aom" : {
+            "archs" : [
+                "aarch64",
+                "x86_64"
+            ]
+        },
         "apr" : {},
         "apr-util" : {},
         "arch-install-scripts" : {},
