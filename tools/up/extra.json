@@ -17,6 +17,9 @@
         "qt5-tools" : {},
         "shared-mime-info" : {},
         "strace" : {}
+    },
+    "remove-packages" : {
+        "jdk9-openjdk" : {}
     }
 }
    
