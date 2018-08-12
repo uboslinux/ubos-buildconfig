@@ -12,7 +12,11 @@
         "ubos-live-certificates" : {},
         "ubos-live-publish-backup" : {},
         "ubos-networking-client" : {},
-        "ubos-networking-cloud" : {},
+        "ubos-networking-cloud" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "ubos-networking-container" : {},
         "ubos-networking-espressobin" : {
             "archs" : [
@@ -25,5 +29,14 @@
     },
     "remove-packages" : {
         "ubos-networking" : {}
+    },
+    "remove-packages" : {
+        "ubos-networking-cloud" : {
+            "archs" : [
+                "aarch64",
+                "armv6h",
+                "armv7h"
+            ]
+        }
     }
 }
