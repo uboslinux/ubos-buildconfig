@@ -26,17 +26,5 @@
         "ubos-networking-gateway" : {},
         "ubos-networking-standalone" : {},
         "ubos-perl-utils" : {}
-    },
-    "remove-packages" : {
-        "ubos-networking" : {}
-    },
-    "remove-packages" : {
-        "ubos-networking-cloud" : {
-            "archs" : [
-                "aarch64",
-                "armv6h",
-                "armv7h"
-            ]
-        }
     }
 }
