@@ -68,6 +68,7 @@
         "python-pysocks" : {},
         "python-pytz" : {},
         "python-redis" : {},
+        "python-requests-toolbelt" : {},
         "python-rsa" : {},
         "python-werkzeug" : {},
         "python-yaml" : {},
