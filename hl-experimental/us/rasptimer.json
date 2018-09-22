@@ -8,6 +8,11 @@
         "armv7h"
     ],
 
+    "channels" : [
+        "red",
+        "yellow"
+    ],
+
     "packages" : {
         "." : {}
     },

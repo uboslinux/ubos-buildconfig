@@ -3,6 +3,11 @@
     "type"   : "git",
     "branch" : "${branch}",
 
+    "channels" : [
+        "red",
+        "yellow"
+    ],
+
     "packages" : {
         "river" : {}
     }

@@ -5,6 +5,11 @@
 
     "overlap-bucket" : "ubos-tools-arch",
 
+    "channels" : [
+        "red",
+        "yellow"
+    ],
+
     "packages" : {
         "." : {}
     }
