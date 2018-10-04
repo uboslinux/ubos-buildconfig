@@ -164,8 +164,6 @@
         "libwbclient" : {},
         "libwebp" : {},
         "libx11" : {},
-        "libx264" : {},
-        "libx264-10bit" : {},
         "libxau" : {},
         "libxaw" : {},
         "libxcb" : {},

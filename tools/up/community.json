@@ -4,6 +4,7 @@
     "packages" : {
         "docker" : {},
         "gradle" : {},
+        "go-pie" : {},
         "gtest" : {},
         "maven" : {},
         "ragel" : {},
