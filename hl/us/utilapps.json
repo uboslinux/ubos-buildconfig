@@ -5,6 +5,7 @@
 
     "packages" : {
         "docroot" : {},
+        "htproxy" : {},
         "redirect" : {}
     },
 
