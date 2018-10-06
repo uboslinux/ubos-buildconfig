@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-solid",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "solid-server" : {}
+    }
+}
