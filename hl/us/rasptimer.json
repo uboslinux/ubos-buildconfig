@@ -3,11 +3,6 @@
     "type"   : "git",
     "branch" : "${branch}",
 
-    "archs" : [
-        "armv6h",
-        "armv7h"
-    ],
-
     "remove-packages" : {
         "rasptimer" : {}
     }

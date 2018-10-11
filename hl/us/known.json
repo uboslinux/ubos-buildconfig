@@ -8,6 +8,12 @@
         "yellow"
     ],
 
+    "archs" : [
+        "armv7h",
+        "aarch64",
+        "x86_64"
+    ],
+
     "packages" : {
         "known" : {},
         "known-plugin-linkedin" : {},
@@ -15,7 +21,22 @@
     },
 
     "remove-packages" : {
-        "known-plugin-mastodon" : {}
+        "known-plugin-mastodon" : {},
+        "known" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "known-plugin-linkedin" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "known-plugin-wordpress" : {
+            "archs" : [
+                "armv6h"
+            ]
+        }
     },
 
     "webapptests" : {

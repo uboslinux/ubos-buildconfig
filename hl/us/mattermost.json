@@ -3,13 +3,13 @@
     "type"   : "git",
     "branch" : "${branch}",
 
-    "archs" : [
-        "x86_64",
-    ],
-
     "channels" : [
         "red",
         "yellow"
+    ],
+
+    "archs" : [
+        "x86_64",
     ],
 
     "packages" : {
