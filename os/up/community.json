@@ -13,6 +13,13 @@
         "ckermit" : {},
         "containerd" : {},
         "ddclient" : {},
+        "elasticsearch" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
         "fstrm" : {},
         "gpac" : {},
         "hiredis" : {},
