@@ -1,0 +1,8 @@
+{
+    "upstreamDir" : "${archUpstreamDir}",
+
+    "packages" : {
+        "aws-cli" : {},
+        "botocore" : {}
+    }
+}

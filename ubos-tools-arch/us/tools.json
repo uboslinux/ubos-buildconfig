@@ -6,8 +6,6 @@
     "overlap-bucket" : "ubos-tools-arch",
 
     "packages" : {
-        "aws-cli" : {},
-        "botocore" : {},
         "git-360" : {},
         "jmespath" : {},
         "package-updated-since" : {},

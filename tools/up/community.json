@@ -2,6 +2,8 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
+        "aws-cli" : {},
+        "botocore" : {},
         "docker" : {},
         "gradle" : {},
         "go-pie" : {},

@@ -4,8 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "aws-cli" : {},
-        "botocore" : {},
         "git-360" : {},
         "jmespath" : {},
         "pacsane" : {},
