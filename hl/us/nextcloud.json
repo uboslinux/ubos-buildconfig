@@ -13,6 +13,7 @@
         "nextcloud-markdown" : {},
         "nextcloud-news" : {},
         "nextcloud-notes" : {},
+        "nextcloud-onlyoffice" : {},
         "nextcloud-spreed" : {},
         "nextcloud-tasks" : {}
     }
