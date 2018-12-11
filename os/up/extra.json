@@ -259,6 +259,7 @@
         "php-intl" : {},
         "php-pgsql" : {},
         "pixman" : {},
+        "pkgfile" : {},
         "polkit" : {},
         "postfix" : {},
         "postgresql-libs" : {},
