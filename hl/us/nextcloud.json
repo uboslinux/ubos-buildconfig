@@ -3,6 +3,12 @@
     "type"   : "git",
     "branch" : "${branch}",
 
+    "archs" : [
+        "armv7h",
+        "aarch64",
+        "x86_64"
+    ],
+
     "packages" : {
         "nextcloud" : {},
         "nextcloud-bookmarks" : {},
@@ -16,5 +22,68 @@
         "nextcloud-onlyoffice" : {},
         "nextcloud-spreed" : {},
         "nextcloud-tasks" : {}
+    },
+
+    "remove-packages" : {
+        "nextcloud" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-bookmarks" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-cache-redis" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-calendar" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-contacts" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-mail" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-markdown" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-news" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-notes" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-onlyoffice" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-spreed" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-tasks" : {
+            "archs" : [
+                "armv6h",
+            ]
+        }
     }
 }
