@@ -20,6 +20,11 @@
         "nextcloud-news" : {},
         "nextcloud-notes" : {},
         "nextcloud-onlyoffice" : {},
+        "nextcloud-social" : {
+            "channels" : [
+                "red"
+            ]
+        },
         "nextcloud-spreed" : {},
         "nextcloud-tasks" : {}
     },
