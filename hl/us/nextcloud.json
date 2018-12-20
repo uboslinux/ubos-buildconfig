@@ -22,7 +22,8 @@
         "nextcloud-onlyoffice" : {},
         "nextcloud-social" : {
             "channels" : [
-                "red"
+                "red",
+                "yellow"
             ]
         },
         "nextcloud-spreed" : {},
