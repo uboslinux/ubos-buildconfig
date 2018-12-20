@@ -15,6 +15,7 @@
         "dnsmasq" : {},
         "f3" : {},
         "mariadb" : {},
+        "memcached" : {},
         "mod_xsendfile" : {},
         "netatalk" : {},
         "pagekite" : {},
