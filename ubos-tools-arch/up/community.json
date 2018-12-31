@@ -1,6 +1,8 @@
 {
     "upstreamDir" : "${archUpstreamDir}",
 
+    "overlap-bucket" : "ubos-tools-arch",
+
     "packages" : {
         "aws-cli" : {},
         "botocore" : {}
