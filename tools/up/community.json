@@ -3,13 +3,16 @@
 
     "packages" : {
         "aws-cli" : {},
-        "botocore" : {},
         "docker" : {},
         "gradle" : {},
         "go-pie" : {},
         "gtest" : {},
         "maven" : {},
+        "python-botocore" : {},
         "ragel" : {},
         "yarn" : {}
+    },
+    "remove-packages" : {
+        "botocore"
     }
 }

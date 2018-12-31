@@ -23,7 +23,6 @@
         "btrfs-progs" : {},
         "bzip2" : {},
         "ca-certificates" : {},
-        "ca-certificates-cacert" : {},
         "ca-certificates-mozilla" : {},
         "ca-certificates-utils" : {},
         "coreutils" : {},
@@ -95,6 +94,7 @@
         "libarchive" : {},
         "libassuan" : {},
         "libcap" : {},
+        "libcap-ng" : {},
         "libedit" : {},
         "libelf" : {},
         "libevent" : {},
@@ -115,7 +115,6 @@
         "libpcap" : {},
         "libpipeline" : {},
         "libpsl" : {},
-        "librpcsecgss" : {},
         "libsasl" : {},
         "libseccomp" : {},
         "libsecret" : {},
@@ -215,11 +214,6 @@
         "pambase" : {},
         "patch" : {},
         "pciutils" : {},
-        "pcmciautils" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
         "pcre" : {},
         "pcre2" : {},
         "pkcs11-helper" : {},
@@ -256,5 +250,11 @@
         "xz" : {},
         "zlib" : {},
         "zstd" : {}
+    },
+
+    "remove-packages" : {
+        "ca-certificates-cacert" : {},
+        "librpcsecgss" : {},
+        "pcmciautils" : {},
     }
 }

@@ -2,7 +2,6 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
-        "arm" : {},
         "arp-scan" : {},
         "at" : {},
         "augeas" : {},
@@ -127,7 +126,6 @@
         "python2-zope-event" : {},
         "redis" : {},
         "restic" : {},
-        "rhash" : {},
         "rng-tools" : {},
         "ruby-bundler" : {},
         "runc" : {},
@@ -136,5 +134,9 @@
         "unbound" : {},
         "wireshark-cli" : {},
         "zeromq" : {}
+    },
+
+    "remove-packages" : {
+        "arm"
     }
 }
