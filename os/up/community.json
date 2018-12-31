@@ -137,6 +137,6 @@
     },
 
     "remove-packages" : {
-        "arm"
+        "arm" : {}
     }
 }

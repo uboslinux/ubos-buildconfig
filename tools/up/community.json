@@ -13,6 +13,6 @@
         "yarn" : {}
     },
     "remove-packages" : {
-        "botocore"
+        "botocore" : {}
     }
 }

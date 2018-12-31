@@ -8,6 +8,6 @@
         "python-botocore" : {}
     },
     "remove-packages" : {
-        "botocore"
+        "botocore" : {}
     }
 }
