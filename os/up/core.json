@@ -17,6 +17,7 @@
         },
         "argon2" : {},
         "attr" : {},
+        "audit" : {},
         "bash" : {},
         "binutils" : {},
         "bridge-utils" : {},
