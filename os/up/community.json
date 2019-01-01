@@ -130,6 +130,7 @@
         "ruby-bundler" : {},
         "runc" : {},
         "semver" : {},
+        "snapper" : {},
         "strongswan" : {},
         "unbound" : {},
         "wireshark-cli" : {},

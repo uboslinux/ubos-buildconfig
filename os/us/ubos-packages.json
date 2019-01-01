@@ -20,7 +20,6 @@
         "netatalk" : {},
         "pagekite" : {},
         "postgresql" : {},
-        "snapper" : {},
         "tomcat8" : {},
         "tor" : {},
         "ubos-rsync-server" : {}
