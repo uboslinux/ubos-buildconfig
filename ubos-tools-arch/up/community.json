@@ -6,7 +6,8 @@
     "packages" : {
         "aws-cli" : {},
         "python-botocore" : {},
-        "python-jmespath" : {}
+        "python-jmespath" : {},
+        "python-s3transfer" : {}
     },
     "remove-packages" : {
         "botocore" : {}

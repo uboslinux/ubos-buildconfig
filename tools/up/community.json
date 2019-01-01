@@ -10,6 +10,7 @@
         "maven" : {},
         "python-botocore" : {},
         "python-jmespath" : {},
+        "python-s3transfer" : {},
         "ragel" : {},
         "yarn" : {}
     },

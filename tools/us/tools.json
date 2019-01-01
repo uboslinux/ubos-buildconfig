@@ -8,7 +8,6 @@
         "pacsane" : {},
         "package-updated-since" : {},
         "proxycord" : {},
-        "s3transfer" : {},
         "ubos-check-packages" : {},
         "ubos-appliance-install" : {},
         "ubos-push" : {},
@@ -18,6 +17,7 @@
     },
     "remove-packages" : {
         "jmespath" : {},
+        "s3transfer" : {},
         "ubos-repo" : {}
     }
 }
