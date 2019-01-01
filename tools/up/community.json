@@ -9,6 +9,7 @@
         "gtest" : {},
         "maven" : {},
         "python-botocore" : {},
+        "python-jmespath" : {},
         "ragel" : {},
         "yarn" : {}
     },

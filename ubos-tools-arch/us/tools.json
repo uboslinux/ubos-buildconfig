@@ -16,5 +16,8 @@
         "ubos-scaffold" : {},
         "ubos-tools-arch" : {},
         "webapptest" : {}
+    },
+    "remove-packages" : {
+        "jmespath" : {}
     }
 }

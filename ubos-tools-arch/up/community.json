@@ -5,7 +5,8 @@
 
     "packages" : {
         "aws-cli" : {},
-        "python-botocore" : {}
+        "python-botocore" : {},
+        "python-jmespath" : {}
     },
     "remove-packages" : {
         "botocore" : {}
