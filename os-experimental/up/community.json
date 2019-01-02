@@ -1,0 +1,41 @@
+{
+    "upstreamDir" : "${archUpstreamDir}",
+
+    "packages" : {
+        "bitcoin-cli" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
+        "bitcoin-daemon" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
+        "bitcoin-qt" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
+        "bitcoin-tx" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
+        "go-ethereum" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        }
+    }
+}

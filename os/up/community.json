@@ -55,6 +55,7 @@
         "perl-www-curl" : {},
         "powerdns" : {},
         "powerdns-recursor" : {},
+        "pcsclite" : {},
         "python-acme" : {},
         "python-augeas" : {},
         "python-colorama" : {},

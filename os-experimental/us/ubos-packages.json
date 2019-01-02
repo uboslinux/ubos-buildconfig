@@ -9,20 +9,6 @@
     ],
 
     "packages" : {
-        "bitcoin" : {
-            "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
-            ]
-        },
-        "geth" : {
-            "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
-            ]
-        },
         "monero" : {
             "archs" : [
                 "x86_64",
@@ -31,5 +17,10 @@
             ]
         },
         "zerotier-one" : {}
+    },
+
+    "remove-packages" : {
+        "bitcoin" : {},
+        "geth" : {}
     }
 }
