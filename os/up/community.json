@@ -58,6 +58,7 @@
         "pcsclite" : {},
         "python-acme" : {},
         "python-augeas" : {},
+        "python-beautifulsoup4" : {},
         "python-colorama" : {},
         "python-configargparse" : {},
         "python-configobj" : {},
