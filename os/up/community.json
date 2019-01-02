@@ -80,6 +80,7 @@
         "python-psycopg2" : {},
         "python-pyrfc3339" : {},
         "python-pysocks" : {},
+        "python-pytoml" : {},
         "python-pytz" : {},
         "python-redis" : {},
         "python-requests-toolbelt" : {},
