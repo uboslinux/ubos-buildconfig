@@ -4,6 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "mf2py-python" : {},
         "python2-socksipychain" : {}
     }
 }
