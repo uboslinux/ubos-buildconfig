@@ -13,6 +13,8 @@
         "libunwind" : {},
         "perl-inc-latest" : {},
         "perl-module-build" : {},
+        "python-nose" : {},
+        "python-pip" : {},
         "qt5-tools" : {},
         "shared-mime-info" : {},
         "strace" : {}
