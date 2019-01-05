@@ -93,7 +93,6 @@
         "python-zope-deferredimport" : {},
         "python-zope-deprecation" : {},
         "python-zope-event" : {},
-        "python-zope-interface" : {},
         "python-zope-hookable" : {},
         "python-zope-proxy" : {},
         "python2-acme" : {},
