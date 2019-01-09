@@ -3,31 +3,97 @@
     "type"   : "git",
     "branch" : "${branch}",
 
-    "archs" : [
-        "armv7h",
-        "aarch64",
-        "x86_64"
-    ],
-
     "packages" : {
-        "nextcloud" : {},
-        "nextcloud-bookmarks" : {},
-        "nextcloud-cache-redis" : {},
-        "nextcloud-calendar" : {},
-        "nextcloud-contacts" : {},
-        "nextcloud-mail" : {},
-        "nextcloud-markdown" : {},
-        "nextcloud-news" : {},
-        "nextcloud-notes" : {},
-        "nextcloud-onlyoffice" : {},
+        "nextcloud" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-bookmarks" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-cache-redis" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-calendar" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-contacts" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-mail" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-markdown" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-news" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-notes" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-onlyoffice" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
         "nextcloud-social" : {
             "channels" : [
                 "red",
                 "yellow"
             ]
         },
-        "nextcloud-spreed" : {},
-        "nextcloud-tasks" : {}
+        "nextcloud-spreed" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
+        "nextcloud-tasks" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
+        },
     },
 
     "remove-packages" : {
