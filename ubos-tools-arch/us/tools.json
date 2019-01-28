@@ -7,7 +7,6 @@
 
     "packages" : {
         "git-360" : {},
-        "jmespath" : {},
         "package-updated-since" : {},
         "proxycord" : {},
         "ubos-check-packages" : {},
