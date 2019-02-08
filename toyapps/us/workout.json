@@ -16,7 +16,7 @@
         "workout-tree2" : {}
     },
 
-    "webapptests" : {
+    "disabled-webapptests" : {
         "workout-dir1/tests/WorkoutDir1Test1.pm" : {},
         "workout-exec1/tests/WorkoutExec1Test1.pm" : {},
         "workout-file1/tests/WorkoutFile1Test1.pm" : {},
