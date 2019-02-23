@@ -7,6 +7,7 @@
         "ubos-keyring" : {},
         "ubos-admin" : {},
         "ubos-base" : {},
+        "ubos-datatransfer-rsync" : {},
         "ubos-install" : {},
         "ubos-live" : {},
         "ubos-live-certificates" : {},
