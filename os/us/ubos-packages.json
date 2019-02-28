@@ -4,7 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "amazonses" : {},
         "amazons3" : {},
         "apache" : {},
         "cloud-init" : {
@@ -23,5 +22,8 @@
         "tomcat8" : {},
         "tor" : {},
         "ubos-rsync-server" : {}
+    },
+    "remove-packages" : {
+        "amazonses" : {}
     }
 }
