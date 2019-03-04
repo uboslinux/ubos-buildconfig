@@ -75,6 +75,11 @@
             ],
         },
         "nextcloud-social" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ],
             "channels" : [
                 "red",
                 "yellow"
@@ -143,6 +148,11 @@
             ]
         },
         "nextcloud-onlyoffice" : {
+            "archs" : [
+                "armv6h",
+            ]
+        },
+        "nextcloud-social" : {
             "archs" : [
                 "armv6h",
             ]
