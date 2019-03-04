@@ -3,19 +3,34 @@
     "type"   : "git",
     "branch" : "${branch}",
 
-    "channels" : [
-        "red",
-        "yellow"
-    ],
-
-    "archs" : [
-        "armv7h",
-        "aarch64",
-        "x86_64"
-    ],
-
     "packages" : {
-        "decko" : {},
-        "decko-newrelic" : {}
+        "decko" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        },
+        "decko-newrelic" : {
+            "archs" : [   
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        }
+    },
+
+    "remove-packages" : {
+        "decko" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+
+        "decko-newrelic" : {
+            "archs" : [   
+                "armv6h"
+            ]
+        }
     }
 }
