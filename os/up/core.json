@@ -120,7 +120,6 @@
         "libseccomp" : {},
         "libsecret" : {},
         "libssh2" : {},
-        "libsystemd" : {},
         "libtasn1" : {},
         "libtirpc" : {},
         "libtool" : {},
@@ -235,6 +234,7 @@
         "sudo" : {},
         "sysfsutils" : {},
         "systemd" : {},
+        "systemd-libs" : {},
         "systemd-sysvcompat" : {},
         "tar" : {},
         "texinfo" : {},
@@ -256,6 +256,7 @@
     "remove-packages" : {
         "ca-certificates-cacert" : {},
         "librpcsecgss" : {},
-        "pcmciautils" : {},
+        "libsystemd" : {},
+        "pcmciautils" : {}
     }
 }
