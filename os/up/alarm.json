@@ -48,6 +48,11 @@
                 "aarch64"
             ]
         },
+        "uboot-odroid-xu3" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "uboot-pcduino3" : {
             "archs" : [
                 "armv7h"
