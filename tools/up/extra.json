@@ -6,6 +6,8 @@
         "docbook-xml" : {},
         "docbook-xsl" : {},
         "doxygen" : {},
+        "gdb" : {},
+        "gdb-common" : {},
         "git" : {},
         "jdk8-openjdk" : {},
         "jdk10-openjdk" : {},
@@ -23,4 +25,4 @@
         "jdk9-openjdk" : {}
     }
 }
-   
+

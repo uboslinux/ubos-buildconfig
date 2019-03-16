@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-node",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "nvm" : {}
+    }
+}
