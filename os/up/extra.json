@@ -2,6 +2,7 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
+        "adobe-source-code-pro-fonts" : {},
         "adwaita-icon-theme" : {},
         "alsa-lib" : {},
         "aom" : {
@@ -127,7 +128,6 @@
         "libjpeg-turbo" : {},
         "liblqr" : {},
         "libmagick" : {},
-        "libmariadbclient" : {},
         "libmcrypt" : {},
         "libmng" : {},
         "libmodplug" : {},
@@ -200,6 +200,7 @@
         "lua" : {},
         "lua52" : {},
         "mariadb-clients" : {},
+        "mariadb-libs" : {},
         "mesa" : {},
         "mono" : {},
         "mtdev" : {},
@@ -403,6 +404,7 @@
         "jre9-openjdk-headless" : {},
         "js" : {},
         "lcms" : {},
+        "libmariadbclient" : {},
         "randrproto" : {},
         "recordproto" : {},
         "renderproto" : {},
