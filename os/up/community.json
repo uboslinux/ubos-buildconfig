@@ -167,7 +167,7 @@
     },
 
     "remove-packages" : {
-        "arm" : {}
+        "arm" : {},
         "python2-acme" : {},
         "python2-augeas" : {},
         "python2-configargparse" : {},
