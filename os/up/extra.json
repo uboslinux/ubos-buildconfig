@@ -380,7 +380,6 @@
         "xorg-fonts-alias" : {},
         "xorg-fonts-encodings" : {},
         "xorg-fonts-misc" : {},
-        "xorg-mkfontdir" : {},
         "xorg-mkfontscale" : {},
         "xorg-server" : {},
         "xorg-server-common" : {},
@@ -412,6 +411,7 @@
         "xextproto" : {},
         "xf86vidmodeproto" : {},
         "xineramaproto" : {},
+        "xorg-mkfontdir" : {},
         "xproto" : {}
     }
 }
