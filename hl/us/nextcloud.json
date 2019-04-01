@@ -3,169 +3,39 @@
     "type"   : "git",
     "branch" : "${branch}",
 
+    "archs" : [
+        "armv7h",
+        "aarch64",
+        "x86_64"
+    ],
+
     "packages" : {
-        "nextcloud" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-bookmarks" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-cache-redis" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-calendar" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-contacts" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-mail" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-markdown" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-news" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-notes" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-onlyoffice" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
+        "nextcloud" : {},
+        "nextcloud-bookmarks" : {},
+        "nextcloud-bruteforcesettings" : {},
+        "nextcloud-cache-redis" : {},
+        "nextcloud-calendar" : {},
+        "nextcloud-contacts" : {},
+        "nextcloud-deck" : {},
+        "nextcloud-files-rightclick" : {},
+        "nextcloud-group-everyone" : {},
+        "nextcloud-groupfolders" : {},
+        "nextcloud-mail" : {},
+        "nextcloud-markdown" : {},
+        "nextcloud-news" : {},
+        "nextcloud-notes" : {},
+        "nextcloud-onlyoffice" : {},
+        "nextcloud-passwords" : {},
         "nextcloud-social" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
             "channels" : [
                 "red",
                 "yellow"
             ]
         },
-        "nextcloud-spreed" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-        "nextcloud-tasks" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ],
-        },
-    },
-
-    "remove-packages" : {
-        "nextcloud" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-bookmarks" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-cache-redis" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-calendar" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-contacts" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-mail" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-markdown" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-news" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-notes" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-onlyoffice" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-social" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-spreed" : {
-            "archs" : [
-                "armv6h",
-            ]
-        },
-        "nextcloud-tasks" : {
-            "archs" : [
-                "armv6h",
-            ]
-        }
+        "nextcloud-socialsharing-email" : {},
+        "nextcloud-socialsharing-facebook" : {},
+        "nextcloud-socialsharing-twitter" : {},
+        "nextcloud-spreed" : {},
+        "nextcloud-tasks" : {}
     }
 }
