@@ -1,7 +1,7 @@
 {
     "url"    : "https://github.com/jernst/rasptimer",
     "type"   : "git",
-    "branch" : "${branch}",
+    "branch" : "master",
 
     "archs" : [
         "armv6h",
