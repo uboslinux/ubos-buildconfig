@@ -16,6 +16,7 @@
                 "aarch64"
             ]
         },
+        "paradux" : {},
         "zerotier-one" : {}
     },
 
