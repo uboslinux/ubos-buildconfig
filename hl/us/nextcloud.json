@@ -11,6 +11,7 @@
 
     "packages" : {
         "nextcloud" : {},
+        "nextcloud-auto-mail-accounts" : {},
         "nextcloud-bookmarks" : {},
         "nextcloud-bruteforcesettings" : {},
         "nextcloud-cache-redis" : {},
