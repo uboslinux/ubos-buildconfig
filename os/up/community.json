@@ -64,6 +64,7 @@
         "python-acme" : {},
         "python-augeas" : {},
         "python-beautifulsoup4" : {},
+        "python-boto3" : {},
         "python-cachecontrol" : {},
         "python-colorama" : {},
         "python-configargparse" : {},
