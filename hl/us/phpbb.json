@@ -9,8 +9,44 @@
     ],
 
     "packages" : {
-        "phpbb" : {},
-        "phpbb-extension-googleanalytics" : {},
-        "phpbb-extension-shareon" : {}
+        "phpbb" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        },
+        "phpbb-extension-googleanalytics" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        },
+        "phpbb-extension-shareon" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        }
+    },
+
+    "remove-packages" : {
+        "phpbb" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "phpbb-extension-googleanalytics" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "phpbb-extension-shareon" : {
+            "archs" : [
+                "armv6h"
+            ]
+        }
     }
 }

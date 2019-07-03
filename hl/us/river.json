@@ -9,6 +9,20 @@
     ],
 
     "packages" : {
-        "river" : {}
+        "river" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        },
+    },
+
+    "remove-packages" : {
+        "river" : {
+            "archs" : [
+                "armv6h"
+            ]
+        }
     }
 }

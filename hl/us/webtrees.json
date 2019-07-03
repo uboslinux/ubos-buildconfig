@@ -9,7 +9,21 @@
     ],
 
     "packages" : {
-        "webtrees" : {}
+        "webtrees" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        },
+    },
+
+    "remove-packages" : {
+        "webtrees" : {
+            "archs" : [
+                "armv6h"
+            ]
+        }
     },
 
     "webapptests" : {
