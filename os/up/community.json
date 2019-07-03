@@ -157,6 +157,8 @@
         "restic" : {},
         "rng-tools" : {},
         "ruby-bundler" : {},
+        "ruby-rack" : {},
+        "ruby-rdoc" : {},
         "runc" : {},
         "semver" : {},
         "snapper" : {},
