@@ -36,6 +36,7 @@
         "nextcloud-socialsharing-facebook" : {},
         "nextcloud-socialsharing-twitter" : {},
         "nextcloud-spreed" : {},
-        "nextcloud-tasks" : {}
+        "nextcloud-tasks" : {},
+        "nextcloud-test" : {}
     }
 }
