@@ -11,6 +11,7 @@
 
     "packages" : {
         "nextcloud" : {},
+        "nextcloud-audioplayer" : {},
         "nextcloud-auto-mail-accounts" : {},
         "nextcloud-bookmarks" : {},
         "nextcloud-bruteforcesettings" : {},
