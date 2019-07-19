@@ -12,7 +12,7 @@
         "selfoss" : {}
     },
 
-    "webapptests" : {
+    "disabled-webapptests" : {
         "selfoss/tests/Selfoss1Test.pm" : {}
     }
 }
