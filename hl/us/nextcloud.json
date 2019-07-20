@@ -11,6 +11,8 @@
 
     "packages" : {
         "nextcloud" : {},
+        "nextcloud-audioplayer" : {},
+        "nextcloud-auto-mail-accounts" : {},
         "nextcloud-bookmarks" : {},
         "nextcloud-bruteforcesettings" : {},
         "nextcloud-cache-redis" : {},
@@ -36,6 +38,8 @@
         "nextcloud-socialsharing-facebook" : {},
         "nextcloud-socialsharing-twitter" : {},
         "nextcloud-spreed" : {},
-        "nextcloud-tasks" : {}
+        "nextcloud-tasks" : {},
+        "nextcloud-twofactor-totp" : {},
+        "nextcloud15" : {}
     }
 }
