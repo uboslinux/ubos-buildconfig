@@ -1,5 +1,5 @@
 {
-    "url"    : "https://github.com/taligen/taligen",
+    "url"    : "https://github.com/uboslinux/ubos-tools",
     "type"   : "git",
     "branch" : "${branch}",
 
@@ -11,6 +11,6 @@
     ],
 
     "packages" : {
-        "." : {}
+        "taligen" : {}
     }
 }
