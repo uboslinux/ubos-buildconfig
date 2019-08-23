@@ -4,6 +4,7 @@
     "branch" : "${branch}",
 
     "channels" : [
+        "dev",
         "red",
         "yellow"
     ],

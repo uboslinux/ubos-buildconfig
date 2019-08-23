@@ -6,6 +6,7 @@
     "overlap-bucket" : "ubos-tools-arch",
 
     "channels" : [
+        "dev",
         "red",
         "yellow"
     ],
