@@ -10,12 +10,6 @@
     ],
 
     "packages" : {
-        "monero" : {
-            "archs" : [
-                "x86_64",
-                "aarch64"
-            ]
-        },
         "paradux" : {},
         "pebble" : {},
         "zerotier-one" : {}
@@ -23,6 +17,7 @@
 
     "remove-packages" : {
         "bitcoin" : {},
-        "geth" : {}
+        "geth" : {},
+        "monero" : {}
     }
 }
