@@ -1,14 +1,17 @@
 {
-    "url"    : "https://github.com/taligen/taligen",
+    "url"    : "https://github.com/uboslinux/ubos-tools",
     "type"   : "git",
     "branch" : "${branch}",
 
+    "overlap-bucket" : "ubos-tools-arch",
+
     "channels" : [
+        "dev",
         "red",
         "yellow"
     ],
 
     "packages" : {
-        "." : {}
+        "taligen" : {}
     }
 }

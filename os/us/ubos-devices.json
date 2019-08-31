@@ -35,6 +35,37 @@
                 "armv6h",
                 "armv7h"
             ]
+        },
+        "ubos-deviceclass-container" : {},
+        "ubos-deviceclass-ec2" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "ubos-deviceclass-espressobin" : {
+            "archs" : [
+                "aarch64"
+            ]
+        },
+        "ubos-deviceclass-pc" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "ubos-deviceclass-rpi" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
+        "ubos-deviceclass-rpi2" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "ubos-deviceclass-vbox" : {
+            "archs" : [
+                "x86_64"
+            ]
         }
     },
     "remove-packages" : {

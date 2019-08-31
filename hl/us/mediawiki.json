@@ -10,7 +10,9 @@
 
     "webapptests" : {
         "mediawiki/tests/MediawikiTest1.pm" : {
-            "flags" : "--tlsselfsigned"
+            "flags" : {
+                "default" : "--tlsselfsigned"
+            }
         }
     }
 }

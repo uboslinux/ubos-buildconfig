@@ -4,24 +4,20 @@
     "branch" : "${branch}",
 
     "channels" : [
+        "dev",
         "red",
         "yellow"
     ],
 
     "packages" : {
-        "monero" : {
-            "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
-            ]
-        },
         "paradux" : {},
+        "pebble" : {},
         "zerotier-one" : {}
     },
 
     "remove-packages" : {
         "bitcoin" : {},
-        "geth" : {}
+        "geth" : {},
+        "monero" : {}
     }
 }

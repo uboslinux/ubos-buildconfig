@@ -39,6 +39,7 @@
         "nextcloud-socialsharing-twitter" : {},
         "nextcloud-spreed" : {},
         "nextcloud-tasks" : {},
+        "nextcloud-text" : {},
         "nextcloud-twofactor-totp" : {},
         "nextcloud15" : {}
     }
