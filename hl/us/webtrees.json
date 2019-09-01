@@ -27,6 +27,12 @@
     },
 
     "webapptests" : {
-        "webtrees/tests/WebTreesTest1.pm" : {}
+        "webtrees/tests/WebTreesTest1.pm" : {
+            "archs" : [
+                "armv7h",
+                "aarch64",
+                "x86_64"
+            ]
+        }
     }
 }
