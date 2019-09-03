@@ -98,6 +98,7 @@
         "python-webencodings" : {},
         "python-werkzeug" : {},
         "python-yaml" : {},
+        "python-zipp" : {},
         "python-zope-component" : {},
         "python-zope-deferredimport" : {},
         "python-zope-deprecation" : {},
