@@ -19,6 +19,7 @@
                 "aarch64"
             ]
         },
+        "fail2ban" : {},
         "fstrm" : {},
         "git-lfs" : {},
         "go-ipfs" : {},
@@ -90,6 +91,7 @@
         "python-pillow" : {},
         "python-progress" : {},
         "python-psycopg2" : {},
+        "python-pyinotify" : {},
         "python-pyrfc3339" : {},
         "python-pysocks" : {},
         "python-pytoml" : {},
