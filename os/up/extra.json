@@ -353,6 +353,7 @@
         "sound-theme-freedesktop" : {},
         "speex" : {},
         "speexdsp" : {},
+        "spirv-tools" : {},
         "talloc" : {},
         "tcl" : {},
         "tcpdump" : {},
