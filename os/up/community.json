@@ -24,7 +24,6 @@
         "go-ipfs" : {},
         "gpac" : {},
         "hiredis" : {},
-        "http-parser" : {},
         "hostapd" : {},
         "i2c-tools" : {},
         "iotop" : {},
@@ -104,7 +103,6 @@
         "python-zope-event" : {},
         "python-zope-hookable" : {},
         "python-zope-proxy" : {},
-        "python2-argparse" : {},
         "python2-boto" : {},
         "python2-cachecontrol" : {},
         "python2-cheetah" : {},
@@ -134,7 +132,6 @@
         "python2-oauthlib" : {},
         "python2-oslo-config" : {},
         "python2-oslo-i18n" : {},
-        "python2-parsedatetime" : {},
         "python2-pbr" : {},
         "python2-pillow" : {},
         "python2-prettytable" : {},
@@ -142,7 +139,6 @@
         "python2-psutil" : {},
         "python2-psycopg2" : {},
         "python2-pyrfc3339" : {},
-        "python2-pythondialog" : {},
         "python2-pytoml" : {},
         "python2-pytz" : {},
         "python2-redis" : {},
@@ -176,9 +172,13 @@
 
     "remove-packages" : {
         "arm" : {},
+        "http-parser" : {},
         "python2-acme" : {},
+        "python2-argparse" : {},
         "python2-augeas" : {},
         "python2-configargparse" : {},
-        "python2-d2to1" : {}
+        "python2-d2to1" : {},
+        "python2-parsedatetime" : {},
+        "python2-pythondialog" : {}
     }
 }
