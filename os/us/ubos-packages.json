@@ -13,7 +13,7 @@
         },
         "dnsmasq" : {},
         "f3" : {},
-        # Keep old version for now "mariadb" : {},
+        "mariadb" : {},
         "memcached" : {},
         "mod_xsendfile" : {},
         "netatalk" : {},
