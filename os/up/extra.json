@@ -194,6 +194,7 @@
         "libxtst" : {},
         "libxxf86vm" : {},
         "libyaml" : {},
+        "llvm" : {},
         "llvm-libs" : {},
         "libzip" : {},
         "lm_sensors" : {},
