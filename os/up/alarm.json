@@ -15,6 +15,41 @@
                 "armv7h"
             ]
         },
+        "kodi-rbp3" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp3-addon-addon-visualization-spectrum" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp3-eventclients" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp4-eventclients" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp3-tools-texturepacker" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp4" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp4-tools-texturepacker" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "luajit-git" : {
             "archs" : [
                 "aarch64"

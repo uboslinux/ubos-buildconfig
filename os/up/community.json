@@ -131,41 +131,6 @@
                 "x86_64"
             ]
         },
-        "kodi-rbp3" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp3-addon-addon-visualization-spectrum" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp3-eventclients" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp4-eventclients" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp3-tools-texturepacker" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp4" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp4-tools-texturepacker" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
         "kodi-tools-texturepacker" : {
             "archs" : [
                 "x86_64"
