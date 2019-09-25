@@ -91,7 +91,11 @@
         "krb5" : {},
         "ldns" : {},
         "less" : {},
-        "libaio" : {},
+        "libaio" : { # in extra on ARM
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "libarchive" : {},
         "libassuan" : {},
         "libcap" : {},

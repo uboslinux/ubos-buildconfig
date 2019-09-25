@@ -136,7 +136,13 @@
                 "x86_64"
             ]
         },
-        "libcec" : {},
+        "libcec" : {
+            "archs" : [
+                "x86_64",
+                "aarch64",
+                "armv7h"
+            ]
+        },
         "libev" : {},
         "libftdi" : {},
         "libmicrohttpd" : {},
@@ -284,9 +290,17 @@
         "strongswan" : {},
         "tinyxml" : {},
         "unbound" : {},
-        "wireguard-arch" : {},
+        "wireguard-arch" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "wireguard-dkms" : {},
-        "wireguard-lts" : {},
+        "wireguard-lts" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "wireguard-tools" : {},
         "wireshark-cli" : {},
         "xdebug" : {},

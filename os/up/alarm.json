@@ -50,6 +50,11 @@
                 "armv7h"
             ]
         },
+        "libcec-rpi" : {
+            "archs" : [
+                "armv6h"
+            ]
+        },
         "luajit-git" : {
             "archs" : [
                 "aarch64"
