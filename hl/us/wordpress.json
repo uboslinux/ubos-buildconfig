@@ -33,6 +33,11 @@
     },
 
     "webapptests" : {
-        "wordpress/tests/WordpressTest1.pm" : {}
+        "wordpress/tests/WordpressTest1.pm" : {
+            "flags" : {
+                "default"       : "--tlsselfsigned",
+                "deploy-update" : "--tlsselfsigned"
+            }
+        }
     }
 }

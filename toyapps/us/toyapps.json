@@ -20,7 +20,7 @@
         "gladiwashere-php-postgresql/tests/GladIWasHerePhpPostgresql1Test.pm" : {},
         "gladiwashere-python-mysql/tests/GladIWasHerePythonMysql1Test.pm" : {
             "flags" : {
-                "default" : "--tlsselfsigned",
+                "default"       : "--tlsselfsigned",
                 "deploy-update" : "--tlsselfsigned"
             }
         },

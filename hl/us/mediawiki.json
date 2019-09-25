@@ -11,7 +11,8 @@
     "webapptests" : {
         "mediawiki/tests/MediawikiTest1.pm" : {
             "flags" : {
-                "default" : "--tlsselfsigned"
+                "default"       : "--tlsselfsigned",
+                "deploy-update" : "--tlsselfsigned"
             }
         }
     }
