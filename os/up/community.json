@@ -31,8 +31,146 @@
         "iotop" : {},
         "jansson" : {},
         "jitterentropy" : {},
-        "kodi" : {},
-        "kodi-bin" : {},
+        "kodi" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-audioencoder-flac" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-audioencoder-lame" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-audioencoder-vorbis" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-audioencoder-wav" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-peripheral-joystick" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-screensaver-asteroids" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-screensaver-biogenesis" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-screensaver-greynetic" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-screensaver-matrixtrails" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-screensaver-pingpong" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-screensaver-pyro" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-screensaver-stars" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-visualization-projectm" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-visualization-shadertoy" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-visualization-spectrum" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-addon-visualization-waveform" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-bin" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-eventclients" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-platform" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-rbp3" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp3-addon-addon-visualization-spectrum" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp3-eventclients" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp4-eventclients" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp3-tools-texturepacker" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp4" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp4-tools-texturepacker" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-tools-texturepacker" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "libcec" : {},
         "libev" : {},
         "libftdi" : {},
@@ -50,6 +188,7 @@
             ]
         },
         "lynis" : {},
+        "mediaelch" : {},
         "minicom" : {},
         "minidlna" : {},
         "miniupnpc" : {},
