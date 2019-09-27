@@ -189,9 +189,19 @@
                 "armv7h"
             ]
         },
+        "linux-raspberrypi4" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "linux-raspberrypi-headers" : {
             "archs" : [
                 "armv6h",
+                "armv7h"
+            ]
+        },
+        "linux-raspberrypi4-headers" : {
+            "archs" : [
                 "armv7h"
             ]
         },
