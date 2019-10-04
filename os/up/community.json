@@ -264,7 +264,6 @@
         "python2-prettytable" : {},
         "python2-progress" : {},
         "python2-psutil" : {},
-        "python2-psycopg2" : {},
         "python2-pyrfc3339" : {},
         "python2-pyrsistent" : {},
         "python2-pytoml" : {},
