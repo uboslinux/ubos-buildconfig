@@ -315,6 +315,7 @@
         "python2-configargparse" : {},
         "python2-d2to1" : {},
         "python2-parsedatetime" : {},
+        "python2-psycopg2" : {},
         "python2-pythondialog" : {}
     }
 }
