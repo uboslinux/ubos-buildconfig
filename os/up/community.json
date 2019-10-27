@@ -20,6 +20,7 @@
                 "aarch64"
             ]
         },
+        "esptool" : {},
         "fail2ban" : {},
         "fstrm" : {},
         "git-lfs" : {},
@@ -195,6 +196,7 @@
         "python-distlib" : {},
         "python-distro" : {},
         "python-docutils" : {},
+        "python-ecdsa" : {},
         "python-future" : {},
         "python-html5lib" : {},
         "python-importlib-metadata" : {},
@@ -210,8 +212,10 @@
         "python-pillow" : {},
         "python-progress" : {},
         "python-psycopg2" : {},
+        "python-pyaes" : {},
         "python-pyinotify" : {},
         "python-pyrfc3339" : {},
+        "python-pyserial" : {},
         "python-pysocks" : {},
         "python-pytoml" : {},
         "python-pytz" : {},
