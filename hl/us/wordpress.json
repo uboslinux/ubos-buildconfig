@@ -6,6 +6,7 @@
     "packages" : {
         "wordpress" : {},
         "wordpress-plugin-bridgy-publish" : {},
+        "wordpress-plugin-classic-editor" : {},
         "wordpress-plugin-google-analytics-for-wordpress" : {},
         "wordpress-plugin-indieauth" : {},
         "wordpress-plugin-indieweb" : {},
@@ -16,6 +17,7 @@
         "wordpress-plugin-pterotype" : {},
         "wordpress-plugin-semantic-linkbacks" : {},
         "wordpress-plugin-seo" : {},
+        "wordpress-plugin-simple-location" : {},
         "wordpress-plugin-social-networks-auto-poster-facebook-twitter-g" : {},
         "wordpress-plugin-syndication-links" : {},
         "wordpress-plugin-webmention" : {},
