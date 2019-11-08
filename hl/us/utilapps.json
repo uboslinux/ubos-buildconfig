@@ -10,13 +10,13 @@
     },
 
     "webapptests" : {
-        "redirect/tests/RedirectTest1.pm" : {},
+#        "redirect/tests/RedirectTest1.pm" : {},
         "redirect/tests/RedirectTest2.pm" : {
             "flags" : {
                 "default"       : "--tlsselfsigned",
                 "deploy-update" : "--tlsselfsigned"
             }
         },
-        "redirect/tests/RedirectTest3.pm" : {}
+#        "redirect/tests/RedirectTest3.pm" : {}
     }
 }
