@@ -12,6 +12,7 @@
         "python-jmespath" : {},
         "python-s3transfer" : {},
         "ragel" : {},
+        "docbook2x" : {},
         "yarn" : {}
     },
     "remove-packages" : {
