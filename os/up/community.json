@@ -170,6 +170,7 @@
         "nodejs" : {},
         "npm" : {},
         "ntop" : {},
+        "oniguruma" : {},
         "openbsd-netcat" : {},
         "p8-platform" : {},
         "pacman-contrib" : {},
