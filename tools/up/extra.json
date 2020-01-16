@@ -12,6 +12,8 @@
         "git" : {},
         "jdk8-openjdk" : {},
         "jdk10-openjdk" : {},
+        "jdk11-openjdk" : {},
+        "jdk-openjdk" : {},
         "jsoncpp" : {},
         "libunwind" : {},
         "perl-inc-latest" : {},
