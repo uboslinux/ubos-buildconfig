@@ -399,6 +399,7 @@
         "xorg-setxkbmap" : {},
         "xorg-xdpyinfo" : {},
         "xorg-xkbcomp" : {},
+        "xorg-xprop" : {},
         "xorg-xrandr" : {},
         "xorg-xset" : {},
         "xorgproto" : {},
