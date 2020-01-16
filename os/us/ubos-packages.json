@@ -16,7 +16,6 @@
         "mariadb" : {},
         "memcached" : {},
         "mod_xsendfile" : {},
-        "netatalk" : {},
         "pagekite" : {},
         "postgresql" : {},
         "tomcat8" : {},
@@ -24,6 +23,7 @@
         "ubos-rsync-server" : {}
     },
     "remove-packages" : {
-        "amazonses" : {}
+        "amazonses" : {},
+        "netatalk" : {}
     }
 }
