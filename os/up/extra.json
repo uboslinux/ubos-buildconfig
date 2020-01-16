@@ -88,7 +88,6 @@
         "jasper" : {},
         "java-commons-daemon" : {},
         "java-environment-common" : {},
-        "java-jsvc" : {},
         "java-runtime-common" : {},
         "jbig2dec" : {},
         "jemalloc" : {},
