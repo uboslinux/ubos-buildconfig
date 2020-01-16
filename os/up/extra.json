@@ -122,7 +122,6 @@
         "libcups" : {},
         "libdaemon" : {},
         "libdatrie" : {},
-        "libdmx" : {},
         "libdrm" : {},
         "libepoxy" : {},
         "libevdev" : {},
@@ -205,7 +204,6 @@
         "libxt" : {},
         "libxv" : {},
         "libxtst" : {},
-        "libxxf86dga" : {},
         "libxxf86vm" : {},
         "libyaml" : {},
         "lirc" : {},
@@ -364,6 +362,18 @@
         "vulkan-icd-loader" : {},
         "wayland" : {},
         "wayland-protocols" : {},
+        "wireguard-arch" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "wireguard-dkms" : {},
+        "wireguard-lts" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "wireguard-tools" : {},
         "x264" : {},
         "x265" : {},
         "xcb-proto" : {},
@@ -409,8 +419,10 @@
         "jre9-openjdk-headless" : {},
         "js" : {},
         "lcms" : {},
+        "libdmx" : {},
         "libmagick" : {},
         "libmariadbclient" : {},
+        "libxxf86dga" : {},
         "qt4" : {},
         "randrproto" : {},
         "recordproto" : {},

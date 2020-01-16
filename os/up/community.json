@@ -172,6 +172,7 @@
         "ntop" : {},
         "openbsd-netcat" : {},
         "p8-platform" : {},
+        "pacman-contrib" : {},
         "pacutils" : {},
         "passenger" : {},
         "perl-cgi" : {},
@@ -250,18 +251,6 @@
         "strongswan" : {},
         "tinyxml" : {},
         "unbound" : {},
-        "wireguard-arch" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
-        "wireguard-dkms" : {},
-        "wireguard-lts" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
-        "wireguard-tools" : {},
         "wireshark-cli" : {},
         "xdebug" : {},
         "zeromq" : {}
