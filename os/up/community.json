@@ -176,6 +176,7 @@
         "pacutils" : {},
         "passenger" : {},
         "perl-cgi" : {},
+        "perl-data-validate-ip" : {},
         "perl-file-chdir" : {},
         "perl-lchown" : {},
         "perl-json" : {},
