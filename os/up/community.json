@@ -259,7 +259,8 @@
     "remove-packages" : {
         "arm" : {},
         "http-parser" : {}
-    }
+    },
+
     "remove-later" : {
         "python2-acme" : {},
         "python2-argparse" : {},
