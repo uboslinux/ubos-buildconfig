@@ -220,6 +220,7 @@
         "lua52" : {},
         "mariadb-clients" : {},
         "mariadb-libs" : {},
+        "md4c" : {},
         "mesa" : {},
         "mono" : {},
         "mtdev" : {},
