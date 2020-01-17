@@ -5,6 +5,8 @@
         "adobe-source-code-pro-fonts" : {},
         "adwaita-icon-theme" : {},
         "alsa-lib" : {},
+        "alsa-topology-conf" : {},
+        "alsa-ucm-conf" : {},
         "aom" : {
             "archs" : [
                 "aarch64",
@@ -224,6 +226,7 @@
         "mesa" : {},
         "mono" : {},
         "mtdev" : {},
+        "netbpm" : {},
         "nftables" : {},
         "nghttp2" : {},
         "nmap" : {},
@@ -304,6 +307,7 @@
         "python-beaker" : {},
         "python-cffi" : {},
         "python-chardet" : {},
+        "python-contextlib2" : {},
         "python-cryptography" : {},
         "python-dbus" : {},
         "python-dbus-common" : {},
@@ -313,6 +317,7 @@
         "python-lxml" : {},
         "python-mako" : {},
         "python-markupsafe" : {},
+        "python-ordered-set" : {},
         "python-packaging" : {},
         "python-pep517" : {},
         "python-ply" : {},
