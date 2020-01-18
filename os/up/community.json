@@ -199,6 +199,7 @@
         "python-colorama" : {},
         "python-configargparse" : {},
         "python-configobj" : {},
+        "python-contextlib2" : {},
         "python-dateutil" : {},
         "python-distlib" : {},
         "python-distro" : {},
