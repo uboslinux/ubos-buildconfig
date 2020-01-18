@@ -18,6 +18,7 @@
         "mod_xsendfile" : {},
         "pagekite" : {},
         "postgresql" : {},
+        "storj" : {},
         "tomcat8" : {},
         "tor" : {},
         "ubos-rsync-server" : {}
