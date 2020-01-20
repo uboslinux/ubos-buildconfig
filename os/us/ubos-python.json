@@ -5,6 +5,9 @@
 
     "packages" : {
         "mf2py-python" : {},
+        "python-socksipychain" : {}
+    },
+    "remove-packages" : {
         "python2-socksipychain" : {}
     }
 }
