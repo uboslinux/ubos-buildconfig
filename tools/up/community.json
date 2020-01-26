@@ -2,6 +2,12 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
+        "arduino" : {},
+        "arduino-avr-core" : {},
+        "arduino-builder" : {},
+        "arduino-cli" : {},
+        "arduino-ctags" : {},
+        "arduino-docs" : {},
         "aws-cli" : {},
         "docker" : {},
         "gradle" : {},
