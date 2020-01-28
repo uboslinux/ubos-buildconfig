@@ -291,6 +291,7 @@
         "php-pgsql" : {},
         "pixman" : {},
         "pkgfile" : {},
+        "pkcs11-helper" : {},
         "polkit" : {},
         "postfix" : {},
         "postgresql-libs" : {},
