@@ -147,6 +147,7 @@
         },
         "libev" : {},
         "libftdi" : {},
+        "liblzf" : {},
         "libmaxminddb" : {},
         "libmicrohttpd" : {},
         "libnfs" : {},
