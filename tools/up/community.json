@@ -2,7 +2,6 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
-        "arduino" : {},
         "arduino-avr-core" : {},
         "arduino-builder" : {},
         "arduino-cli" : {},
@@ -22,6 +21,7 @@
         "yarn" : {}
     },
     "remove-packages" : {
+        "arduino" : {},
         "botocore" : {}
     }
 }
