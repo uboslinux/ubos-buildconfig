@@ -5,7 +5,6 @@
 
     "packages" : {
         "php-oauth" : {},
-        "php-redis" : {},
         "php-systemd" : {}
     }
 }
