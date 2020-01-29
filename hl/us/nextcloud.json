@@ -19,6 +19,7 @@
         "nextcloud-calendar" : {},
         "nextcloud-contacts" : {},
         "nextcloud-deck" : {},
+        "nextcloud-extract" : {},
         "nextcloud-files-rightclick" : {},
         "nextcloud-group-everyone" : {},
         "nextcloud-groupfolders" : {},
