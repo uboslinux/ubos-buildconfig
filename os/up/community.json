@@ -244,6 +244,7 @@
         "python-pyinotify" : {},
         "python-pynacl" : {},
         "python-pyrfc3339" : {},
+        "python-pyrsistent" : {},
         "python-pyserial" : {},
         "python-pysocks" : {},
         "python-pytoml" : {},
