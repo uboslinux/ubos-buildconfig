@@ -169,7 +169,11 @@
         "miniupnpc" : {},
         "mod_passenger" : {},
         "mod_wsgi" : {},
-        "netplan" : {},
+        "netplan" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "node-gyp" : {},
         "nodejs" : {},
         "npm" : {},
