@@ -43,6 +43,7 @@
         "nextcloud-tasks" : {},
         "nextcloud-text" : {},
         "nextcloud-twofactor-totp" : {},
+        "nextcloud16" : {},
         "nextcloud15" : {}
     }
 }
