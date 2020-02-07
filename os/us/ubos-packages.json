@@ -17,7 +17,13 @@
         "memcached" : {},
         "mod_xsendfile" : {},
         "pagekite" : {},
-        "postgresql" : {},
+        "postgresql" : {
+            "archs" : [
+                "x86_64",
+                "armv7h"
+                "aarch64"
+            ]
+        },
         "storj" : {
             "channels" : [
                 "dev",

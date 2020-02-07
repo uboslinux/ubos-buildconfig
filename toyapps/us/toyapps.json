@@ -7,7 +7,13 @@
         "gladiwashere-java-mysql" : {},
         "gladiwashere-php-mysql" : {},
         "gladiwashere-php-mysql-footer" : {},
-        "gladiwashere-php-postgresql" : {},
+        "gladiwashere-php-postgresql" : {
+            "archs" : [
+                "x86_64", 
+                "armv7h"
+                "aarch64"
+            ]
+        },
         "gladiwashere-python-mysql" : {},
         "helloworld" : {},
         "wollmilchsau" : {},
@@ -17,7 +23,13 @@
 
     "webapptests" : {
         "gladiwashere-php-mysql/tests/GladIWasHerePhpMysql1Test.pm" : {},
-        "gladiwashere-php-postgresql/tests/GladIWasHerePhpPostgresql1Test.pm" : {},
+        "gladiwashere-php-postgresql/tests/GladIWasHerePhpPostgresql1Test.pm" : {
+            "archs" : [
+                "x86_64", 
+                "armv7h"
+                "aarch64"
+            ]
+        },
         "gladiwashere-python-mysql/tests/GladIWasHerePythonMysql1Test.pm" : {
             "flags" : {
                 "default"       : "--tlsselfsigned",
