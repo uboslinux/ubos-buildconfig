@@ -16,14 +16,27 @@
         "mariadb" : {},
         "memcached" : {},
         "mod_xsendfile" : {},
-        "netatalk" : {},
         "pagekite" : {},
-        "postgresql" : {},
+        "postgresql" : {
+            "archs" : [
+                "x86_64",
+                "armv7h"
+                "aarch64"
+            ]
+        },
+        "storj" : {
+            "channels" : [
+                "dev",
+                "red",
+                "yellow"
+            ]
+        },
         "tomcat8" : {},
         "tor" : {},
         "ubos-rsync-server" : {}
     },
     "remove-packages" : {
-        "amazonses" : {}
+        "amazonses" : {},
+        "netatalk" : {}
     }
 }

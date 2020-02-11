@@ -91,11 +91,7 @@
         "krb5" : {},
         "ldns" : {},
         "less" : {},
-        "libaio" : { # in extra on ARM
-            "archs" : [
-                "x86_64"
-            ]
-        },
+        "libaio" : {},
         "libarchive" : {},
         "libassuan" : {},
         "libcap" : {},
@@ -230,7 +226,6 @@
         "openssh" : {},
         "openssl" : {},
         "openssl-1.0" : {},
-        "openvpn" : {},
         "p11-kit" : {},
         "pacman" : {},
         "pacman-mirrorlist" : {},
@@ -240,7 +235,6 @@
         "pciutils" : {},
         "pcre" : {},
         "pcre2" : {},
-        "pkcs11-helper" : {},
         "perl" : {},
         "pinentry" : {},
         "popt" : {},

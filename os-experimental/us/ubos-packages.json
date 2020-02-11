@@ -11,13 +11,13 @@
 
     "packages" : {
         "paradux" : {},
-        "pebble" : {},
-        "zerotier-one" : {}
+        "pebble" : {}
     },
 
     "remove-packages" : {
         "bitcoin" : {},
         "geth" : {},
-        "monero" : {}
+        "monero" : {},
+        "zerotier-one" : {}
     }
 }

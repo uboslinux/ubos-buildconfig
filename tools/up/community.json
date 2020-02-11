@@ -2,6 +2,11 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
+        "arduino-avr-core" : {},
+        "arduino-builder" : {},
+        "arduino-cli" : {},
+        "arduino-ctags" : {},
+        "arduino-docs" : {},
         "aws-cli" : {},
         "docker" : {},
         "gradle" : {},
@@ -12,9 +17,11 @@
         "python-jmespath" : {},
         "python-s3transfer" : {},
         "ragel" : {},
+        "docbook2x" : {},
         "yarn" : {}
     },
     "remove-packages" : {
+        "arduino" : {},
         "botocore" : {}
     }
 }
