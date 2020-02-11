@@ -20,7 +20,7 @@
         "postgresql" : {
             "archs" : [
                 "x86_64",
-                "armv7h"
+                "armv7h",
                 "aarch64"
             ]
         },
