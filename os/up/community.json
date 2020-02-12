@@ -149,7 +149,11 @@
         "libftdi" : {},
         "liblzf" : {},
         "libmaxminddb" : {},
-        "libmfx" : {},
+        "libmfx" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "libmicrohttpd" : {},
         "libnfs" : {},
         "libp11" : {},
