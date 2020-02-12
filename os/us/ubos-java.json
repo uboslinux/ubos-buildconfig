@@ -4,13 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "java-jsvc" : {
-            "archs" : [
-                "aarch64",
-                "armv6h",
-                "armv7h"
-            ]
-        },
+        "java-jsvc" : {},
         "log4j-systemd-journal-appender" : {},
         "mysql-connector-java" : {},
         "postgresql-java" : {},

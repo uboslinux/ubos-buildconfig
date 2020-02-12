@@ -17,13 +17,7 @@
         "memcached" : {},
         "mod_xsendfile" : {},
         "pagekite" : {},
-        "postgresql" : {
-            "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
-            ]
-        },
+        "postgresql" : {},
         "storj" : {
             "channels" : [
                 "dev",
@@ -32,13 +26,7 @@
             ]
         },
         "tomcat8" : {},
-        "tor" : {
-            "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
-            ]
-        },
+        "tor" : {},
         "ubos-rsync-server" : {}
     },
     "remove-packages" : {
