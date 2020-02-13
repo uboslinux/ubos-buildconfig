@@ -220,6 +220,7 @@
         "python-dateutil" : {},
         "python-distlib" : {},
         "python-distro" : {},
+        "python-dnspython" : {},
         "python-docutils" : {},
         "python-ecdsa" : {},
         "python-future" : {},
