@@ -4,6 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "elasticsearch-ingest-attachment" : {},
         "java-jsvc" : {},
         "log4j-systemd-journal-appender" : {},
         "mysql-connector-java" : {},

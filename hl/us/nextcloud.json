@@ -43,7 +43,10 @@
         "nextcloud-tasks" : {},
         "nextcloud-text" : {},
         "nextcloud-twofactor-totp" : {},
-        "nextcloud15" : {},
-        "nextcloud16" : {}
+        "nextcloud16" : {},
+        "nextcloud17" : {}
+    },
+    "remove-packages" : {
+        "nextcloud15" : {}
     }
 }
