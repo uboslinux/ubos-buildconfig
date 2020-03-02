@@ -4,7 +4,13 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "elasticsearch-ingest-attachment" : {},
+        "elasticsearch-ingest-attachment" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
         "java-jsvc" : {},
         "log4j-systemd-journal-appender" : {},
         "mysql-connector-java" : {},
