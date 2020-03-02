@@ -24,7 +24,6 @@
         "wordpress-plugin-wp-mail-smtp" : {},
         "wordpress-plugin-wp-uf2" : {},
         "wordpress-theme-independent-publisher" : {},
-        "wordpress-theme-p2" : {},
         "wordpress-theme-pinboard" : {},
         "wordpress-theme-responsive" : {},
         "wordpress-theme-sempress" : {},
@@ -32,6 +31,9 @@
         "wordpress-theme-twentyfourteen" : {},
         "wordpress-theme-twentythirteen" : {},
         "wordpress-theme-twentytwelve" : {}
+    },
+    "remove-packages" : {
+        "wordpress-theme-p2" : {}
     },
 
     "webapptests" : {
