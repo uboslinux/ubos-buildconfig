@@ -13,6 +13,12 @@
     },
 
     "webapptests" : {
-        "shaarli/tests/Shaarli1Test.pm" : {}
+        "shaarli/tests/Shaarli1Test.pm" : {
+            "archs" : [
+                "x86_64", 
+                "armv7h",
+                "aarch64"
+            ]
+        }
     }
 }

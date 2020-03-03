@@ -41,7 +41,12 @@
             "flags" : {
                 "default"       : "--tlsselfsigned",
                 "deploy-update" : "--tlsselfsigned"
-            }
+            },
+            "archs" : [
+                "x86_64", 
+                "armv7h",
+                "aarch64"
+            ]
         }
     }
 }
