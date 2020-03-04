@@ -19,7 +19,11 @@
         "nextcloud-calendar" : {},
         "nextcloud-contacts" : {},
         "nextcloud-deck" : {},
-        "nextcloud-documentserver-community" : {},
+        "nextcloud-documentserver-community" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "nextcloud-extract" : {},
         "nextcloud-files-fulltextsearch" : {},
         "nextcloud-files-rightclick" : {},
