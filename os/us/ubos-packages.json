@@ -13,7 +13,13 @@
         },
         "dnsmasq" : {},
         "f3" : {},
-        "mariadb" : {},
+        "mariadb" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
         "memcached" : {},
         "mod_xsendfile" : {},
         "pagekite" : {},
