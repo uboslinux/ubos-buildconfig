@@ -32,7 +32,13 @@
             ]
         },
         "tomcat8" : {},
-        "tor" : {},
+        "tor" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
         "ubos-rsync-server" : {}
     },
     "remove-packages" : {
