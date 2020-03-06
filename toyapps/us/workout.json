@@ -4,6 +4,8 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "installupgrade" : {},
+        "installupgrade-acc" : {},
         "workout-dir1" : {},
         "workout-exec1" : {},
         "workout-file1" : {},
