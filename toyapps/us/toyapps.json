@@ -4,7 +4,13 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "gladiwashere-java-mysql" : {},
+        "gladiwashere-java-mysql" : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        },
         "gladiwashere-php-mysql" : {},
         "gladiwashere-php-mysql-footer" : {},
         "gladiwashere-php-postgresql" : {
