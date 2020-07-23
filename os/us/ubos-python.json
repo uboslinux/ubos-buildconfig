@@ -5,7 +5,8 @@
 
     "packages" : {
         "mf2py-python" : {},
-        "python-socksipychain" : {}
+        "python-socksipychain" : {},
+        "ubos-python-utils" : {}
     },
     "remove-packages" : {
         "python2-socksipychain" : {}

@@ -321,6 +321,7 @@
         "python-retrying" : {},
         "python-setuptools" : {},
         "python-six" : {},
+        "python-systemd" : {},
         "python-urllib3" : {},
         "python-zope-interface" : {},
         "qrencode" : {},
