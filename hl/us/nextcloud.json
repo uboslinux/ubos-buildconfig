@@ -38,6 +38,8 @@
         "nextcloud-notes" : {},
         "nextcloud-onlyoffice" : {},
         "nextcloud-passwords" : {},
+        "nextcloud-richdocuments" : {},
+        "nextcloud-richdocumentscode" : {},
         "nextcloud-social" : {
             "channels" : [
                 "red",
@@ -53,6 +55,7 @@
         "nextcloud-twofactor-totp" : {},
         "nextcloud16" : {},
         "nextcloud17" : {}
+        "nextcloud18" : {}
     },
     "remove-packages" : {
         "nextcloud15" : {}
