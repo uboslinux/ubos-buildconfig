@@ -27,6 +27,7 @@
         "nextcloud-extract" : {},
         "nextcloud-files-fulltextsearch" : {},
         "nextcloud-files-rightclick" : {},
+        "nextcloud-forms" : {},
         "nextcloud-fulltextsearch" : {},
         "nextcloud-fulltextsearch-elasticsearch" : {},
         "nextcloud-group-everyone" : {},
