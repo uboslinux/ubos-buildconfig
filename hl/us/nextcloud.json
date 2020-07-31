@@ -38,8 +38,16 @@
         "nextcloud-notes" : {},
         "nextcloud-onlyoffice" : {},
         "nextcloud-passwords" : {},
-        "nextcloud-richdocuments" : {},
-        "nextcloud-richdocumentscode" : {},
+        "nextcloud-richdocuments" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "nextcloud-richdocumentscode" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "nextcloud-social" : {
             "channels" : [
                 "red",
@@ -59,6 +67,18 @@
     "remove-packages" : {
         "nextcloud15" : {},
         "nextcloud-files-rightclick" : {},
-        "nextcloud-text" : {}
+        "nextcloud-text" : {},
+        "nextcloud-richdocuments" : {
+            "archs" : [
+                "armv7h",
+                "aarch64"
+            ]
+        },
+        "nextcloud-richdocumentscode" : {
+            "archs" : [
+                "armv7h",
+                "aarch64"
+            ]
+        }
     }
 }
