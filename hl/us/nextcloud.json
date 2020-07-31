@@ -26,7 +26,6 @@
         },
         "nextcloud-extract" : {},
         "nextcloud-files-fulltextsearch" : {},
-        "nextcloud-files-rightclick" : {},
         "nextcloud-forms" : {},
         "nextcloud-fulltextsearch" : {},
         "nextcloud-fulltextsearch-elasticsearch" : {},
@@ -52,13 +51,14 @@
         "nextcloud-socialsharing-twitter" : {},
         "nextcloud-spreed" : {},
         "nextcloud-tasks" : {},
-        "nextcloud-text" : {},
         "nextcloud-twofactor-totp" : {},
         "nextcloud16" : {},
         "nextcloud17" : {},
         "nextcloud18" : {},
     },
     "remove-packages" : {
-        "nextcloud15" : {}
+        "nextcloud15" : {},
+        "nextcloud-files-rightclick" : {},
+        "nextcloud-text" : {}
     }
 }
