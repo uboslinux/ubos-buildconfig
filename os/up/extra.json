@@ -96,8 +96,20 @@
         "jre8-openjdk-headless" : {},
         "jre10-openjdk" : {},
         "jre10-openjdk-headless" : {},
-        "jre11-openjdk" : {},
-        "jre11-openjdk-headless" : {},
+        "jre11-openjdk" : {
+            "archs" : [
+                "aarch64",
+                "armv7h",
+                "x86_64"
+            ]
+        },
+        "jre11-openjdk-headless" : {
+            "archs" : [
+                "aarch64",
+                "armv7h",
+                "x86_64"
+            ]
+        },
         "jre-openjdk" : {},
         "jre-openjdk-headless" : {},
         "js52" : {},

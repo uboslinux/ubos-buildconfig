@@ -1,9 +1,15 @@
 {
     "url"    : "https://github.com/diet4j/diet4j",
     "type"   : "git",
-    "branch" : "next",
+    "branch" : "master",
 
     "packages" : {
-        "." : {}
+        "." : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        }
     }
 }
