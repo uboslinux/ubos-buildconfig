@@ -15,7 +15,8 @@
         "workout-perlscript1" : {},
         "workout-symlink1" : {},
         "workout-tree1" : {},
-        "workout-tree2" : {}
+        "workout-tree2" : {},
+        "workout-wellknown" : {}
     },
 
     "disabled-webapptests" : {
