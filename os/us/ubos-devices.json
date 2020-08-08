@@ -48,6 +48,11 @@
                 "aarch64"
             ]
         },
+        "ubos-deviceclass-odroidxu3" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "ubos-deviceclass-pc" : {
             "archs" : [
                 "x86_64"
@@ -59,6 +64,11 @@
             ]
         },
         "ubos-deviceclass-rpi2" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "ubos-deviceclass-rpi4" : {
             "archs" : [
                 "armv7h"
             ]

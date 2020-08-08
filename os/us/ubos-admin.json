@@ -10,7 +10,6 @@
         "ubos-datatransfer-rsync" : {},
         "ubos-install" : {},
         "ubos-live" : {},
-        "ubos-live-certificates" : {},
         "ubos-live-publish-backup" : {},
         "ubos-networking-client" : {},
         "ubos-networking-cloud" : {
@@ -27,5 +26,8 @@
         "ubos-networking-gateway" : {},
         "ubos-networking-standalone" : {},
         "ubos-perl-utils" : {}
+    },
+    "remove-packages" : {
+        "ubos-live-certificates" : {}
     }
 }
