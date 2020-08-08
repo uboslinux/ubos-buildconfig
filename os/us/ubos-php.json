@@ -5,6 +5,7 @@
 
     "packages" : {
         "php-oauth" : {},
+        "php-smbclient" : {},
         "php-systemd" : {}
     }
 }
