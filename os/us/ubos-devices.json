@@ -24,11 +24,6 @@
                 "x86_64"
             ]
         },
-        "uboot-odroid-xu3" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
         "python-raspberry-gpio" : {
             "archs" : [
                 "aarch64",

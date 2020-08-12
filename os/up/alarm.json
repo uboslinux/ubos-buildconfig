@@ -106,5 +106,8 @@
                 "armv7h"
             ]
         }
+    },
+    "remove-packages" : {
+        "uboot-odroid-xu3" : {}
     }
 }
