@@ -5,6 +5,7 @@
 
     "packages" : {
         "perl-log-journald" : {},
-        "perl-linux-userxattr" : {}
+        "perl-linux-userxattr" : {},
+        "perl-www-curl" : {}
     }
 }

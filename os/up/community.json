@@ -23,10 +23,11 @@
         "esptool" : {},
         "fail2ban" : {},
         "fstrm" : {},
-        "geoip2-database" : {},
+        "geoipupdate" : {},
         "git-lfs" : {},
         "go-ipfs" : {},
         "gpac" : {},
+        "hidapi" : {},
         "hiredis" : {},
         "hostapd" : {},
         "i2c-tools" : {},
@@ -118,12 +119,12 @@
                 "x86_64"
             ]
         },
-        "kodi-bin" : {
+        "kodi-eventclients" : {
             "archs" : [
                 "x86_64"
             ]
         },
-        "kodi-eventclients" : {
+        "kodi-gbm" : {
             "archs" : [
                 "x86_64"
             ]
@@ -134,6 +135,16 @@
             ]
         },
         "kodi-tools-texturepacker" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-wayland" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "kodi-x11" : {
             "archs" : [
                 "x86_64"
             ]
@@ -154,7 +165,6 @@
                 "x86_64"
             ]
         },
-        "libmicrohttpd" : {},
         "libnfs" : {},
         "libp11" : {},
         "libpgm" : {},
@@ -173,7 +183,6 @@
         "minidlna" : {},
         "miniupnpc" : {},
         "mod_passenger" : {},
-        "mod_wsgi" : {},
         "netplan" : {
             "archs" : [
                 "x86_64"
@@ -197,7 +206,6 @@
         "perl-json" : {},
         "perl-path-tiny" : {},
         "perl-sgmls" : {},
-        "perl-www-curl" : {},
         "perl-xml-sax-expat" : {},
         "php-igbinary" : {},
         "php-imagick" : {},
@@ -274,26 +282,30 @@
         "redis" : {},
         "restic" : {},
         "rng-tools" : {},
+        "rtl-sdr" : {},
         "ruby-bundler" : {},
+        "ruby-irb" : {},
         "ruby-rack" : {},
         "ruby-rdoc" : {},
+        "ruby-reline" : {},
         "runc" : {},
         "semver" : {},
         "snapper" : {},
         "strongswan" : {},
         "tinyxml" : {},
         "unbound" : {},
+        "vmaf" : {},
         "wireshark-cli" : {},
         "xdebug" : {},
+        "xxhash" : {},
         "zeromq" : {}
     },
 
     "remove-packages" : {
         "arm" : {},
-        "http-parser" : {}
-    },
-
-    "remove-later" : {
+        "geoip2-database" : {},
+        "http-parser" : {},
+        "kodi-bin" : {},
         "python2-acme" : {},
         "python2-argparse" : {},
         "python2-augeas" : {},
