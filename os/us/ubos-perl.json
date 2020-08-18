@@ -4,7 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "perl-archive-zip" : {},
         "perl-log-journald" : {},
         "perl-linux-userxattr" : {}
     }

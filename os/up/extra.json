@@ -249,6 +249,7 @@
         "parted" : {},
         "perl-alien-build" : {},
         "perl-alien-libxml2" : {},
+        "perl-archive-zip" : {},
         "perl-capture-tiny" : {},
         "perl-config-simple" : {},
         "perl-dbd-mysql" : {},
