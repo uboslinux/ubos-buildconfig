@@ -27,6 +27,7 @@
         "git-lfs" : {},
         "go-ipfs" : {},
         "gpac" : {},
+        "hidapi" : {},
         "hiredis" : {},
         "hostapd" : {},
         "i2c-tools" : {},
@@ -281,7 +282,9 @@
         "redis" : {},
         "restic" : {},
         "rng-tools" : {},
+        "rtl-sdr" : {},
         "ruby-bundler" : {},
+        "ruby-irb" : {},
         "ruby-rack" : {},
         "ruby-rdoc" : {},
         "runc" : {},
@@ -290,8 +293,10 @@
         "strongswan" : {},
         "tinyxml" : {},
         "unbound" : {},
+        "vmaf" : {},
         "wireshark-cli" : {},
         "xdebug" : {},
+        "xxhash" : {},
         "zeromq" : {}
     },
 

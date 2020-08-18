@@ -114,6 +114,7 @@
         "libnghttp2" : {},
         "libnl" : {},
         "libnsl" : {},
+        "libp11-kit" : {},
         "libpcap" : {},
         "libpipeline" : {},
         "libpsl" : {},
