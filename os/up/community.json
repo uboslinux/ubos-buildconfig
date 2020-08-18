@@ -287,6 +287,7 @@
         "ruby-irb" : {},
         "ruby-rack" : {},
         "ruby-rdoc" : {},
+        "ruby-reline" : {},
         "runc" : {},
         "semver" : {},
         "snapper" : {},
