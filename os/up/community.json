@@ -294,7 +294,11 @@
         "strongswan" : {},
         "tinyxml" : {},
         "unbound" : {},
-        "vmaf" : {},
+        "vmaf" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "wireshark-cli" : {},
         "xdebug" : {},
         "xxhash" : {},
