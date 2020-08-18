@@ -6,6 +6,7 @@
     "packages" : {
         "perl-archive-zip" : {},
         "perl-log-journald" : {},
-        "perl-linux-userxattr" : {}
+        "perl-linux-userxattr" : {},
+        "perl-www-curl" : {}
     }
 }
