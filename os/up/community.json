@@ -241,6 +241,7 @@
         "python-lockfile" : {},
         "python-jsonschema" : {},
         "python-markdown" : {},
+        "python-marshmallow" : {},
         "python-mock" : {},
         "python-more-itertools" : {},
         "python-msgpack" : {},

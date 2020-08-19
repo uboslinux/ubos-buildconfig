@@ -327,6 +327,7 @@
         "python-ply" : {},
         "python-pyasn1" : {},
         "python-pycparser" : {},
+        "python-pyelftools" : {},
         "python-pyopenssl" : {},
         "python-pyparsing" : {},
         "python-requests" : {},
