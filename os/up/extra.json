@@ -223,6 +223,7 @@
         "lsof" : {},
         "lua" : {},
         "lua52" : {},
+        "lua53" : {},
         "mariadb-clients" : {},
         "mariadb-libs" : {},
         "md4c" : {},
