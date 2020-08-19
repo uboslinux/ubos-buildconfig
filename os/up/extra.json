@@ -38,6 +38,7 @@
         "dbus-glib" : {},
         "dconf" : {},
         "desktop-file-utils" : {},
+        "dhclient" : {},
         "dkms" : {},
         "double-conversion" : {},
         "eclipse-ecj" : {},

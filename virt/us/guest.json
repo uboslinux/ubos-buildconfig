@@ -7,7 +7,7 @@
         "x86_64"
     ],
 
-    "packages" : {
+    "remove-packages" : {
         "virtualbox-guest" : {}
     }
 }

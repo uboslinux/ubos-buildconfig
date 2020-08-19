@@ -11,7 +11,6 @@
         "gdb-common" : {},
         "git" : {},
         "jdk8-openjdk" : {},
-        "jdk10-openjdk" : {},
         "jdk11-openjdk" : {},
         "jdk-openjdk" : {},
         "jsoncpp" : {},
@@ -25,7 +24,8 @@
         "strace" : {}
     },
     "remove-packages" : {
-        "jdk9-openjdk" : {}
+        "jdk9-openjdk" : {},
+        "jdk10-openjdk" : {}
     }
 }
 
