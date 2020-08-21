@@ -127,7 +127,8 @@
         "libtool" : {},
         "libunistring" : {},
         "libusb" : {},
-        "libutil-linux" : {},
+        "lib-xcrypt" : {},
+        "licenses" : {},
         "licenses" : {},
         "linux" : {
             "archs" : [
