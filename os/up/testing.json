@@ -1,0 +1,7 @@
+{
+    "upstreamDir" : "${archUpstreamDir}",
+
+    "packages" : {
+        "libxcrypt" : {}
+    }
+}
