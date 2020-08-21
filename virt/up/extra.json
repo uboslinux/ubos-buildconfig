@@ -1,0 +1,11 @@
+{
+    "archs" : [
+        "x86_64"
+    ],
+    "upstreamDir" : "${archUpstreamDir}",
+
+    "packages" : {
+        "xf86-video-vmware" : {},
+    }
+}
+
