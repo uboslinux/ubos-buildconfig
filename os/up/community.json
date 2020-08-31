@@ -232,6 +232,7 @@
         "python-docutils" : {},
         "python-ecdsa" : {},
         "python-future" : {},
+        "python-gnupg" : {},
         "python-html5lib" : {},
         "python-importlib-metadata" : {},
         "python-jinja" : {},
