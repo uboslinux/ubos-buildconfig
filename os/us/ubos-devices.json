@@ -14,11 +14,6 @@
                 "aarch64"
             ]
         },
-        "intel-nuc-led" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
         "intel-nuc-ubos-state" : {
             "archs" : [
                 "x86_64"
