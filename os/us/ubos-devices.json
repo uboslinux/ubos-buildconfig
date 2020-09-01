@@ -19,6 +19,13 @@
                 "x86_64"
             ]
         },
+        "pi-bluetooth" : {
+            "archs" : [
+                "aarch64",
+                "armv6h",
+                "armv7h"
+            ]
+        },
         "python-raspberry-gpio" : {
             "archs" : [
                 "aarch64",

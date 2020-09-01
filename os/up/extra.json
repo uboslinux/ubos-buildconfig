@@ -43,6 +43,7 @@
         "dkms" : {},
         "double-conversion" : {},
         "eclipse-ecj" : {},
+        "ell" : {},
         "ffmpeg" : {},
         "flac" : {},
         "fontconfig" : {},

@@ -6,6 +6,7 @@
     "packages" : {
         "amazons3" : {},
         "apache" : {},
+        "bluez-utils-compat" : {},
         "cloud-init" : {
             "archs" : [
                 "x86_64"
