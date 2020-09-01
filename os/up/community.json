@@ -5,6 +5,7 @@
         "arp-scan" : {},
         "at" : {},
         "augeas" : {},
+        "babeld" : {},
         "botan" : {},
         "brotli" : {},
         "certbot" : {},
