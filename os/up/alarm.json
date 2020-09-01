@@ -30,17 +30,22 @@
                 "armv7h"
             ]
         },
-        "kodi-rbp4-eventclients" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
         "kodi-rbp3-tools-texturepacker" : {
             "archs" : [
                 "armv7h"
             ]
         },
         "kodi-rbp4" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp4-dev" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "kodi-rbp4-eventclients" : {
             "archs" : [
                 "armv7h"
             ]
