@@ -20,6 +20,7 @@
         "at-spi2-core" : {},
         "atk" : {},
         "avahi" : {},
+        "bc" : {},
         "bind" : {},
         "bluez" : {},
         "bluez-libs" : {},

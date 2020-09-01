@@ -32,6 +32,11 @@
                 "armv7h"
             ]
         },
+        "rpi-eeprom" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "ubos-deviceclass-container" : {},
         "ubos-deviceclass-ec2" : {
             "archs" : [

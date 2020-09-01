@@ -13,6 +13,7 @@
         "confuse" : {},
         "containerd" : {},
         "ddclient" : {},
+        "dtc" : {},
         "elasticsearch" : {
             "archs" : [
                 "x86_64",
