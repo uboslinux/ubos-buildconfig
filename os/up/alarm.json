@@ -93,6 +93,11 @@
                 "aarch64"
             ]
         },
+        "uboot-odroid-xu3" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "uboot-pcduino3" : {
             "archs" : [
                 "armv7h"
@@ -111,8 +116,5 @@
                 "armv7h"
             ]
         }
-    },
-    "remove-packages" : {
-        "uboot-odroid-xu3" : {}
     }
 }
