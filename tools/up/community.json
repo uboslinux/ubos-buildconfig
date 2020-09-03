@@ -9,6 +9,7 @@
         "arduino-docs" : {},
         "aws-cli" : {},
         "docker" : {},
+        "dtc" : {},
         "go" : {},
         "gradle" : {},
         "gtest" : {},

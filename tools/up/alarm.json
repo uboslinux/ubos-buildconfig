@@ -1,0 +1,13 @@
+{
+    "upstreamDir" : "${archUpstreamDir}",
+
+    "packages" : {
+        "dtc145" : {
+            "archs" : [
+                "aarch64",
+                "armv6h",
+                "armv7h"
+            ]
+        }
+    }
+}
