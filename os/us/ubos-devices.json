@@ -44,6 +44,11 @@
                 "armv7h"
             ]
         },
+        "uboot-odroid-xu3" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
         "ubos-deviceclass-container" : {},
         "ubos-deviceclass-ec2" : {
             "archs" : [
