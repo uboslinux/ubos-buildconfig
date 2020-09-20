@@ -128,7 +128,6 @@
         "libtool" : {},
         "libunistring" : {},
         "libusb" : {},
-        "libutil-linux" : {},
         "libxcrypt" : {},
         "licenses" : {},
         "licenses" : {},
@@ -266,6 +265,7 @@
         "traceroute" : {},
         "usbutils" : {},
         "util-linux" : {},
+        "util-linux-libs" : {},
         "vi" : {},
         "which" : {},
         "wireless-regdb" : {},
@@ -281,6 +281,7 @@
         "ca-certificates-cacert" : {},
         "librpcsecgss" : {},
         "libsystemd" : {},
+        "libutil-linux" : {},
         "pcmciautils" : {}
     }
 }
