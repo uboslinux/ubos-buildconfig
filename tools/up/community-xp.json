@@ -1,5 +1,6 @@
 {
     "upstreamDir" : "${archX86UpstreamDir}",
+    "shortdb"     : "community",
 
     "packages" : {
         "gradle" : {}
