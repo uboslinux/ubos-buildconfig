@@ -1,0 +1,7 @@
+{
+    "upstreamDir" : "${archX86UpstreamDir}",
+
+    "packages" : {
+        "gradle" : {}
+    }
+}
