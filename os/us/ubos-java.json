@@ -4,13 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "elasticsearch" : {
-            "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
-            ]
-        },
         "elasticsearch-ingest-attachment" : {
             "archs" : [
                 "x86_64",

@@ -1,0 +1,8 @@
+{
+    "upstreamDir" : "${archX86UpstreamDir}",
+    "shortdb"     : "community",
+
+    "packages" : {
+        "elasticsearch" : {}
+    }
+}
