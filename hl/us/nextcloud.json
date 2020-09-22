@@ -28,7 +28,11 @@
         "nextcloud-files-fulltextsearch" : {},
         "nextcloud-forms" : {},
         "nextcloud-fulltextsearch" : {},
-        "nextcloud-fulltextsearch-elasticsearch" : {},
+        "nextcloud-fulltextsearch-elasticsearch" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "nextcloud-group-everyone" : {},
         "nextcloud-groupfolders" : {},
         "nextcloud-impersonate" : {},
@@ -67,6 +71,12 @@
     "remove-packages" : {
         "nextcloud15" : {},
         "nextcloud-files-rightclick" : {},
+        "nextcloud-fulltextsearch-elasticsearch" : {
+            "archs" : [
+                "armv7h",
+                "aarch64"
+            ]
+        },
         "nextcloud-text" : {},
         "nextcloud-richdocuments" : {
             "archs" : [

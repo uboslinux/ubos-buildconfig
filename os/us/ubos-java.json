@@ -4,18 +4,9 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "elasticsearch" : {
-            "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
-            ]
-        },
         "elasticsearch-ingest-attachment" : {
             "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
+                "x86_64"
             ]
         },
         "java-jsvc" : {
@@ -29,5 +20,13 @@
         "mysql-connector-java" : {},
         "postgresql-java" : {},
         "protobuf-java" : {}
+    },
+    "remove-packages" : {
+        "elasticsearch-ingest-attachment" : {
+            "archs" : [
+                "armv7h",
+                "aarch64"
+            ]
+        }
     }
 }
