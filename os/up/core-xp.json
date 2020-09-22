@@ -1,6 +1,6 @@
 {
     "upstreamDir" : "${archX86UpstreamDir}",
-    "shortdb"     : "community",
+    "shortdb"     : "core",
 
     "packages" : {
         "archlinux-keyring" : {}
