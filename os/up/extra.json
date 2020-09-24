@@ -274,6 +274,7 @@
         "perl-io-socket-ssl" : {},
         "perl-libwww" : {},
         "perl-log-log4perl" : {},
+        "perl-lwp-protocol-https" : {},
         "perl-lwp-mediatypes" : {},
         "perl-mailtools" : {},
         "perl-net-http" : {},
