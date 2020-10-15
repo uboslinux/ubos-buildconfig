@@ -26,7 +26,7 @@
         },
         "nextcloud-extract" : {},
         "nextcloud-files-fulltextsearch" : {},
-        "nextcloud-files-rightclick" : {},
+        "nextcloud-forms" : {},
         "nextcloud-fulltextsearch" : {},
         "nextcloud-fulltextsearch-elasticsearch" : {},
         "nextcloud-group-everyone" : {},
@@ -38,6 +38,16 @@
         "nextcloud-notes" : {},
         "nextcloud-onlyoffice" : {},
         "nextcloud-passwords" : {},
+        "nextcloud-richdocuments" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "nextcloud-richdocumentscode" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "nextcloud-social" : {
             "channels" : [
                 "red",
@@ -49,12 +59,26 @@
         "nextcloud-socialsharing-twitter" : {},
         "nextcloud-spreed" : {},
         "nextcloud-tasks" : {},
-        "nextcloud-text" : {},
         "nextcloud-twofactor-totp" : {},
-        "nextcloud16" : {},
-        "nextcloud17" : {}
+        "nextcloud17" : {},
+        "nextcloud18" : {},
     },
     "remove-packages" : {
-        "nextcloud15" : {}
+        "nextcloud15" : {},
+        "nextcloud16" : {},
+        "nextcloud-files-rightclick" : {},
+        "nextcloud-text" : {},
+        "nextcloud-richdocuments" : {
+            "archs" : [
+                "armv7h",
+                "aarch64"
+            ]
+        },
+        "nextcloud-richdocumentscode" : {
+            "archs" : [
+                "armv7h",
+                "aarch64"
+            ]
+        }
     }
 }

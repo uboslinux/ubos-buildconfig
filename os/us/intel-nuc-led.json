@@ -1,0 +1,13 @@
+{
+    "url"    : "https://github.com/uboslinux/intel-nuc-led",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "." : {
+            "archs" : [
+                "x86_64"
+            ]
+        }
+    }
+}

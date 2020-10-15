@@ -9,8 +9,8 @@
         "arduino-docs" : {},
         "aws-cli" : {},
         "docker" : {},
+        "go" : {},
         "gradle" : {},
-        "go-pie" : {},
         "gtest" : {},
         "maven" : {},
         "python-botocore" : {},
@@ -22,6 +22,7 @@
     },
     "remove-packages" : {
         "arduino" : {},
-        "botocore" : {}
+        "botocore" : {},
+        "go-pie" : {}
     }
 }
