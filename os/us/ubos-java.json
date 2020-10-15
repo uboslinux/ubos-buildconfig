@@ -4,6 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "checkerframework-java" : {},
         "elasticsearch-ingest-attachment" : {
             "archs" : [
                 "x86_64",
