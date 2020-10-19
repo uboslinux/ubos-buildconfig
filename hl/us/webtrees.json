@@ -1,5 +1,5 @@
 {
-    "url"    : "https://github.com/uboslinux/ubos-webtrees",
+    "url"    : "https://github.com/uboslinux/ubos-app-webtrees",
     "type"   : "git",
     "branch" : "${branch}",
 

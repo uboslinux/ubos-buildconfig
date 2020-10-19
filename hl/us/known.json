@@ -1,5 +1,5 @@
 {
-    "url"    : "https://github.com/uboslinux/ubos-known",
+    "url"    : "https://github.com/uboslinux/ubos-app-known",
     "type"   : "git",
     "branch" : "${branch}",
 

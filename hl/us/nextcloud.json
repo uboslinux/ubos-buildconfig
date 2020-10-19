@@ -1,5 +1,5 @@
 {
-    "url"    : "https://github.com/uboslinux/ubos-nextcloud",
+    "url"    : "https://github.com/uboslinux/ubos-app-nextcloud",
     "type"   : "git",
     "branch" : "${branch}",
 

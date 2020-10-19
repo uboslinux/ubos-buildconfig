@@ -1,5 +1,5 @@
 {
-    "url"    : "https://github.com/uboslinux/ubos-mattermost",
+    "url"    : "https://github.com/uboslinux/ubos-app-mattermost",
     "type"   : "git",
     "branch" : "${branch}",
 

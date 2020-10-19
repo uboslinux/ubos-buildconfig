@@ -1,5 +1,5 @@
 {
-    "url"    : "https://github.com/uboslinux/ubos-mastodon",
+    "url"    : "https://github.com/uboslinux/ubos-app-mastodon",
     "type"   : "git",
     "branch" : "${branch}",
 
