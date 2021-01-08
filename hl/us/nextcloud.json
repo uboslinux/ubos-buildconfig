@@ -62,6 +62,7 @@
         "nextcloud-socialsharing-facebook" : {},
         "nextcloud-socialsharing-twitter" : {},
         "nextcloud-spreed" : {},
+        "nextcloud-talk-matterbridge" : {},
         "nextcloud-tasks" : {},
         "nextcloud-twofactor-totp" : {},
         "nextcloud17" : {},
