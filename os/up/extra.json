@@ -251,7 +251,6 @@
         "parted" : {},
         "perl-alien-build" : {},
         "perl-alien-libxml2" : {},
-        "perl-archive-zip" : {},
         "perl-capture-tiny" : {},
         "perl-clone" : {},
         "perl-config-simple" : {},
@@ -490,5 +489,8 @@
         "python2-six" : {},
         "python2-urllib3" : {},
         "python2-zope-interface" : {},
+    },
+    "remove-packages" : {
+        "perl-archive-zip" : {},
     }
 }
