@@ -489,8 +489,5 @@
         "python2-six" : {},
         "python2-urllib3" : {},
         "python2-zope-interface" : {},
-    },
-    "remove-packages" : {
-        "perl-archive-zip" : {},
     }
 }
