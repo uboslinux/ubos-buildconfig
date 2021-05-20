@@ -35,6 +35,7 @@
         "clang" : {},
         "colord" : {},
         "compiler-rt" : {},
+        "composer" : {},
         "dav1d" : {},
         "dbus-glib" : {},
         "dconf" : {},

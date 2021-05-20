@@ -252,7 +252,6 @@
         "sysfsutils" : {},
         "systemd" : {},
         "systemd-libs" : {},
-        "systemd-sysvcompat" : {},
         "tar" : {},
         "texinfo" : {},
         "thin-provisioning-tools" : {},
@@ -277,6 +276,7 @@
         "librpcsecgss" : {},
         "libsystemd" : {},
         "libutil-linux" : {},
-        "pcmciautils" : {}
+        "pcmciautils" : {},
+        "systemd-sysvcompat" : {}
     }
 }

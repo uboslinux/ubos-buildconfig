@@ -280,6 +280,7 @@
         "python-zope-event" : {},
         "python-zope-hookable" : {},
         "python-zope-proxy" : {},
+        "radvd" : {},
         "redis" : {},
         "restic" : {},
         "rng-tools" : {},
@@ -294,6 +295,7 @@
         "snapper" : {},
         "strongswan" : {},
         "tinyxml" : {},
+        "torsocks" : {},
         "unbound" : {},
         "vmaf" : {
             "archs" : [
