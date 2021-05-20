@@ -193,6 +193,7 @@
         "ntop" : {},
         "oniguruma" : {},
         "openbsd-netcat" : {},
+        "openblas" : {},
         "openzwave" : {},
         "p8-platform" : {},
         "pacman-contrib" : {},

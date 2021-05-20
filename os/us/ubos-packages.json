@@ -12,8 +12,10 @@
                 "x86_64"
             ]
         },
+        "dlib" : {},
         "dnsmasq" : {},
         "f3" : {},
+        "giflib4" : {},
         "mariadb" : {
             "archs" : [
                 "x86_64",
