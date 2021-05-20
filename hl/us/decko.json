@@ -19,17 +19,12 @@
             ]
         }
     },
-
-    "remove-packages" : {
-        "decko" : {
+    "webapptests" : {
+        "decko/tests/DeckoTest.pm" : {
             "archs" : [
-                "armv6h"
-            ]
-        },
-
-        "decko-newrelic" : {
-            "archs" : [   
-                "armv6h"
+                "armv7h",
+                "aarch64",
+                "x86_64"
             ]
         }
     }
