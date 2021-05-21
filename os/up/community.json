@@ -166,6 +166,7 @@
         "libnfs" : {},
         "libp11" : {},
         "libpgm" : {},
+        "libyuv" : {},
         "lockdev" : {},
         "luajit" : {
             "archs" : [
