@@ -15,44 +15,28 @@
                 "armv7h"
             ]
         },
-        "kodi-rbp3" : {
+        "kodi-rpi" : {
             "archs" : [
-                "armv7h"
+                "armv7h",
+                "aarch64"
             ]
         },
-        "kodi-rbp3-addon-visualization-spectrum" : {
+        "kodi-rpi-dev" : {
             "archs" : [
-                "armv7h"
+                "armv7h",
+                "aarch64"
             ]
         },
-        "kodi-rbp3-eventclients" : {
+        "kodi-rpi-eventclients" : {
             "archs" : [
-                "armv7h"
+                "armv7h",
+                "aarch64"
             ]
         },
-        "kodi-rbp3-tools-texturepacker" : {
+        "kodi-rpi-tools-texturepacker" : {
             "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp4" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp4-dev" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp4-eventclients" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "kodi-rbp4-tools-texturepacker" : {
-            "archs" : [
-                "armv7h"
+                "armv7h",
+                "aarch64"
             ]
         },
         "libcec-rpi" : {
@@ -111,5 +95,16 @@
                 "armv7h"
             ]
         }
-    }
+    },
+
+    "remove-packages" : {
+        "kodi-rbp3" : {},
+        "kodi-rbp3-addon-visualization-spectrum" : {},
+        "kodi-rbp3-eventclients" : {},
+        "kodi-rbp3-tools-texturepacker" : {},
+        "kodi-rbp4" : {},
+        "kodi-rbp4-dev" : {},
+        "kodi-rbp4-eventclients" : {},
+        "kodi-rbp4-tools-texturepacker" : {},
+   }
 }
