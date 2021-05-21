@@ -361,7 +361,11 @@
         "speexdsp" : {},
         "spirv-tools" : {},
         "srt" : {},
-        "svt-av1" : {},
+        "svt-av1" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "taglib" : {},
         "talloc" : {},
         "tcl" : {},
