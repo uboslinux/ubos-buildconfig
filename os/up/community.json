@@ -146,6 +146,7 @@
                 "x86_64"
             ]
         },
+        "libavif" : {},
         "libcec" : {
             "archs" : [
                 "x86_64",
@@ -212,6 +213,7 @@
         "python-augeas" : {},
         "python-bcrypt" : {},
         "python-beautifulsoup4" : {},
+        "python-bitstring" : {},
         "python-bottle" : {},
         "python-boto3" : {},
         "python-cachecontrol" : {},
@@ -261,6 +263,7 @@
         "python-pytoml" : {},
         "python-pytz" : {},
         "python-redis" : {},
+        "python-reedsolo" : {},
         "python-requests-toolbelt" : {},
         "python-rsa" : {},
         "python-semantic-version" : {},

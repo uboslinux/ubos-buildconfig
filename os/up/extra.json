@@ -7,12 +7,7 @@
         "alsa-lib" : {},
         "alsa-topology-conf" : {},
         "alsa-ucm-conf" : {},
-        "aom" : {
-            "archs" : [
-                "aarch64",
-                "x86_64"
-            ]
-        },
+        "aom" : {},
         "apr" : {},
         "apr-util" : {},
         "arch-install-scripts" : {},
@@ -138,6 +133,7 @@
         "libcups" : {},
         "libdaemon" : {},
         "libdatrie" : {},
+        "libde265" : {},
         "libdrm" : {},
         "libepoxy" : {},
         "libevdev" : {},
@@ -147,6 +143,7 @@
         "libglvnd" : {},
         "libgudev" : {},
         "libgusb" : {},
+        "libheif" : {},
         "libibus" : {},
         "libical" : {},
         "libice" : {},
@@ -411,6 +408,7 @@
         "xorg-xset" : {},
         "xorgproto" : {},
         "xvidcore" : {},
+        "zimg" : {},
         "zip" : {},
         "zita-alsa-pcmi" : {},
         "zita-resampler" : {}
