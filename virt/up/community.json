@@ -7,7 +7,6 @@
     "packages" : {
         "virtualbox" : {},
         "virtualbox-ext-vnc" : {},
-        "virtualbox-guest-dkms" : {},
         "virtualbox-guest-iso" : {},
         "virtualbox-guest-utils" : {},
         "virtualbox-guest-utils-nox" : {},
@@ -15,7 +14,8 @@
         "virtualbox-host-modules-arch" : {}
     },
     "remove-packages" : {
-        "virtualbox-guest-modules-arch" : {},
+        "virtualbox-guest-dkms" : {},
+        "virtualbox-guest-modules-arch" : {}
     }
 }
 

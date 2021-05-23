@@ -6,8 +6,6 @@
         "at" : {},
         "augeas" : {},
         "babeld" : {},
-        "botan" : {},
-        "brotli" : {},
         "certbot" : {},
         "certbot-apache" : {},
         "ckermit" : {},
@@ -33,11 +31,6 @@
         "iotop" : {},
         "jansson" : {},
         "jitterentropy" : {},
-        "kodi" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
         "kodi-addon-audioencoder-flac" : {
             "archs" : [
                 "x86_64"
@@ -118,6 +111,11 @@
                 "x86_64"
             ]
         },
+        "kodi-common" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "kodi-eventclients" : {
             "archs" : [
                 "x86_64"
@@ -148,6 +146,7 @@
                 "x86_64"
             ]
         },
+        "libavif" : {},
         "libcec" : {
             "archs" : [
                 "x86_64",
@@ -167,7 +166,7 @@
         "libnfs" : {},
         "libp11" : {},
         "libpgm" : {},
-        "libsodium" : {},
+        "libyuv" : {},
         "lockdev" : {},
         "luajit" : {
             "archs" : [
@@ -191,7 +190,6 @@
         "node-gyp" : {},
         "nodejs" : {},
         "npm" : {},
-        "ntop" : {},
         "oniguruma" : {},
         "openbsd-netcat" : {},
         "openblas" : {},
@@ -218,6 +216,7 @@
         "python-augeas" : {},
         "python-bcrypt" : {},
         "python-beautifulsoup4" : {},
+        "python-bitstring" : {},
         "python-bottle" : {},
         "python-boto3" : {},
         "python-cachecontrol" : {},
@@ -267,6 +266,7 @@
         "python-pytoml" : {},
         "python-pytz" : {},
         "python-redis" : {},
+        "python-reedsolo" : {},
         "python-requests-toolbelt" : {},
         "python-rsa" : {},
         "python-semantic-version" : {},
@@ -314,7 +314,9 @@
         "arm" : {},
         "geoip2-database" : {},
         "http-parser" : {},
+        "kodi" : {},
         "kodi-bin" : {},
+        "ntop" : {},
         "python2-acme" : {},
         "python2-argparse" : {},
         "python2-augeas" : {},
