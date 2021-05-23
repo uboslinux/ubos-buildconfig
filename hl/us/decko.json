@@ -3,7 +3,7 @@
     "type"   : "git",
     "branch" : "${branch}",
 
-    "packages" : {
+    "DISABLED-packages" : {
         "decko" : {
             "archs" : [
                 "armv7h",
