@@ -302,7 +302,7 @@
         "tinyxml" : {},
         "torsocks" : {},
         "unbound" : {},
-        "uvicor" : {},
+        "uvicorn" : {},
         "vmaf" : {
             "archs" : [
                 "x86_64"
