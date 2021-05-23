@@ -213,6 +213,7 @@
         "powerdns-recursor" : {},
         "pcsclite" : {},
         "python-acme" : {},
+        "python-aiofiles" : {},
         "python-augeas" : {},
         "python-bcrypt" : {},
         "python-beautifulsoup4" : {},
@@ -269,11 +270,13 @@
         "python-reedsolo" : {},
         "python-requests-toolbelt" : {},
         "python-rsa" : {},
+        "python-sarlette" : {},
         "python-semantic-version" : {},
         "python-soupsieve" : {},
         "python-tabulate" : {},
         "python-webencodings" : {},
         "python-werkzeug" : {},
+        "python-wproto" : {},
         "python-yaml" : {},
         "python-zipp" : {},
         "python-zope-component" : {},
@@ -299,6 +302,7 @@
         "tinyxml" : {},
         "torsocks" : {},
         "unbound" : {},
+        "uvicor" : {},
         "vmaf" : {
             "archs" : [
                 "x86_64"
