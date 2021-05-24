@@ -85,6 +85,7 @@
         "haveged" : {},
         "hicolor-icon-theme" : {},
         "hwloc" : {},
+        "http-parser" : {},
         "ijs" : {},
         "imagemagick" : {},
         "intel-ucode" : {
@@ -100,8 +101,6 @@
         "java-runtime-common" : {},
         "jbig2dec" : {},
         "jemalloc" : {},
-        "jre8-openjdk" : {},
-        "jre8-openjdk-headless" : {},
         "jre11-openjdk" : {
             "archs" : [
                 "aarch64",
@@ -437,6 +436,8 @@
         "idnkit" : {},
         "inputproto" : {},
         "java-commons-daemon" : {},
+        "jre8-openjdk" : {},
+        "jre8-openjdk-headless" : {},
         "jre9-openjdk" : {},
         "jre9-openjdk-headless" : {},
         "jre10-openjdk" : {},
