@@ -321,7 +321,6 @@
     "remove-packages" : {
         "arm" : {},
         "geoip2-database" : {},
-        "http-parser" : {},
         "kodi" : {},
         "kodi-bin" : {},
         "ntop" : {},
