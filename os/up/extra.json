@@ -101,20 +101,8 @@
         "java-runtime-common" : {},
         "jbig2dec" : {},
         "jemalloc" : {},
-        "jre11-openjdk" : {
-            "archs" : [
-                "aarch64",
-                "armv7h",
-                "x86_64"
-            ]
-        },
-        "jre11-openjdk-headless" : {
-            "archs" : [
-                "aarch64",
-                "armv7h",
-                "x86_64"
-            ]
-        },
+        "jre11-openjdk" : {},
+        "jre11-openjdk-headless" : {},
         "jre-openjdk" : {},
         "jre-openjdk-headless" : {},
         "js68" : {},
