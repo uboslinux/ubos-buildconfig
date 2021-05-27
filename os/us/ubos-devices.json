@@ -50,6 +50,7 @@
             ]
         },
         "ubos-deviceclass-container" : {},
+        "ubos-deviceclass-docker" : {},
         "ubos-deviceclass-ec2" : {
             "archs" : [
                 "x86_64"
