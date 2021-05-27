@@ -18,6 +18,7 @@
             ]
         },
         "ubos-networking-container" : {},
+        "ubos-networking-docker" : {},
         "ubos-networking-espressobin" : {
             "archs" : [
                 "aarch64"
