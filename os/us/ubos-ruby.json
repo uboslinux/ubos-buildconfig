@@ -4,6 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "ubos-rails-support" : {}
+        "ubos-rails-support" : {},
+        "ruby27-bundler" : {}
     }
 }
