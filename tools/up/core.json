@@ -9,5 +9,8 @@
         "flex" : {},
         "gcc" : {},
         "make" : {}
+    },
+    "remove-packages" : {
+        "pkg-config" : {}
     }
 }

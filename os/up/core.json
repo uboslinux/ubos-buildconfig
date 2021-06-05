@@ -236,6 +236,7 @@
         "pcre2" : {},
         "perl" : {},
         "pinentry" : {},
+        "pkgconf" : {},
         "popt" : {},
         "procps-ng" : {},
         "psmisc" : {},
