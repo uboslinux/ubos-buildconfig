@@ -7,7 +7,9 @@
         "ubos-rails-support" : {},
         "mod_passenger27" : {},
         "passenger27" : {},
-        "ruby27-bundler" : {},
         "ruby27-rack" : {}
+    },
+    "remove-packages" : {
+        "ruby27-bundler" : {}
     }
 }
