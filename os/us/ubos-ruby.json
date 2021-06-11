@@ -5,9 +5,21 @@
 
     "packages" : {
         "ubos-rails-support" : {},
-        "mod_passenger27" : {},
-        "passenger27" : {},
-        "ruby27-rack" : {}
+        "mod_passenger27" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "passenger27" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
+        "ruby27-rack" : {
+            "archs" : [
+                "x86_64"
+            ]
+        }
     },
     "remove-packages" : {
         "ruby27-bundler" : {}
