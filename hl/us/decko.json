@@ -6,24 +6,32 @@
     "packages" : {
         "decko" : {
             "archs" : [
-                "armv7h",
-                "aarch64",
                 "x86_64"
             ]
         },
         "decko-newrelic" : {
             "archs" : [   
-                "armv7h",
-                "aarch64",
                 "x86_64"
+            ]
+        }
+    },
+    "remove-packages" : {
+        "decko" : {
+            "archs" : [
+                "armv7h",
+                "aarch64"
+            ]
+        },
+        "decko-newrelic" : {
+            "archs" : [   
+                "armv7h",
+                "aarch64"
             ]
         }
     },
     "webapptests" : {
         "decko/tests/DeckoTest.pm" : {
             "archs" : [
-                "armv7h",
-                "aarch64",
                 "x86_64"
             ]
         }
