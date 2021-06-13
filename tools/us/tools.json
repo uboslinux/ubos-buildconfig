@@ -11,7 +11,7 @@
         "proxycord" : {},
         "ubos-check-packages" : {},
         "ubos-appliance-install" : {},
-        "ubos-base-develop" : {},
+        "ubos-base-devel" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
         "ubos-tools" : {},
