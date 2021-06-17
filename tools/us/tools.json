@@ -14,6 +14,7 @@
         "ubos-base-devel" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
+        "ubos-target" : {},
         "ubos-tools" : {},
         "webapptest" : {}
     },
