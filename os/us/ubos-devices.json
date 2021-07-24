@@ -26,13 +26,6 @@
                 "armv7h"
             ]
         },
-        "python-raspberry-gpio" : {
-            "archs" : [
-                "aarch64",
-                "armv6h",
-                "armv7h"
-            ]
-        },
         "rpi-desktop-ubos-state" : {
             "archs" : [
                 "armv6h",
@@ -98,5 +91,12 @@
                 "aarch64"
             ]
         },
+        "python-raspberry-gpio" : {
+            "archs" : [
+                "aarch64",
+                "armv6h",
+                "armv7h"
+            ]
+        }
     }
 }
