@@ -1,9 +1,9 @@
 {
     "url"    : "https://github.com/diet4j/diet4j",
     "type"   : "git",
-    "branch" : "master",
+    "branch" : "${branch}",
 
-    "remove-packages" : {
+    "packages" : {
         "." : {
             "archs" : [
                 "x86_64",
