@@ -4,7 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "mf2py-python" : {},
+        # "mf2py-python" : {},
         "python-ajsonrpc" : {},
         "python-socksipychain" : {},
         "ubos-python-utils" : {}
