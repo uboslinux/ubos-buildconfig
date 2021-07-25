@@ -8,7 +8,6 @@
     "packages" : {
         "git-360" : {},
         "package-updated-since" : {},
-        "proxycord" : {},
         "ubos-check-packages" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
@@ -17,6 +16,7 @@
     },
     "remove-packages" : {
         "jmespath" : {},
+        "proxycord" : {},
         "s3transfer" : {}
     }
 }
