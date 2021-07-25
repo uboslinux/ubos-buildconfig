@@ -6,6 +6,12 @@
     "overlap-bucket" : "ubos-tools-arch",
 
     "packages" : {
-        "." : {}
+        "." : {
+            "archs" : [
+                "x86_64",
+                "armv7h",
+                "aarch64"
+            ]
+        }
     }
 }
