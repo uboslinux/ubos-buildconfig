@@ -13,6 +13,7 @@
         "ubos-base-devel" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
+        "ubos-scaffold-templates" : {},
         "ubos-target" : {},
         "ubos-tools" : {},
         "webapptest" : {}

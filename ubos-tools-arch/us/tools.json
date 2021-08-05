@@ -11,6 +11,7 @@
         "ubos-check-packages" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
+        "ubos-scaffold-templates" : {},
         "ubos-tools-arch" : {},
         "webapptest" : {}
     },
