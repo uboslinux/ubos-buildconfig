@@ -65,14 +65,15 @@
         "nextcloud-talk-matterbridge" : {},
         "nextcloud-tasks" : {},
         "nextcloud-twofactor-totp" : {},
-        "nextcloud19" : {},
         "nextcloud20" : {},
+        "nextcloud21" : {}
     },
     "remove-packages" : {
         "nextcloud15" : {},
         "nextcloud16" : {},
         "nextcloud17" : {},
         "nextcloud18" : {},
+        "nextcloud19" : {},
         "nextcloud-files-rightclick" : {},
         "nextcloud-fulltextsearch-elasticsearch" : {
             "archs" : [
