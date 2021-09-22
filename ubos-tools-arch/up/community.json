@@ -3,13 +3,11 @@
 
     "overlap-bucket" : "ubos-tools-arch",
 
-    "packages" : {
+    "remove-packages" : {
         "aws-cli" : {},
+        "botocore" : {},
         "python-botocore" : {},
         "python-jmespath" : {},
         "python-s3transfer" : {}
-    },
-    "remove-packages" : {
-        "botocore" : {}
     }
 }

@@ -5,19 +5,17 @@
 
     "overlap-bucket" : "ubos-tools-arch",
 
-    "packages" : {
+    "remove-packages" : {
         "git-360" : {},
+        "jmespath" : {},
         "package-updated-since" : {},
+        "proxycord" : {},
+        "s3transfer" : {},
         "ubos-check-packages" : {},
         "ubos-push" : {},
         "ubos-scaffold" : {},
         "ubos-scaffold-templates" : {},
         "ubos-tools-arch" : {},
         "webapptest" : {}
-    },
-    "remove-packages" : {
-        "jmespath" : {},
-        "proxycord" : {},
-        "s3transfer" : {}
     }
 }
