@@ -39,7 +39,7 @@
         }
     },
 
-    "webapptests" : {
+    "not-now-webapptests" : {
         "known/tests/KnownTest1.pm" : {
             "archs" : [
                 "armv7h",
