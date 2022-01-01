@@ -12,7 +12,6 @@
     "packages" : {
         "nextcloud" : {},
         "nextcloud-audioplayer" : {},
-        "nextcloud-auto-mail-accounts" : {},
         "nextcloud-bookmarks" : {},
         "nextcloud-bruteforcesettings" : {},
         "nextcloud-cache-redis" : {},
@@ -69,6 +68,7 @@
         "nextcloud21" : {}
     },
     "remove-packages" : {
+        "nextcloud-auto-mail-accounts" : {},
         "nextcloud15" : {},
         "nextcloud16" : {},
         "nextcloud17" : {},
