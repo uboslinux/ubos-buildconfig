@@ -65,7 +65,8 @@
         "nextcloud-tasks" : {},
         "nextcloud-twofactor-totp" : {},
         "nextcloud20" : {},
-        "nextcloud21" : {}
+        "nextcloud21" : {},
+        "nextcloud22" : {}
     },
     "remove-packages" : {
         "nextcloud-auto-mail-accounts" : {},
