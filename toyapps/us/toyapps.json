@@ -52,11 +52,6 @@
                 "armv7h",
                 "aarch64"
             ]
-        },
-        "gladiwashere-java-mysql/tests/GladIWasHereJavaMysql1Test.pm" : {
-            "archs" : [
-                "x86_64"
-            ]
         }
     }
 }
