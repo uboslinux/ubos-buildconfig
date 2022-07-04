@@ -64,8 +64,8 @@
         "nextcloud-talk-matterbridge" : {},
         "nextcloud-tasks" : {},
         "nextcloud-twofactor-totp" : {},
-        "nextcloud21" : {},
-        "nextcloud22" : {}
+        "nextcloud22" : {},
+        "nextcloud23" : {}
     },
     "remove-packages" : {
         "nextcloud-auto-mail-accounts" : {},
@@ -75,6 +75,7 @@
         "nextcloud18" : {},
         "nextcloud19" : {},
         "nextcloud20" : {},
+        "nextcloud21" : {},
         "nextcloud-files-rightclick" : {},
         "nextcloud-fulltextsearch-elasticsearch" : {
             "archs" : [
