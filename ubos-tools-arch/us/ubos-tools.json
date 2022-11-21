@@ -9,6 +9,7 @@
         "git-360" : {},
         "ubos-push" : {},
         "ubos-tools-arch" : {},
+        "ubosdev-container" : {},
         "webapptest" : {}
     }
 }
