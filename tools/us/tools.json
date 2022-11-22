@@ -15,7 +15,6 @@
         "ubos-scaffold" : {},
         "ubos-scaffold-templates" : {},
         "ubos-target" : {},
-        "ubos-tools" : {},
         "webapptest" : {}
     },
     "remove-packages" : {
