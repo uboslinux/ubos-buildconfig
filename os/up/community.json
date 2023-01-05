@@ -32,6 +32,7 @@
         "iotop" : {},
         "jansson" : {},
         "jitterentropy" : {},
+        "jq" : {},
         "kodi-addon-audioencoder-flac" : {
             "archs" : [
                 "x86_64"
@@ -147,6 +148,7 @@
                 "x86_64"
             ]
         },
+        "kubo" : {},
         "libavif" : {},
         "libcec" : {
             "archs" : [
@@ -277,6 +279,7 @@
         "python-semantic-version" : {},
         "python-soupsieve" : {},
         "python-tabulate" : {},
+        "python-toml" : {},
         "python-uvloop" : {},
         "python-webencodings" : {},
         "python-websockets" : {},

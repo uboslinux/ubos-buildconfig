@@ -3,6 +3,7 @@
 
     "packages" : {
         "acl" : {},
+        "amd-ucode" : {},
         "archlinuxarm-keyring" : {
             "archs" : [
                 "armv6h",
@@ -129,6 +130,11 @@
         "linux" : {
             "archs" : [
                 "x86_64"
+            ]
+        },
+        "linux-aarch64" : {
+            "archs" : [
+                "aarch64"
             ]
         },
         "linux-am33x" : {
