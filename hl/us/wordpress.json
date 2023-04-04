@@ -12,7 +12,6 @@
         "wordpress-plugin-indieweb-post-kinds" : {},
         "wordpress-plugin-indieweb-press-this" : {},
         "wordpress-plugin-micropub" : {},
-        "wordpress-plugin-pterotype" : {},
         "wordpress-plugin-semantic-linkbacks" : {},
         "wordpress-plugin-seo" : {},
         "wordpress-plugin-simple-location" : {},
@@ -21,20 +20,23 @@
         "wordpress-plugin-webmention" : {},
         "wordpress-plugin-wp-mail-smtp" : {},
         "wordpress-plugin-wp-uf2" : {},
-        "wordpress-theme-independent-publisher" : {},
         "wordpress-theme-pinboard" : {},
         "wordpress-theme-responsive" : {},
         "wordpress-theme-sempress" : {},
         "wordpress-theme-twentyfifteen" : {},
         "wordpress-theme-twentyfourteen" : {},
+        "wordpress-theme-twentynineteen" : {},
         "wordpress-theme-twentysixteen" : {},
         "wordpress-theme-twentyseventeen" : {},
         "wordpress-theme-twentythirteen" : {},
-        "wordpress-theme-twentytwelve" : {}
+        "wordpress-theme-twentytwelve" : {},
+        "wordpress-theme-twentytwenty" : {}
     },
     "remove-packages" : {
         "wordpress-plugin-bridgy-publish" : {},
         "wordpress-plugin-photo-dropper" : {},
+        "wordpress-plugin-pterotype" : {},
+        "wordpress-theme-independent-publisher" : {},
         "wordpress-theme-p2" : {}
     },
 
@@ -45,7 +47,7 @@
                 "deploy-update" : "--tlsselfsigned"
             },
             "archs" : [
-                "x86_64", 
+                "x86_64",
                 "armv7h",
                 "aarch64"
             ]

@@ -7,7 +7,9 @@
         "checkerframework-java" : {},
         "elasticsearch-ingest-attachment" : {
             "archs" : [
-                "x86_64"
+                "x86_64",
+                "armv7h",
+                "aarch64"
             ]
         },
         "java-jsvc" : {
