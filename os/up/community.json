@@ -13,26 +13,25 @@
         "containerd" : {},
         "ddclient" : {},
         "dstat" : {},
-        "elasticsearch" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
         "esptool" : {},
         "fail2ban" : {},
         "fstrm" : {},
         "geoipupdate" : {},
         "git-lfs" : {},
-        "go-ipfs" : {},
         "gpac" : {},
+        "guile2.2" : {},
         "hidapi" : {},
         "hiredis" : {},
         "hostapd" : {},
         "i2c-tools" : {},
         "iotop" : {},
-        "jansson" : {},
         "jitterentropy" : {},
         "jq" : {},
+        "kodi" : {
+            "archs" : [
+                "x86_64"
+            ]
+        },
         "kodi-addon-audioencoder-flac" : {
             "archs" : [
                 "x86_64"
@@ -113,17 +112,7 @@
                 "x86_64"
             ]
         },
-        "kodi-common" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
         "kodi-eventclients" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
-        "kodi-gbm" : {
             "archs" : [
                 "x86_64"
             ]
@@ -134,16 +123,6 @@
             ]
         },
         "kodi-tools-texturepacker" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
-        "kodi-wayland" : {
-            "archs" : [
-                "x86_64"
-            ]
-        },
-        "kodi-x11" : {
             "archs" : [
                 "x86_64"
             ]
@@ -159,6 +138,7 @@
         },
         "libev" : {},
         "libftdi" : {},
+        "libibus" : {},
         "liblzf" : {},
         "libmaxminddb" : {},
         "libmfx" : {
@@ -260,7 +240,6 @@
         "python-pbr" : {},
         "python-prettytable" : {},
         "python-pillow" : {},
-        "python-progress" : {},
         "python-psycopg2" : {},
         "python-pyaes" : {},
         "python-pyinotify" : {},
@@ -298,21 +277,23 @@
         "restic" : {},
         "rng-tools" : {},
         "rtl-sdr" : {},
+        "ruby" : {},
+        "rubygems" : {},
         "ruby-bundler" : {},
         "ruby-irb" : {},
         "ruby-rack" : {},
         "ruby-rdoc" : {},
         "ruby-reline" : {},
         "ruby2.7" : {},
-        "ruby27-rake" : {},
-        "ruby27-rdoc" : {},
         "runc" : {},
+        "screen" : {},
         "semver" : {},
         "snapper" : {},
         "strongswan" : {},
         "sysstat" : {},
         "tinyxml" : {},
         "torsocks" : {},
+        "ttf-dejavu" : {},
         "unbound" : {},
         "uvicorn" : {},
         "vmaf" : {
@@ -329,9 +310,15 @@
     "remove-packages" : {
         "arm" : {},
         "geoip2-database" : {},
+        "go-ipfs" : {},
         "kodi" : {},
         "kodi-bin" : {},
+        "kodi-common" : {},
+        "kodi-gbm" : {},
+        "kodi-wayland" : {},
+        "kodi-x11" : {},
         "ntop" : {},
+        "python-progress" : {},
         "python2-acme" : {},
         "python2-argparse" : {},
         "python2-augeas" : {},
@@ -387,6 +374,8 @@
         "python2-werkzeug" : {},
         "python2-yaml" : {},
         "python2-zope-component" : {},
-        "python2-zope-event" : {}
+        "python2-zope-event" : {},
+        "ruby27-rake" : {},
+        "ruby27-rdoc" : {}
     }
 }
