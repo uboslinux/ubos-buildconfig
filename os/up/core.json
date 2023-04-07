@@ -102,6 +102,7 @@
         "libgpg-error" : {},
         "libgssglue" : {},
         "libidn2" : {},
+        "libisl" : {},
         "libksba" : {},
         "libldap" : {},
         "libmicrohttpd" : {},
