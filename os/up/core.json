@@ -29,6 +29,7 @@
         "cryptsetup" : {},
         "curl" : {},
         "db" : {},
+        "db5.3" : {},
         "dbus" : {},
         "device-mapper" : {},
         "dhcpcd" : {},
@@ -92,6 +93,7 @@
         "libaio" : {},
         "libarchive" : {},
         "libassuan" : {},
+        "libbpf" : {},
         "libcap" : {},
         "libcap-ng" : {},
         "libedit" : {},
@@ -127,6 +129,7 @@
         "libtool" : {},
         "libunistring" : {},
         "libusb" : {},
+        "libverto" : {},
         "libxcrypt" : {},
         "libxml2" : {},
         "licenses" : {},
@@ -172,6 +175,7 @@
             ]
         },
         "linux-firmware" : {},
+        "linux-firmware-whence" : {},
         "linux-headers" : {
             "archs" : [
                 "x86_64"
@@ -265,6 +269,7 @@
         "tar" : {},
         "texinfo" : {},
         "thin-provisioning-tools" : {},
+        "tpm2-tss" : {},
         "tzdata" : {},
         "traceroute" : {},
         "usbutils" : {},
