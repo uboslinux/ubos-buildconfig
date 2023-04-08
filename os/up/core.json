@@ -40,12 +40,7 @@
         "dosfstools" : {},
         "e2fsprogs" : {},
         "efibootmgr" : {},
-        "efivar" : {
-            "archs" : [
-                "x86_64",
-                "aarch64"
-            ]
-        },
+        "efivar" : {},
         "elfutils" : {},
         "expat" : {},
         "file" : {},
