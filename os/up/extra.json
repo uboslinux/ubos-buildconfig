@@ -3,6 +3,7 @@
 
     "packages" : {
         "adobe-source-code-pro-fonts" : {},
+        "adwaita-cursors" : {},
         "adwaita-icon-theme" : {},
         "alsa-lib" : {},
         "alsa-topology-conf" : {},
@@ -47,6 +48,7 @@
         "fftw" : {},
         "flac" : {},
         "fontconfig" : {},
+        "freeglut" : {},
         "fribidi" : {},
         "freetype2" : {},
         "fuse2" : {},
@@ -134,6 +136,7 @@
         "libgdiplus" : {},
         "libgit2" : {},
         "libfontenc" : {},
+        "libgirepository" : {},
         "libglvnd" : {},
         "libgudev" : {},
         "libgusb" : {},
@@ -304,6 +307,7 @@
         "pkgfile" : {},
         "pkcs11-helper" : {},
         "polkit" : {},
+        "poppler-data" : {},
         "portaudio" : {},
         "postfix" : {},
         "postgresql-libs" : {},

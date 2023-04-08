@@ -29,6 +29,7 @@
         "iotop" : {},
         "jitterentropy" : {},
         "jq" : {},
+        "judy" : {},
         "kodi" : {
             "archs" : [
                 "x86_64"
@@ -195,6 +196,9 @@
         "perl-json" : {},
         "perl-path-tiny" : {},
         "perl-sgmls" : {},
+        "perl-sub-identify" : {},
+        "perl-super" : {},
+        "perl-test-mockmodule" : {},
         "perl-xml-sax-expat" : {},
         "php-igbinary" : {},
         "php-imagick" : {},
