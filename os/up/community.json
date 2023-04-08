@@ -347,6 +347,7 @@
         "ruby-rdoc" : {},
         "ruby-reline" : {},
         "ruby-rexml" : {},
+        "ruby-ruby2_keywords" : {},
         "ruby-stdlib" : {},
         "ruby-stringio" : {},
         "ruby-test-unit" : {},

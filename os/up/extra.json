@@ -84,6 +84,7 @@
         "http-parser" : {},
         "ijs" : {},
         "imagemagick" : {},
+        "imath" : {},
         "intel-ucode" : {
             "archs" : [
                 "x86_64"
