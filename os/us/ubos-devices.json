@@ -22,13 +22,11 @@
         "pi-bluetooth" : {
             "archs" : [
                 "aarch64",
-                "armv6h",
                 "armv7h"
             ]
         },
         "rpi-desktop-ubos-state" : {
             "archs" : [
-                "armv6h",
                 "armv7h"
             ]
         },
@@ -64,11 +62,6 @@
                 "x86_64"
             ]
         },
-        "ubos-deviceclass-rpi" : {
-            "archs" : [
-                "armv6h"
-            ]
-        },
         "ubos-deviceclass-rpi2" : {
             "archs" : [
                 "armv7h"
@@ -94,7 +87,6 @@
         "python-raspberry-gpio" : {
             "archs" : [
                 "aarch64",
-                "armv6h",
                 "armv7h"
             ]
         }

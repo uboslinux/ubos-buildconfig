@@ -4,20 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "matomo" : {
-            "archs" : [
-                "armv7h",
-                "aarch64",
-                "x86_64"
-            ]
-        },
-    },
-
-    "remove-packages" : {
-        "matomo" : {
-            "archs" : [
-                "armv6h"
-            ]
-        }
+        "matomo" : {}
     }
 }

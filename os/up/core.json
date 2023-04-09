@@ -6,7 +6,6 @@
         "amd-ucode" : {},
         "archlinuxarm-keyring" : {
             "archs" : [
-                "armv6h",
                 "armv7h",
                 "aarch64"
             ]
@@ -188,7 +187,6 @@
         },
         "linux-raspberrypi" : {
             "archs" : [
-                "armv6h",
                 "armv7h"
             ]
         },
@@ -199,7 +197,6 @@
         },
         "linux-raspberrypi-headers" : {
             "archs" : [
-                "armv6h",
                 "armv7h"
             ]
         },

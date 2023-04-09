@@ -157,13 +157,7 @@
         "libtpms" : {},
         "libyuv" : {},
         "lockdev" : {},
-        "luajit" : {
-            "archs" : [
-                "x86_64",
-                "armv6h",
-                "armv7h"
-            ]
-        },
+        "luajit" : {},
         "lynis" : {},
         "mediaelch" : {},
         "minicom" : {},

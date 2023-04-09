@@ -4,46 +4,19 @@
     "packages" : {
         "fake-hwclock" : {
             "archs" : [
-                "armv6h",
                 "armv7h",
                 "aarch64"
             ]
         },
         "firmware-raspberrypi" : {
             "archs" : [
-                "armv6h",
                 "armv7h"
             ]
         },
-        "kodi-rpi" : {
-            "archs" : [
-                "armv7h",
-                "aarch64"
-            ]
-        },
-        "kodi-rpi-dev" : {
-            "archs" : [
-                "armv7h",
-                "aarch64"
-            ]
-        },
-        "kodi-rpi-eventclients" : {
-            "archs" : [
-                "armv7h",
-                "aarch64"
-            ]
-        },
-        "kodi-rpi-tools-texturepacker" : {
-            "archs" : [
-                "armv7h",
-                "aarch64"
-            ]
-        },
-        "libcec-rpi" : {
-            "archs" : [
-                "armv6h"
-            ]
-        },
+        "kodi-rpi" : {},
+        "kodi-rpi-dev" : {},
+        "kodi-rpi-eventclients" : {},
+        "kodi-rpi-tools-texturepacker" : {},
         "luajit-git" : {
             "archs" : [
                 "aarch64"
@@ -51,19 +24,16 @@
         },
         "raspberrypi-firmware" : {
             "archs" : [
-                "armv6h",
                 "armv7h"
             ]
         },
         "raspberrypi-bootloader" : {
             "archs" : [
-                "armv6h",
                 "armv7h"
             ]
         },
         "raspberrypi-bootloader-x" : {
             "archs" : [
-                "armv6h",
                 "armv7h"
             ]
         },
@@ -82,22 +52,16 @@
                 "armv7h"
             ]
         },
-        "uboot-tools" : {
-            "archs" : [
-                "armv6h",
-                "armv7h",
-                "aarch64"
-            ]
-        },
+        "uboot-tools" : {},
         "wiringpi" : {
             "archs" : [
-                "armv6h",
                 "armv7h"
             ]
         }
     },
 
     "remove-packages" : {
+        "libcec-rpi" : {},
         "kodi-rbp3" : {},
         "kodi-rbp3-addon-visualization-spectrum" : {},
         "kodi-rbp3-eventclients" : {},
