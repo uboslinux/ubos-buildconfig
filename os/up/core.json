@@ -66,6 +66,7 @@
         },
         "gssproxy" : {},
         "guile" : {},
+        "gzip" : {},
         "hdparm" : {},
         "hwdata" : {},
         "iana-etc" : {},
