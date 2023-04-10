@@ -31,11 +31,6 @@
                 "armv7h"
             ]
         },
-        "raspberrypi-bootloader-x" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
         "uboot-beaglebone" : {
             "archs" : [
                 "armv7h"
@@ -51,7 +46,6 @@
                 "armv7h"
             ]
         },
-        "uboot-tools" : {},
         "wiringpi" : {
             "archs" : [
                 "armv7h"
@@ -69,5 +63,6 @@
         "kodi-rbp4-dev" : {},
         "kodi-rbp4-eventclients" : {},
         "kodi-rbp4-tools-texturepacker" : {},
+        "raspberrypi-bootloader-x" : {}
    }
 }

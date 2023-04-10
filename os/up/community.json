@@ -131,14 +131,9 @@
             ]
         },
         "kubo" : {},
+        "luajit" : {},
         "libavif" : {},
-        "libcec" : {
-            "archs" : [
-                "x86_64",
-                "aarch64",
-                "armv7h"
-            ]
-        },
+        "libcec" : {},
         "libev" : {},
         "libftdi" : {},
         "libibus" : {},
@@ -197,7 +192,12 @@
         "php-igbinary" : {},
         "php-imagick" : {},
         "php-redis" : {},
-        "powerdns" : {},
+        "powerdns" : {
+            "archs" : [
+                "x86_64",
+                "aarch64"
+            ]
+        },
         "powerdns-recursor" : {},
         "pcsclite" : {},
         "python-acme" : {},
@@ -362,6 +362,7 @@
         "tinyxml" : {},
         "torsocks" : {},
         "ttf-dejavu" : {},
+        "uboot-tools" : {},
         "unbound" : {},
         "uvicorn" : {},
         "vmaf" : {

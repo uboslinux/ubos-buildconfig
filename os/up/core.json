@@ -186,23 +186,15 @@
                 "armv7h"
             ]
         },
-        "linux-raspberrypi" : {
+        "linux-rpi" : {
             "archs" : [
+                "aarch64",
                 "armv7h"
             ]
         },
-        "linux-raspberrypi4" : {
+        "linux-rpi-headers" : {
             "archs" : [
-                "armv7h"
-            ]
-        },
-        "linux-raspberrypi-headers" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
-        "linux-raspberrypi4-headers" : {
-            "archs" : [
+                "aarch64",
                 "armv7h"
             ]
         },
@@ -285,6 +277,10 @@
         "librpcsecgss" : {},
         "libsystemd" : {},
         "libutil-linux" : {},
+        "linux-raspberrypi" : {},
+        "linux-raspberrypi4" : {},
+        "linux-raspberrypi-headers" : {},
+        "linux-raspberrypi4-headers" : {},
         "openssl-1.0" : {},
         "pcmciautils" : {},
         "pth" : {},
