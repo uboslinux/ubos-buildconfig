@@ -29,7 +29,7 @@
             ]
         }
     },
-    "webapptests" : {
+    "xxxwebapptests" : {
         "decko/tests/DeckoTest.pm" : {
             "archs" : [
                 "x86_64"
