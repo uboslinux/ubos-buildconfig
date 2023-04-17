@@ -5,31 +5,12 @@
 
     "packages" : {
         "checkerframework-java" : {},
-        "elasticsearch-ingest-attachment" : {
-            "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
-            ]
-        },
-        "java-jsvc" : {
-            "archs" : [
-                "x86_64",
-                "armv7h",
-                "aarch64"
-            ]
-        },
+        "elasticsearch" : {},
+        "elasticsearch-ingest-attachment" : {},
+        "java-jsvc" : {},
         "log4j-systemd-journal-appender" : {},
         "mysql-connector-java" : {},
         "postgresql-java" : {},
         "protobuf-java" : {}
-    },
-    "remove-packages" : {
-        "elasticsearch-ingest-attachment" : {
-            "archs" : [
-                "armv7h",
-                "aarch64"
-            ]
-        }
     }
 }
