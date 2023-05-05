@@ -4,12 +4,12 @@
     "branch" : "${branch}",
 
     "packages" : {
-        # "mf2py-python" : {},
         "python-ajsonrpc" : {},
         "python-socksipychain" : {},
         "ubos-python-utils" : {}
     },
     "remove-packages" : {
+        "mf2py-python" : {},
         "python2-socksipychain" : {}
     }
 }

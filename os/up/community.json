@@ -288,6 +288,7 @@
         "python-webencodings" : {},
         "python-websockets" : {},
         "python-werkzeug" : {},
+        "python-wheel" : {},
         "python-wsproto" : {},
         "python-yaml" : {},
         "python-zipp" : {},
