@@ -64,7 +64,8 @@
         "nextcloud-talk-matterbridge" : {},
         "nextcloud-tasks" : {},
         "nextcloud-twofactor-totp" : {},
-        "nextcloud23" : {}
+        "nextcloud23" : {},
+        "nextcloud24" : {}
     },
     "remove-packages" : {
         "nextcloud-auto-mail-accounts" : {},
