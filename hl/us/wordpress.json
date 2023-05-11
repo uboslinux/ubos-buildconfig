@@ -20,14 +20,13 @@
         "wordpress-plugin-webmention" : {},
         "wordpress-plugin-wp-mail-smtp" : {},
         "wordpress-plugin-wp-uf2" : {},
-        "wordpress-theme-pinboard" : {},
         "wordpress-theme-responsive" : {},
         "wordpress-theme-sempress" : {},
         "wordpress-theme-twentyfifteen" : {},
         "wordpress-theme-twentyfourteen" : {},
         "wordpress-theme-twentynineteen" : {},
-        "wordpress-theme-twentysixteen" : {},
         "wordpress-theme-twentyseventeen" : {},
+        "wordpress-theme-twentysixteen" : {},
         "wordpress-theme-twentythirteen" : {},
         "wordpress-theme-twentytwelve" : {},
         "wordpress-theme-twentytwenty" : {}
@@ -37,7 +36,8 @@
         "wordpress-plugin-photo-dropper" : {},
         "wordpress-plugin-pterotype" : {},
         "wordpress-theme-independent-publisher" : {},
-        "wordpress-theme-p2" : {}
+        "wordpress-theme-p2" : {},
+        "wordpress-theme-pinboard" : {}
     },
 
     "webapptests" : {
