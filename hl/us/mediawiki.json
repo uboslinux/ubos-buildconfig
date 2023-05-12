@@ -4,7 +4,9 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "mediawiki" : {},
+        "mediawiki" : {}
+    },
+    "remove-packages" : {
         "mediawiki-ext-confirmaccount" : {}
     },
 
