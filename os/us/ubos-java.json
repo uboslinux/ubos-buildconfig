@@ -22,5 +22,17 @@
         "mysql-connector-java" : {},
         "postgresql-java" : {},
         "protobuf-java" : {}
+    },
+    "remove-packages" : {
+        "elasticsearch" : {
+            "archs" : [
+                "armv7h"
+            ]
+        },
+        "elasticsearch-ingest-attachment" : {
+            "archs" : [
+                "armv7h"
+            ]
+        }
     }
 }
