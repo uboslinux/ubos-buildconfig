@@ -5,8 +5,18 @@
 
     "packages" : {
         "checkerframework-java" : {},
-        "elasticsearch" : {},
-        "elasticsearch-ingest-attachment" : {},
+        "elasticsearch" : {
+            "archs" : [
+                "aarch64",
+                "x86_64"
+            ]
+        },
+        "elasticsearch-ingest-attachment" : {
+            "archs" : [
+                "aarch64",
+                "x86_64"
+            ]
+        },
         "java-jsvc" : {},
         "log4j-systemd-journal-appender" : {},
         "mysql-connector-java" : {},
