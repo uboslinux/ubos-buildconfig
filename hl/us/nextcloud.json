@@ -29,6 +29,7 @@
         "nextcloud-fulltextsearch" : {},
         "nextcloud-fulltextsearch-elasticsearch" : {
             "archs" : [
+                "aarch64",
                 "x86_64"
             ]
         },
@@ -78,11 +79,16 @@
         "nextcloud22" : {},
         "nextcloud23" : {},
         "nextcloud24" : {},
-        "nextcloud-files-rightclick" : {},
-        "nextcloud-fulltextsearch-elasticsearch" : {
+        "nextcloud-documentserver-community" : {
             "archs" : [
                 "armv7h",
                 "aarch64"
+            ]
+        },
+        "nextcloud-files-rightclick" : {},
+        "nextcloud-fulltextsearch-elasticsearch" : {
+            "archs" : [
+                "armv7h"
             ]
         },
         "nextcloud-text" : {},
