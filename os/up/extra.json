@@ -563,6 +563,7 @@
         "python-ecdsa" : {},
         "python-editables" : {},
         "python-fastjsonschema" : {},
+        "python-filelock" : {},
         "python-future" : {},
         "python-gnupg" : {},
         "python-gobject" : {},
