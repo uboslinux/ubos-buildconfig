@@ -398,6 +398,7 @@
         "mpg123" : {},
         "mtdev" : {},
         "neon" : {},
+        "netctl" : {},
         "netplan" : {
             "archs" : [
                 "x86_64"
@@ -414,7 +415,12 @@
         "ntfs-3g" : {},
         "ntp" : {},
         "ocl-icd" : {},
-        "onevpl" : {},
+        "onevpl" : {
+            "archs" : [
+                "x86_64",
+                "aarch64"
+            ]
+        },
         "oniguruma" : {},
         "openblas" : {},
         "openbsd-netcat" : {},
