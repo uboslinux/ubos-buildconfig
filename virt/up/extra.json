@@ -5,7 +5,18 @@
     "upstreamDir" : "${archUpstreamDir}",
 
     "packages" : {
-        "xf86-video-vmware" : {},
+        "virtualbox" : {},
+        "virtualbox-ext-vnc" : {},
+        "virtualbox-guest-iso" : {},
+        "virtualbox-guest-utils" : {},
+        "virtualbox-guest-utils-nox" : {},
+        "virtualbox-host-dkms" : {},
+        "virtualbox-host-modules-arch" : {},
+        "xf86-video-vmware" : {}
+    },
+    "remove-packages" : {
+        "virtualbox-guest-dkms" : {},
+        "virtualbox-guest-modules-arch" : {}
     }
 }
 

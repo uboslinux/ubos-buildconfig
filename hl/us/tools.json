@@ -4,6 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "ubos-repo" : {},
+        "ubos-repo" : {}
     }
 }

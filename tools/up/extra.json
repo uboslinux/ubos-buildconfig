@@ -3,29 +3,48 @@
 
     "packages" : {
         "ant" : {},
+        "arduino-avr-core" : {},
+        "arduino-builder" : {},
+        "arduino-cli" : {},
+        "arduino-ctags" : {},
+        "arduino-docs" : {},
+        "aws-cli" : {},
         "cmake" : {},
+        "docbook2x" : {},
         "docbook-xml" : {},
         "docbook-xsl" : {},
+        "docker" : {},
         "doxygen" : {},
+        "dtc" : {},
         "gdb" : {},
         "gdb-common" : {},
         "git" : {},
+        "go" : {},
+        "gtest" : {},
         "jdk11-openjdk" : {},
         "jdk-openjdk" : {},
         "jsoncpp" : {},
         "libunwind" : {},
+        "maven" : {},
         "perl-inc-latest" : {},
         "perl-module-build" : {},
+        "python-botocore" : {},
+        "python-jmespath" : {},
         "python-nose" : {},
         "python-pip" : {},
+        "python-s3transfer" : {},
         "qt5-tools" : {},
+        "ragel" : {},
         "shared-mime-info" : {},
-        "strace" : {}
+        "strace" : {},
+        "yarn" : {}
     },
     "remove-packages" : {
+        "arduino" : {},
+        "botocore" : {},
+        "go-pie" : {},
         "jdk8-openjdk" : {},
         "jdk9-openjdk" : {},
         "jdk10-openjdk" : {}
     }
 }
-

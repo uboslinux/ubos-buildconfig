@@ -7,6 +7,6 @@
 
     "packages" : {
         "ubos-keyring" : {},
-        "ubos-perl-utils" : {},
+        "ubos-perl-utils" : {}
     }
 }

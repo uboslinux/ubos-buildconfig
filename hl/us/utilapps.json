@@ -17,11 +17,11 @@
                 "deploy-update" : "--tlsselfsigned"
             },
             "archs" : [
-                "x86_64", 
+                "x86_64",
                 "armv7h",
                 "aarch64"
             ]
-        },
+        }
 #        "redirect/tests/RedirectTest3.pm" : {}
     }
 }
