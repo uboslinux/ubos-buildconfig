@@ -24,7 +24,6 @@
                 "aarch64"
             ]
         },
-        "memcached" : {},
         "mod_wsgi" : {},
         "mod_xsendfile" : {},
         "pagekite" : {},

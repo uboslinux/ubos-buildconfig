@@ -388,6 +388,7 @@
         "mariadb-clients" : {},
         "mariadb-libs" : {},
         "md4c" : {},
+        "memcached" : {},
         "mesa" : {},
         "mediaelch" : {},
         "minicom" : {},
