@@ -4,6 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "testpackage2-sometimes" : {}
+        "testpackage12-sometimes" : {}
     }
 }

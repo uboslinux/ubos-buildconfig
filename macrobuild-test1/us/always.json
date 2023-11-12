@@ -4,6 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "testpackage1-always" : {}
+        "testpackage11-always" : {}
     }
 }
