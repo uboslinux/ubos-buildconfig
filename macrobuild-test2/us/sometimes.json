@@ -1,0 +1,9 @@
+{
+    "url"    : "https://github.com/uboslinux/ubos-testing",
+    "type"   : "git",
+    "branch" : "${branch}",
+
+    "packages" : {
+        "testpackage21-sometimes" : {}
+    }
+}
