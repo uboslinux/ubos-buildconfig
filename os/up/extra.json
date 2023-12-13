@@ -41,7 +41,7 @@
         "certbot-dns-dnsimple" : {},
         "certbot-dns-dnsmadeeasy" : {},
         "certbot-dns-gehirn" : {},
-        "certbot-dns-google
+        "certbot-dns-google" : {},
         "certbot-dns-hetzner" : {},
         "certbot-dns-inwx" : {},
         "certbot-dns-linode" : {},
