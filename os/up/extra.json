@@ -471,7 +471,6 @@
         "perl-cgi" : {},
         "perl-clone" : {},
         "perl-config-simple" : {},
-        "perl-data-validate-ip" : {},
         "perl-dbd-mysql" : {},
         "perl-dbi" : {},
         "perl-digest-sha1" : {},
