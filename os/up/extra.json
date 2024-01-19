@@ -73,7 +73,6 @@
         "dhcpcd" : {},
         "dkms" : {},
         "double-conversion" : {},
-        "dstat" : {},
         "duktape" : {},
         "eclipse-ecj" : {},
         "ell" : {},
@@ -435,12 +434,6 @@
         "ntfs-3g" : {},
         "ntp" : {},
         "ocl-icd" : {},
-        "onevpl" : {
-            "archs" : [
-                "x86_64",
-                "aarch64"
-            ]
-        },
         "oniguruma" : {},
         "openblas" : {},
         "openbsd-netcat" : {},
@@ -865,6 +858,7 @@
         "bluez-firmware" : {},
         "compositeproto" : {},
         "damageproto" : {},
+        "dstat" : {},
         "fixesproto" : {},
         "fontsproto" : {},
         "guile2.0" : {},
@@ -891,6 +885,7 @@
         "libxxf86dga" : {},
         "netbpm" : {},
         "nghttp2" : {},
+        "onevpl" : {},
         "php-intl" : {},
         "pygobject-devel" : {},
         "pygobject2-devel" : {},
@@ -925,7 +920,6 @@
         "python2-six" : {},
         "python2-urllib3" : {},
         "python2-zope-interface" : {},
-
         "qt4" : {},
         "randrproto" : {},
         "recordproto" : {},
