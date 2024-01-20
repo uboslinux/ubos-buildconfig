@@ -26,6 +26,7 @@
         },
         "mod_wsgi" : {},
         "mod_xsendfile" : {},
+        "pacman" : {},
         "pagekite" : {},
         "postgresql" : {
             "archs" : [
