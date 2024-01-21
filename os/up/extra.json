@@ -79,6 +79,7 @@
         "ell" : {},
         "esptool" : {},
         "fail2ban" : {},
+        "fakechroot" : {},
         "ffmpeg" : {},
         "fftw" : {},
         "flac" : {},
