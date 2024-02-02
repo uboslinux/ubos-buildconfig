@@ -222,6 +222,7 @@
         "openssl" : {},
         "openssl-1.1" : {},
         "p11-kit" : {},
+        "pacman" : {},
         "pacman-mirrorlist" : {},
         "pam" : {},
         "pambase" : {},
