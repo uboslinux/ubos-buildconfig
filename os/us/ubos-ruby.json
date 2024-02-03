@@ -4,27 +4,12 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "ubos-rails-support" : {},
-        "mod_passenger27" : {
-            "archs" : [
-                "aarch64",
-                "x86_64"
-            ]
-        },
-        "passenger27" : {
-            "archs" : [
-                "aarch64",
-                "x86_64"
-            ]
-        },
-        "ruby27-rack" : {
-            "archs" : [
-                "aarch64",
-                "x86_64"
-            ]
-        }
+        "ubos-rails-support" : {}
     },
     "remove-packages" : {
-        "ruby27-bundler" : {}
+        "mod_passenger27" : {},
+        "passenger27" : {},
+        "ruby27-bundler" : {},
+        "ruby27-rack" : {}
     }
 }

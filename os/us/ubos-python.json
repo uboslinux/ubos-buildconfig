@@ -4,7 +4,6 @@
     "branch" : "${branch}",
 
     "packages" : {
-        "python-ajsonrpc" : {},
         "python-socksipychain" : {},
         "ubos-python-utils" : {}
     },

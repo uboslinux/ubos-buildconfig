@@ -34,13 +34,6 @@
                 "aarch64"
             ]
         },
-        "storj" : {
-            "channels" : [
-                "dev",
-                "red",
-                "yellow"
-            ]
-        },
         "tomcat8" : {
             "archs" : [
                 "x86_64",
@@ -59,6 +52,7 @@
     },
     "remove-packages" : {
         "amazonses" : {},
-        "netatalk" : {}
+        "netatalk" : {},
+        "storj" : {}
     }
 }

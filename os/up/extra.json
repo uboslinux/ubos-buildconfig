@@ -549,6 +549,7 @@
         "protobuf-c" :{},
         "python-acme" : {},
         "python-aiofiles" : {},
+        "python-ajsonrpc" : {},
         "python-anyio" : {},
         "python-annotated-types" : {},
         "python-appdirs" : {},
