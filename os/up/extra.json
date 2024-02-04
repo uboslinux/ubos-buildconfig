@@ -321,7 +321,6 @@
             ]
         },
         "libmng" : {},
-        "libnghttp3" : {},
         "libngtcp2" : {},
         "libmodplug" : {},
         "libnet" : {},
