@@ -12,7 +12,6 @@
         "wordpress-plugin-indieweb-post-kinds" : {},
         "wordpress-plugin-indieweb-press-this" : {},
         "wordpress-plugin-micropub" : {},
-        "wordpress-plugin-semantic-linkbacks" : {},
         "wordpress-plugin-seo" : {},
         "wordpress-plugin-simple-location" : {},
         "wordpress-plugin-social-networks-auto-poster-facebook-twitter-g" : {},
@@ -35,6 +34,7 @@
         "wordpress-plugin-bridgy-publish" : {},
         "wordpress-plugin-photo-dropper" : {},
         "wordpress-plugin-pterotype" : {},
+        "wordpress-plugin-semantic-linkbacks" : {},
         "wordpress-theme-independent-publisher" : {},
         "wordpress-theme-p2" : {},
         "wordpress-theme-pinboard" : {}
