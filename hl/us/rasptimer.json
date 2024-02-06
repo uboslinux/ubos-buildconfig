@@ -1,9 +1,0 @@
-{
-    "url"    : "https://github.com/jernst/rasptimer",
-    "type"   : "git",
-    "branch" : "${branch}",
-
-    "remove-packages" : {
-        "rasptimer" : {}
-    }
-}
