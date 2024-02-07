@@ -5,7 +5,9 @@
 
     "packages" : {
         "wordpress" : {},
+        "wordpress-plugin-activitypub" : {},
         "wordpress-plugin-classic-editor" : {},
+        "wordpress-plugin-friends" : {},
         "wordpress-plugin-google-analytics-for-wordpress" : {},
         "wordpress-plugin-indieauth" : {},
         "wordpress-plugin-indieweb" : {},
@@ -16,6 +18,7 @@
         "wordpress-plugin-simple-location" : {},
         "wordpress-plugin-social-networks-auto-poster-facebook-twitter-g" : {},
         "wordpress-plugin-syndication-links" : {},
+        "wordpress-plugin-webfinger" : {},
         "wordpress-plugin-webmention" : {},
         "wordpress-plugin-wp-mail-smtp" : {},
         "wordpress-plugin-wp-uf2" : {},
