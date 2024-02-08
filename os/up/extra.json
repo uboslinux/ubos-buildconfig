@@ -361,7 +361,12 @@
         "libvpx" : {},
         "libva" : {},
         "libvorbis" : {},
-        "libvpl" : {},
+        "libvpl" : {
+            "archs" : [
+                "x86_64",
+                "aarch64"
+            ]
+        },
         "libvpx" : {},
         "libwacom" : {},
         "libwebp" : {},
