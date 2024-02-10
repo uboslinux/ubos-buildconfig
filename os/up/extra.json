@@ -822,6 +822,7 @@
         "unzip" : {},
         "uvicorn" : {},
         "v4l-utils" : {},
+        "vapoursynth" : {},
         "vid.stab" : {},
         "vim" : {},
         "vim-runtime" : {},
