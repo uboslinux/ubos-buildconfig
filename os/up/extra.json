@@ -599,7 +599,6 @@
         "python-gobject" : {},
         "python-h11" : {},
         "python-hatchling" : {},
-        "python-hatchvcs" : {},
         "python-html5lib" : {},
         "python-httpcore" : {},
         "python-httpretty" : {},

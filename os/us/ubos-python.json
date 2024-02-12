@@ -4,6 +4,7 @@
     "branch" : "${branch}",
 
     "packages" : {
+        "python-hatchvcs" : {},
         "python-socksipychain" : {},
         "ubos-python-utils" : {}
     },
