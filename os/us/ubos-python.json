@@ -5,6 +5,7 @@
 
     "packages" : {
         "python-hatchvcs" : {},
+        "python-msgspec" : {},
         "python-socksipychain" : {},
         "ubos-python-utils" : {}
     },
