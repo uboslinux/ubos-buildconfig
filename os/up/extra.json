@@ -83,6 +83,7 @@
         "ffmpeg" : {},
         "fftw" : {},
         "flac" : {},
+        "fmt" : {},
         "fontconfig" : {},
         "freeglut" : {},
         "fribidi" : {},
