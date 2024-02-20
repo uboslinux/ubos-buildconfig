@@ -460,6 +460,7 @@
         "openpmix" : {},
         "openresolv" : {},
         "opensp" : {},
+        "openucx" : {},
         "openvpn" : {},
         "openzwave" : {},
         "opus" : {},
