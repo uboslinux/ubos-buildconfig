@@ -9,36 +9,23 @@
         "fake-hwclock" : {},
         "firmware-raspberrypi" : {
             "archs" : [
-                "armv7h"
+                "armv7h",
+                "aarch64"
             ]
         },
         "kodi-rpi" : {},
         "kodi-rpi-dev" : {},
         "kodi-rpi-eventclients" : {},
         "kodi-rpi-tools-texturepacker" : {},
-        "raspberrypi-firmware" : {
-            "archs" : [
-                "armv7h"
-            ]
-        },
         "raspberrypi-bootloader" : {
             "archs" : [
-                "armv7h"
-            ]
-        },
-        "uboot-beaglebone" : {
-            "archs" : [
-                "armv7h"
+                "armv7h",
+                "aarch64"
             ]
         },
         "uboot-espressobin" : {
             "archs" : [
                 "aarch64"
-            ]
-        },
-        "uboot-pcduino3" : {
-            "archs" : [
-                "armv7h"
             ]
         },
         "wiringpi" : {
@@ -59,6 +46,9 @@
         "kodi-rbp4-dev" : {},
         "kodi-rbp4-eventclients" : {},
         "kodi-rbp4-tools-texturepacker" : {},
-        "raspberrypi-bootloader-x" : {}
+        "raspberrypi-bootloader-x" : {},
+        "raspberrypi-firmware" : {},
+        "uboot-beaglebone" : {},
+        "uboot-pcduino3" : {}
    }
 }
