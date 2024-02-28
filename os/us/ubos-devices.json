@@ -69,7 +69,12 @@
         },
         "ubos-deviceclass-rpi4" : {
             "archs" : [
-                "armv7h"
+                "aarch64"
+            ]
+        },
+        "ubos-deviceclass-rpi5" : {
+            "archs" : [
+                "aarch64"
             ]
         },
         "ubos-deviceclass-vbox" : {
