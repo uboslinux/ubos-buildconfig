@@ -21,6 +21,7 @@
         "dtc" : {},
         "gdb" : {},
         "gdb-common" : {},
+        "gendesk" : {},
         "git" : {},
         "go" : {},
         "gtest" : {},
