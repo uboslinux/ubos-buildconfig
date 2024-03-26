@@ -5,6 +5,7 @@
 
     "packages" : {
         "git-360" : {},
+        "netbeans" : {},
         "pacsane" : {},
         "package-updated-since" : {},
         "ubos-check-packages" : {},
