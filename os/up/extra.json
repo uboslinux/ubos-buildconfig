@@ -538,6 +538,7 @@
         "php-gd" : {},
         "php-pgsql" : {},
         "php-redis" : {},
+        "php-sodium" : {},
         "pixman" : {},
         "pkgfile" : {},
         "pkcs11-helper" : {},
