@@ -5,6 +5,7 @@
         "autoconf" : {},
         "automake" : {},
         "bison" : {},
+        "debugedit" : {},
         "fakeroot" : {},
         "flex" : {},
         "gcc" : {},
