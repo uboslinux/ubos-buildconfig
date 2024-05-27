@@ -31,7 +31,11 @@
         "wordpress-theme-twentysixteen" : {},
         "wordpress-theme-twentythirteen" : {},
         "wordpress-theme-twentytwelve" : {},
-        "wordpress-theme-twentytwenty" : {}
+        "wordpress-theme-twentytwenty" : {},
+        "wordpress-theme-twentytwentyone" : {},
+        "wordpress-theme-twentytwentytwo" : {},
+        "wordpress-theme-twentytwentythree" : {},
+        "wordpress-theme-twentytwentyfour" : {}
     },
     "remove-packages" : {
         "wordpress-plugin-bridgy-publish" : {},
