@@ -11,6 +11,10 @@
 
     "packages" : {
         "nextcloud" : {},
+        "nextcloud26" : {},
+        "nextcloud27" : {},
+        "nextcloud28" : {},
+        "nextcloud29" : {},
         "nextcloud-audioplayer" : {},
         "nextcloud-bookmarks" : {},
         "nextcloud-bruteforcesettings" : {},
@@ -79,6 +83,7 @@
         "nextcloud22" : {},
         "nextcloud23" : {},
         "nextcloud24" : {},
+        "nextcloud25" : {},
         "nextcloud-documentserver-community" : {
             "archs" : [
                 "armv7h",
