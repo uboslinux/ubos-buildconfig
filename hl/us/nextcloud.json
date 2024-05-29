@@ -68,8 +68,7 @@
         "nextcloud-spreed" : {},
         "nextcloud-talk-matterbridge" : {},
         "nextcloud-tasks" : {},
-        "nextcloud-twofactor-totp" : {},
-        "nextcloud25" : {}
+        "nextcloud-twofactor-totp" : {}
     },
     "remove-packages" : {
         "nextcloud-auto-mail-accounts" : {},
